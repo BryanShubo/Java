@@ -1,1 +1,0 @@
-This project includes the important Java topics.
