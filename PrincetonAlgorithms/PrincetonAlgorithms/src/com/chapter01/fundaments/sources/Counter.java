@@ -83,12 +83,12 @@ public class Counter implements Comparable<Counter> {
 
         // increment T counters at random
         for (int t = 0; t < T; t++) {
-            hits[StdRandom.uniform(N)].increment();
+            hits[edu.princeton.cs.introcs.StdRandom.uniform(N)].increment();
         }
 
         // print results
         for (int i = 0; i < N; i++) {
-            StdOut.println(hits[i]);
+            edu.princeton.cs.introcs.StdOut.println(hits[i]);
         }
     }
 }
