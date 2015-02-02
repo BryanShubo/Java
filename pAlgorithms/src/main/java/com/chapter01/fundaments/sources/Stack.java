@@ -140,6 +140,7 @@ public class Stack<Item> implements Iterable<Item> {
             else if (!s.isEmpty()) StdOut.print(s.pop() + " ");
         }
         StdOut.println("(" + s.size() + " left on stack)");
+
     }
 }
 
