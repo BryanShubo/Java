@@ -11,6 +11,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" name="Maven: Princeton:algs4-package:1.0" level="project" />
+    <orderEntry type="library" name="Maven: Princeton:stdlib-package:1.0" level="project" />
+    <orderEntry type="library" name="algs4-package-1.0" level="project" />
+    <orderEntry type="library" name="stdlib-package-1.0" level="project" />
   </component>
 </module>
 
