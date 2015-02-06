@@ -3,16 +3,15 @@ package com.week01;
 import edu.princeton.cs.introcs.In;
 import edu.princeton.cs.introcs.StdOut;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Shubo on 2/1/2015.
+ * Created by Shubo on 2/2/2015.
  */
-public class Inversion {
+public class MergeSort {
 
-    public static double pairs = 0;
+    public static int[] temp;
 
     public static void main(String[] args) {
 
@@ -20,11 +19,13 @@ public class Inversion {
         int[] a = in.readAllInts();
         int length = a.length;
 
+        temp = new int[a.length];
 
         merge_sort(a, 0, length-1);
-        StdOut.println("The result is: " + pairs);
 
-
+        for(int i = 0; i < temp.length; i++) {
+            System.out.println(temp[i]);
+        }
     }
 
     public static void merge_sort(int[] a, int p, int r) {
@@ -43,29 +44,28 @@ public class Inversion {
         int left = p;
         int right = mid + 1;
 
-        List<Integer> temp = new ArrayList<Integer>();
+        int counter = 0;
+
 
         // Merge in sorted form the 2 arrays
         while ( left <= mid && right <= r ){
             if ( input[left] < input[right] )
-                temp.add(input[left++]);
+                temp[counter++] = input[left++];
             else {
-                temp.add(input[right++]);
-                pairs += (mid-left+1);
+                temp[counter++] = input[right++];
             }
         }
 
         // Merge the remaining elements in left array
         while ( left <= mid )
-            temp.add(input[left++]);
+            temp[counter++] = input[left++];
 
         // Merge the remaining elements in right array
         while ( right <= r )
-            temp.add(input[right++]);
+            temp[counter++] = input[right++];
 
         // Move from temp array to master array
         for ( int i = p; i <= r; i++ )
-            input[i] = temp.get(i-p);
-
+            input[i] = temp[i-p];
     }
 }
