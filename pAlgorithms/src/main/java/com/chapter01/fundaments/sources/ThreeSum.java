@@ -5,13 +5,7 @@ package com.chapter01.fundaments.sources;
  *  Compilation:  javac ThreeSum.java
  *  Execution:    java ThreeSum input.txt
  *  Dependencies: In.java StdOut.java Stopwatch.java
- *  Data files:   http://algs4.cs.princeton.edu/14analysis/1Kints.txt
- *                http://algs4.cs.princeton.edu/14analysis/2Kints.txt
- *                http://algs4.cs.princeton.edu/14analysis/4Kints.txt
- *                http://algs4.cs.princeton.edu/14analysis/8Kints.txt
- *                http://algs4.cs.princeton.edu/14analysis/16Kints.txt
- *                http://algs4.cs.princeton.edu/14analysis/32Kints.txt
- *                http://algs4.cs.princeton.edu/14analysis/1Mints.txt
+ *  Data files:   8ints.txt/1Kints.txt/2Kints.txt/4Kints.txt/8Kints.txt/16Kints.txt/32Kints.txt/1Mints.txt
  *
  *  A program with cubic running time. Read in N integers
  *  and counts the number of triples that sum to exactly 0

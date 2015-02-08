@@ -1,5 +1,14 @@
-package com.chapter01.fundaments.sources;
+package com.week01.sources;
 
+/*
+*  Eager: meaning that do everything first.
+*  Lazy: meaning that do thing only it is necessary.
+* 1. Quick-find is an eager approach.
+* 2. Quick-find change all entries with id[p] to id[q]
+* 3. Quick-find defect: 1)union too expensive
+*                       2) Trees are flat, but too expensive  to keep them flat
+* 4. Example: Takes N*N array accesses to process sequence of N union commands on N objects
+* */
 import edu.princeton.cs.introcs.StdIn;
 import edu.princeton.cs.introcs.StdOut;
 
@@ -15,8 +24,9 @@ public class QuickFindUF {
     public QuickFindUF(int N) {
         count = N;
         id = new int[N];
-        for (int i = 0; i < N; i++)
+        for (int i = 0; i < N; i++) {
             id[i] = i;
+        }
     }
 
     /**
@@ -57,8 +67,11 @@ public class QuickFindUF {
     public void union(int p, int q) {
         if (connected(p, q)) return;
         int pid = id[p];
-        for (int i = 0; i < id.length; i++)
-            if (id[i] == pid) id[i] = id[q];
+        for (int i = 0; i < id.length; i++) {
+            if (id[i] == pid) {
+                id[i] = id[q];
+            }
+        }
         count--;
     }
 
@@ -70,15 +83,17 @@ public class QuickFindUF {
      */
     public static void main(String[] args) {
         int N = StdIn.readInt();
-        QuickFindUF uf = new QuickFindUF(N);
+        UF uf = new UF(N);
         while (!StdIn.isEmpty()) {
             int p = StdIn.readInt();
             int q = StdIn.readInt();
-            if (uf.connected(p, q)) continue;
+            if (uf.connected(p, q)) {
+                StdOut.println(p + " and " + q + " are connected !");
+                continue;
+            }
             uf.union(p, q);
-            StdOut.println(p + " " + q);
+            StdOut.println("Union: " + p + " " + q + "     " + p + "->" + uf.find(p) + " " + q + "->" + uf.find(q));
         }
         StdOut.println(uf.count() + " components");
     }
-
 }

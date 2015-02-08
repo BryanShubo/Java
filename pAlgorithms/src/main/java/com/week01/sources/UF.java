@@ -1,25 +1,22 @@
-package com.chapter01.fundaments.sources;
-/****************************************************************************
- *  Compilation:  javac UF.java
- *  Execution:    java UF < input.txt
- *  Data files:  tinyUF.txt/mediumUF.txt/largeUF.txt
- *  Weighted quick-union by rank with path compression by halving.
- *  % java UF < tinyUF.txt
- *  4 3
- *  3 8
- *  6 5
- *  9 4
- *  2 1
- *  5 0
- *  7 2
- *  6 1
- *  2 components
- *
- ****************************************************************************/
+package com.week01.sources;
 
 import edu.princeton.cs.introcs.StdIn;
 import edu.princeton.cs.introcs.StdOut;
-
+/****************************************************************************
+ *  Weighted quick-union by rank with path compression by halving.
+ *  1. Modify quick-union to avoid tall trees
+ *  2. Keep track of size of each tree(number of objects)
+ *  3. Balance by linking root of smaller tree to root of larger tree
+ *  4. Path compression
+ *
+ *  5. Running time: 1) Find: takes time proportional to depth of p and q
+ *                   2) Union: takes constant time, given roots
+ *
+ *  6. Algorithms-----initialize-----union-----connected-----worst cast
+ *     quick-find-----N-----N-----1-----M*N
+ *     quick-union-----N-----N^-----N-----M*N
+ *     weightedUF-----N-----logN-----lgN-----N+M*logN
+ ****************************************************************************/
 /**
  *  The UF class represents a union-find data type
  *  1. UF(int N): initialize union-find data structure with N objects(0 to N-1)
@@ -57,7 +54,9 @@ public class UF {
      * @throws java.lang.IndexOutOfBoundsException unless 0 >p or p>N
      */
     public int find(int p) {
-        if (p < 0 || p >= id.length) throw new IndexOutOfBoundsException();
+        if (p < 0 || p >= id.length) {
+            throw new IndexOutOfBoundsException();
+        }
         while (p != id[p]) {
             id[p] = id[id[p]];    // path compression by halving
             p = id[p];
@@ -84,13 +83,11 @@ public class UF {
         return find(p) == find(q);
     }
 
-
     /**
      * Merges the component containing site p with the component containing site q.
      * @param p the integer representing one site
      * @param q the integer representing the other site
      * @throws java.lang.IndexOutOfBoundsException unless
-     *      both <tt>0 &le; p &lt; N</tt> and <tt>0 &le; q &lt; N</tt>
      */
     public void union(int p, int q) {
         int i = find(p);
@@ -121,9 +118,12 @@ public class UF {
         while (!StdIn.isEmpty()) {
             int p = StdIn.readInt();
             int q = StdIn.readInt();
-            if (uf.connected(p, q)) continue;
+            if (uf.connected(p, q)) {
+                StdOut.println(p + " and " + q + " are connected !");
+                continue;
+            }
             uf.union(p, q);
-            StdOut.println(p + " " + q);
+            StdOut.println("Union: " + p + " " + q + "     " + p + "->" + uf.find(p) + " " + q + "->" + uf.find(q));
         }
         StdOut.println(uf.count() + " components");
     }

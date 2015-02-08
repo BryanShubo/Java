@@ -1,10 +1,20 @@
-package com.chapter01.fundaments.sources;
+package com.week01.sources;
 
 import edu.princeton.cs.introcs.StdIn;
 import edu.princeton.cs.introcs.StdOut;
 
-public class QuickFindUF {
-    private int[] id;    // id[i] = component identifier of i
+/*
+*  Eager: meaning that do everything first.
+*  Lazy: meaning that do thing only it is necessary.
+* 1. Quick-union is a lazy approach.
+* 2. Quick-union only  change set id[p] = root(q)
+* 3. Quick-union defect: 1)Trees can get tall.
+*                        2) Find too expensive(could be N array accesses)
+* 4. Example: Takes N*N array accesses to process sequence of N union commands on N objects
+* */
+
+public class QuickUnionUF {
+    private int[] id;    // id[i] = parent of i
     private int count;   // number of components
 
     /**
@@ -12,11 +22,12 @@ public class QuickFindUF {
      * @throws java.lang.IllegalArgumentException if N < 0
      * @param N the number of objects
      */
-    public QuickFindUF(int N) {
-        count = N;
+    public QuickUnionUF(int N) {
         id = new int[N];
-        for (int i = 0; i < N; i++)
+        count = N;
+        for (int i = 0; i < N; i++) {
             id[i] = i;
+        }
     }
 
     /**
@@ -28,37 +39,42 @@ public class QuickFindUF {
     }
 
     /**
-     * Returns the component identifier for the component containing site p
+     * Returns the component identifier for the component containing site <tt>p</tt>.
      * @param p the integer representing one site
-     * @return the component identifier for the component containing site p
+     * @return the component identifier for the component containing site <tt>p</tt>
      * @throws java.lang.IndexOutOfBoundsException unless 0 <= p < N
      */
     public int find(int p) {
-        return id[p];
+        while (p != id[p])
+            p = id[p];
+        return p;
     }
 
     /**
-     * Are the two sites p and q in the same component?
+     * Are the two sites <tt>p</tt> and <tt>q</tt> in the same component?
      * @param p the integer representing one site
      * @param q the integer representing the other site
-     * @return true, if the two sites p and q are in the same component, and false otherwise
+     * @return <tt>true</tt> if the sites <tt>p</tt> and <tt>q</tt> are in the same
+     *    component, and <tt>false</tt> otherwise
      * @throws java.lang.IndexOutOfBoundsException unless both 0 <= p < N and 0 <= q < N
      */
     public boolean connected(int p, int q) {
-        return id[p] == id[q];
+        return find(p) == find(q);
     }
 
+
     /**
-     * Merges the component containing site p with the component q.
+     * Merges the component containing site<tt>p</tt> with the component
+     * containing site <tt>q</tt>.
      * @param p the integer representing one site
      * @param q the integer representing the other site
      * @throws java.lang.IndexOutOfBoundsException unless both 0 <= p < N and 0 <= q < N
      */
     public void union(int p, int q) {
-        if (connected(p, q)) return;
-        int pid = id[p];
-        for (int i = 0; i < id.length; i++)
-            if (id[i] == pid) id[i] = id[q];
+        int rootP = find(p);
+        int rootQ = find(q);
+        if (rootP == rootQ) return;
+        id[rootP] = rootQ;
         count--;
     }
 
@@ -70,15 +86,17 @@ public class QuickFindUF {
      */
     public static void main(String[] args) {
         int N = StdIn.readInt();
-        QuickFindUF uf = new QuickFindUF(N);
+        UF uf = new UF(N);
         while (!StdIn.isEmpty()) {
             int p = StdIn.readInt();
             int q = StdIn.readInt();
-            if (uf.connected(p, q)) continue;
+            if (uf.connected(p, q)) {
+                StdOut.println(p + " and " + q + " are connected !");
+                continue;
+            }
             uf.union(p, q);
-            StdOut.println(p + " " + q);
+            StdOut.println("Union: " + p + " " + q + "     " + p + "->" + uf.find(p) + " " + q + "->" + uf.find(q));
         }
         StdOut.println(uf.count() + " components");
     }
-
 }
