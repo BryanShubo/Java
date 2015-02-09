@@ -1,6 +1,8 @@
 package com.javase.jUnit4.ParameterizedTest;
 
 /**
+ * Parameterized testing is about testing exactly the same functionality with multiple inputs. Those should be independent and the order should not matter.
+ * 
  * The easiest (as in least amount of new code required) way to do this is to run the test as a parametrized test
  * (annotate with an @RunWith(Parameterized.class) and add a method to provide 10 empty parameters).
  * That way the framework will run the test 10 times.
