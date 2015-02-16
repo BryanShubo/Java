@@ -15,6 +15,7 @@
     <orderEntry type="library" name="Maven: Princeton:algs4-package:1.0" level="project" />
     <orderEntry type="library" name="Maven: Princeton:stdlib-package:1.0" level="project" />
     <orderEntry type="library" name="Maven: gov.nist.math:jama:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />
   </component>
 </module>
 

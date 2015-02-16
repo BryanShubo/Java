@@ -191,11 +191,16 @@ public class LinkedQueue<Item> implements Iterable<Item> {
      */
     public static void main(String[] args) {
         LinkedQueue<String> q = new LinkedQueue<String>();
-        while (!StdIn.isEmpty()) {
+        /*while (!StdIn.isEmpty()) {
             String item = StdIn.readString();
             if (!item.equals("-")) q.enqueue(item);
             else if (!q.isEmpty()) StdOut.print(q.dequeue() + " ");
-        }
+        }*/
+
+        String s1 = "this";
+        String s2 = "bryan";
+        q.enqueue(s1);
+        q.enqueue(s2);
         StdOut.println("(" + q.size() + " left on queue)");
     }
 }
