@@ -1,0 +1,30 @@
+There are some tips:
+
+1. API. Use predefined methods. If you want to declare your own method, make it private, such as xyTo1D.
+
+2. In methods isOpen(), open(), isFull(), and percolates(), there should be no for loop. Otherwise,
+your code can't pass some tests.
+
+3. Backwash. I used two instances of weightedUnion class. One with virtualTop is for isFull()
+and the other one with both virtualTop and bottom is for percolates().
+
+open() {
+    // uf1.union(open_site, neighbors);
+   //  uf2.union(open_site, neighbors);
+   //  uf2.union(bottom_sites, virtualBottom);
+}
+isFull() {
+  // uf1.union(site, virtualTop);
+  // uf2.union(site, virtualTop)
+}
+percolates() {
+     // connected(virtualBottom, virtualTop)
+}
+
+4. Memory test. I used an int array to store states (blocked =0, open=1, full=2).
+My code just passed 1/4 tests. Actually, it is not necessary to store full state.
+So I stored states (blocked, open) in a boolean array. All tests were passed.
+
+5. In PercolationStats class, notice that " perform T independent computational
+experiments on an N-by-N grid" in public PercolationStats(int N, int T),
+NOT main(). Otherwise, in some tests, confidenceLo=0, confidenceHi=0.﻿

@@ -1,23 +1,28 @@
 package com.week01.sources;
 
-/*
- * Eager: meaning that do everything first.
-*  Lazy: meaning that do thing only it is necessary.
-* 1. Quick-find is an eager approach.
-* 2. Quick-find change all entries with id[p] to id[q]
-* 3. Quick-find defect: 1)union too expensive
-*                       2) Trees are flat, but too expensive  to keep them flat
-* 4. Example: Takes N*N array accesses to process sequence of N union commands on N objects
-* */
 import edu.princeton.cs.introcs.In;
 import edu.princeton.cs.introcs.StdIn;
 import edu.princeton.cs.introcs.StdOut;
 
-/*
-* Testing: data\tinyUF.txt
-* */
-public class QuickFindUF {
-    private int[] id;    // id[i] = component identifier of i
+
+/***********************************************************************
+ *  Weighted quick-union by rank with path compression by halving.
+ *  1. Modify quick-union to avoid tall trees
+ *  2. Keep track of size of each tree(number of objects)
+ *  3. Balance by linking root of smaller tree to root of larger tree
+ *  4. Path compression
+ *
+ *  5. Running time: 1) Find: takes time proportional to depth of p and q
+ *                   2) Union: takes constant time, given roots
+ *
+ *  6. Algorithms-----initialize-----union-----connected-----worst cast
+ *     quick-find-----N-----N-----1-----M*N
+ *     quick-union-----N-----N^-----N-----M*N
+ *     weightedUF-----N-----logN-----lgN-----N+M*logN
+ **********************************************************************************/
+public class WeightedQuickUnionUF {
+    private int[] id;    // id[i] = parent of i
+    private int[] sz;    // sz[i] = number of objects in subtree rooted at i
     private int count;   // number of components
 
     /**
@@ -25,11 +30,13 @@ public class QuickFindUF {
      * @throws java.lang.IllegalArgumentException if N < 0
      * @param N the number of objects
      */
-    public QuickFindUF(int N) {
+    public WeightedQuickUnionUF(int N) {
         count = N;
         id = new int[N];
+        sz = new int[N];
         for (int i = 0; i < N; i++) {
             id[i] = i;
+            sz[i] = 1;
         }
     }
 
@@ -42,42 +49,48 @@ public class QuickFindUF {
     }
 
     /**
-     * Returns the component identifier for the component containing site p
+     * Returns the component identifier for the component containing site <tt>p</tt>.
      * @param p the integer representing one site
-     * @return the component identifier for the component containing site p
+     * @return the component identifier for the component containing site <tt>p</tt>
      * @throws java.lang.IndexOutOfBoundsException unless 0 <= p < N
      */
     public int find(int p) {
-        return id[p];
+        while (p != id[p])
+            p = id[p];
+        return p;
     }
 
     /**
-     * Are the two sites p and q in the same component?
+     * Are the two sites <tt>p</tt> and <tt>q</tt> in the same component?
      * @param p the integer representing one site
      * @param q the integer representing the other site
-     * @return true, if the two sites p and q are in the same component, and false otherwise
+     * @return <tt>true</tt> if the two sites <tt>p</tt> and <tt>q</tt>
+     *    are in the same component, and <tt>false</tt> otherwise
      * @throws java.lang.IndexOutOfBoundsException unless both 0 <= p < N and 0 <= q < N
      */
     public boolean connected(int p, int q) {
-        return id[p] == id[q];
+        return find(p) == find(q);
     }
 
+
     /**
-     * Merges the component containing site p with the component q.
+     * Merges the component containing site<tt>p</tt> with the component
+     * containing site <tt>q</tt>.
      * @param p the integer representing one site
      * @param q the integer representing the other site
      * @throws java.lang.IndexOutOfBoundsException unless both 0 <= p < N and 0 <= q < N
      */
     public void union(int p, int q) {
-        if (connected(p, q)) return;
-        int pid = id[p];
-        for (int i = 0; i < id.length; i++) {
-            if (id[i] == pid) {
-                id[i] = id[q];
-            }
-        }
+        int rootP = find(p);
+        int rootQ = find(q);
+        if (rootP == rootQ) return;
+
+        // make smaller root point to larger one
+        if   (sz[rootP] < sz[rootQ]) { id[rootP] = rootQ; sz[rootQ] += sz[rootP]; }
+        else                         { id[rootQ] = rootP; sz[rootP] += sz[rootQ]; }
         count--;
     }
+
 
     /**
      * Reads in a sequence of pairs of integers (between 0 and N-1) from standard input,
@@ -90,7 +103,7 @@ public class QuickFindUF {
         int[] data = in.readAllInts();
         int itr = 0;
         int N = data[itr++];
-        QuickFindUF uf = new QuickFindUF(N);
+        WeightedQuickUnionUF uf = new WeightedQuickUnionUF(N);
         while (itr < data.length) {
             int p = data[itr++];
             int q = data[itr++];
@@ -112,4 +125,6 @@ public class QuickFindUF {
         StdOut.println();
         StdOut.println(uf.count() + " components");
     }
+
 }
+

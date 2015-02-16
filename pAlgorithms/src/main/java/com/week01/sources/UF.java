@@ -3,19 +3,7 @@ package com.week01.sources;
 import edu.princeton.cs.introcs.StdIn;
 import edu.princeton.cs.introcs.StdOut;
 /****************************************************************************
- *  Weighted quick-union by rank with path compression by halving.
- *  1. Modify quick-union to avoid tall trees
- *  2. Keep track of size of each tree(number of objects)
- *  3. Balance by linking root of smaller tree to root of larger tree
- *  4. Path compression
- *
- *  5. Running time: 1) Find: takes time proportional to depth of p and q
- *                   2) Union: takes constant time, given roots
- *
- *  6. Algorithms-----initialize-----union-----connected-----worst cast
- *     quick-find-----N-----N-----1-----M*N
- *     quick-union-----N-----N^-----N-----M*N
- *     weightedUF-----N-----logN-----lgN-----N+M*logN
+ * union-by-rank with path halving
  ****************************************************************************/
 /**
  *  The UF class represents a union-find data type
@@ -124,7 +112,13 @@ public class UF {
             }
             uf.union(p, q);
             StdOut.println("Union: " + p + " " + q + "     " + p + "->" + uf.find(p) + " " + q + "->" + uf.find(q));
+            for(int i = 0; i < N; i++) {
+                StdOut.print(uf.find(i) + " ");
+            }
+            StdOut.println();
         }
+
+        StdOut.println();
         StdOut.println(uf.count() + " components");
     }
 }
