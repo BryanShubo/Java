@@ -2,13 +2,6 @@ package com.chapter02.sorts.sources;
 
 
 /*************************************************************************
- *  Compilation:  javac MergeX.java
- *  Execution:    java MergeX < input.txt
- *  Dependencies: StdOut.java StdIn.java
- *  Data files:   http://algs4.cs.princeton.edu/22mergesort/tiny.txt
- *                http://algs4.cs.princeton.edu/22mergesort/words3.txt
- *
- *  Sorts a sequence of strings from standard input using an
  *  optimized version of mergesort.
  *
  *  % more tiny.txt

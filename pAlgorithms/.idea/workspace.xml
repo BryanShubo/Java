@@ -22,63 +22,7 @@
     <favorites_list name="pAlgorithms" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RandomizedQueue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/week02/project/RandomizedQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="2584">
-              <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
-                <element signature="e#1125#1126#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1222#1223#0" expanded="true" />
-                <element signature="method#enqueue#0;class#RandomizedQueue#0" expanded="true" />
-                <element signature="method#sample#0;class#RandomizedQueue#0" expanded="true" />
-                <element signature="e#2321#2322#0" expanded="true" />
-                <element signature="e#2362#2363#0" expanded="true" />
-                <element signature="e#2571#2572#0" expanded="true" />
-                <element signature="e#2636#2637#0" expanded="true" />
-                <element signature="e#2672#2673#0" expanded="true" />
-                <element signature="e#2714#2715#0" expanded="true" />
-                <element signature="method#next#0;class#ListIterator#0;class#RandomizedQueue#0" expanded="true" />
-                <element signature="method#resize#0;class#RandomizedQueue#0" expanded="true" />
-                <element signature="method#getShuffle#0;class#RandomizedQueue#0" expanded="true" />
-                <element signature="method#main#0;class#RandomizedQueue#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResizingArrayStack.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/week02/sources/ResizingArrayStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751">
-              <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="57" />
-              <folding>
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Subset.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/week02/project/Subset.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18616715" vertical-offset="0" max-vertical-offset="1735">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -97,22 +41,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/sources/Stack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/sources/LinkedStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/sources/Queue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/sources/LinkedQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/sources/Bag.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/sources/LinkedBag.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/sources/Evaluate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week01/project/tips.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week01/project/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week01/project/Percolation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week01/project/PercolationStats.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/InsertionX.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Date.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Selection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/SortCompare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/SelectionBars.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/InsertionBars.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Insertion.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -129,9 +57,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Sort4.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Sort5.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Sort6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Merge.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MergeBU.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MergeX.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Quick.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Quick3way.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/QuickX.java" />
@@ -148,6 +74,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/week02/project/Deque.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/week02/project/RandomizedQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/week02/project/Subset.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MergeX.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Merge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/FrequencyCounter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SequentialSearchST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BinarySearchST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/RedBlackBST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SeparateChainingHashST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LinearProbingHashST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/ST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SET.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/DeDup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/WhiteFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BlackFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LookupCSV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LookupIndex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/FileIndex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SparseVector.java" />
       </list>
     </option>
   </component>
@@ -396,74 +340,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="week02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="week02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -993,16 +869,16 @@
       <workItem from="1423634049599" duration="9338000" />
       <workItem from="1424015391756" duration="13647000" />
       <workItem from="1424047651162" duration="10927000" />
-      <workItem from="1424106504124" duration="23823000" />
+      <workItem from="1424106504124" duration="25901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135178000" />
+    <option name="totallyTimeSpent" value="137256000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-447" width="1216" height="1896" extended-state="7" />
-    <editor active="true" />
+    <frame x="1912" y="-447" width="1216" height="1896" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1024,7 +900,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1391255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1091,128 +967,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1716" max-vertical-offset="3519">
-          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/SortCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/SelectionBars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/InsertionBars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6662824" vertical-offset="0" max-vertical-offset="1735">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Selection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.06801153" vertical-offset="815" max-vertical-offset="2550">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/tiny.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1735">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week01/project/PercolationStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5492795" vertical-offset="16" max-vertical-offset="1751">
-          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#PercolationStats#0;class#PercolationStats#0" expanded="false" />
-            <element signature="method#mean#0;class#PercolationStats#0" expanded="false" />
-            <element signature="method#stddev#0;class#PercolationStats#0" expanded="false" />
-            <element signature="method#confidenceLo#0;class#PercolationStats#0" expanded="false" />
-            <element signature="method#confidenceHi#0;class#PercolationStats#0" expanded="false" />
-            <element signature="method#main#0;class#PercolationStats#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week01/project/PercolationVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
-          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week01/sources/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week01/sources/QuickFindUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Insertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.892219" vertical-offset="1070" max-vertical-offset="2805">
-          <caret line="162" column="8" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41152737" vertical-offset="0" max-vertical-offset="1735">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/shells.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1735">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/shellsST.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1735">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/shellSortTest.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1714">
-          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Shell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="679" max-vertical-offset="2414">
-          <caret line="128" column="48" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/ShellBars.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1513">
@@ -1224,6 +978,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.97619045" vertical-offset="748" max-vertical-offset="2244">
           <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#sort#0;class#InsertionPedantic#0" expanded="false" />
+            <element signature="method#sort#1;class#InsertionPedantic#0" expanded="false" />
+            <element signature="method#indexSort#0;class#InsertionPedantic#0" expanded="false" />
+            <element signature="e#2421#2422#0" expanded="false" />
+            <element signature="e#2462#2463#0" expanded="false" />
+            <element signature="e#2562#2563#0" expanded="false" />
+            <element signature="e#2613#2614#0" expanded="false" />
+            <element signature="method#exch#0;class#InsertionPedantic#0" expanded="false" />
+            <element signature="method#exch#1;class#InsertionPedantic#0" expanded="false" />
+            <element signature="method#isSorted#0;class#InsertionPedantic#0" expanded="false" />
+            <element signature="method#show#0;class#InsertionPedantic#0" expanded="false" />
+            <element signature="method#main#0;class#InsertionPedantic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,24 +1065,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="3230">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MergeBU.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="2227">
           <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MergeX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="849" max-vertical-offset="2652">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1525,10 +1280,446 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/week02/project/Subset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18616715" vertical-offset="0" max-vertical-offset="1735">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MergeX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.039193083" vertical-offset="0" max-vertical-offset="1735">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/FrequencyCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#FrequencyCounter#0" expanded="true" />
+            <element signature="e#2236#2253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SequentialSearchST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1427" max-vertical-offset="3230">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Node#0;class#Node#0;class#SequentialSearchST#0" expanded="true" />
+            <element signature="method#SequentialSearchST#0;class#SequentialSearchST#0" expanded="true" />
+            <element signature="e#3079#3080#0" expanded="true" />
+            <element signature="e#3103#3104#0" expanded="true" />
+            <element signature="e#3274#3275#0" expanded="true" />
+            <element signature="e#3308#3309#0" expanded="true" />
+            <element signature="e#3555#3556#0" expanded="true" />
+            <element signature="e#3594#3595#0" expanded="true" />
+            <element signature="method#get#0;class#SequentialSearchST#0" expanded="true" />
+            <element signature="method#put#0;class#SequentialSearchST#0" expanded="true" />
+            <element signature="e#4791#4792#0" expanded="true" />
+            <element signature="e#4833#4834#0" expanded="true" />
+            <element signature="method#delete#1;class#SequentialSearchST#0" expanded="true" />
+            <element signature="method#keys#0;class#SequentialSearchST#0" expanded="true" />
+            <element signature="method#main#0;class#SequentialSearchST#0" expanded="true" />
+            <element signature="e#5839#5856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BinarySearchST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2702" max-vertical-offset="4505">
+          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#BinarySearchST#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#BinarySearchST#1;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#resize#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1885#1886#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="method#get#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#rank#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#put#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#delete#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#deleteMin#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#deleteMax#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#min#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#max#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#select#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#floor#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#ceiling#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#size#1;class#BinarySearchST#0" expanded="true" />
+            <element signature="e#5371#5372#0" expanded="true" />
+            <element signature="e#5412#5413#0" expanded="true" />
+            <element signature="method#keys#1;class#BinarySearchST#0" expanded="true" />
+            <element signature="e#6171#6172#0" expanded="true" />
+            <element signature="e#6219#6220#0" expanded="true" />
+            <element signature="method#isSorted#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#rankCheck#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="method#main#0;class#BinarySearchST#0" expanded="true" />
+            <element signature="e#7049#7066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9804035" vertical-offset="4487" max-vertical-offset="6290">
+          <caret line="364" column="0" selection-start-line="364" selection-start-column="0" selection-end-line="364" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Node#0;class#Node#0;class#BST#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="method#size#1;class#BST#0" expanded="true" />
+            <element signature="e#1985#1986#0" expanded="true" />
+            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#2138#2139#0" expanded="true" />
+            <element signature="e#2175#2176#0" expanded="true" />
+            <element signature="method#get#1;class#BST#0" expanded="true" />
+            <element signature="method#put#0;class#BST#0" expanded="true" />
+            <element signature="method#put#1;class#BST#0" expanded="true" />
+            <element signature="method#deleteMin#0;class#BST#0" expanded="true" />
+            <element signature="method#deleteMin#1;class#BST#0" expanded="true" />
+            <element signature="method#deleteMax#0;class#BST#0" expanded="true" />
+            <element signature="method#deleteMax#1;class#BST#0" expanded="true" />
+            <element signature="method#delete#0;class#BST#0" expanded="true" />
+            <element signature="method#delete#1;class#BST#0" expanded="true" />
+            <element signature="method#min#0;class#BST#0" expanded="true" />
+            <element signature="method#min#1;class#BST#0" expanded="true" />
+            <element signature="method#max#0;class#BST#0" expanded="true" />
+            <element signature="method#max#1;class#BST#0" expanded="true" />
+            <element signature="method#floor#0;class#BST#0" expanded="true" />
+            <element signature="method#floor#1;class#BST#0" expanded="true" />
+            <element signature="method#ceiling#0;class#BST#0" expanded="true" />
+            <element signature="method#ceiling#1;class#BST#0" expanded="true" />
+            <element signature="method#select#0;class#BST#0" expanded="true" />
+            <element signature="method#select#1;class#BST#0" expanded="true" />
+            <element signature="e#6974#6975#0" expanded="true" />
+            <element signature="e#7012#7013#0" expanded="true" />
+            <element signature="method#rank#1;class#BST#0" expanded="true" />
+            <element signature="e#7583#7584#0" expanded="true" />
+            <element signature="e#7624#7625#0" expanded="true" />
+            <element signature="method#keys#1;class#BST#0" expanded="true" />
+            <element signature="method#keys#2;class#BST#0" expanded="true" />
+            <element signature="method#size#2;class#BST#0" expanded="true" />
+            <element signature="method#height#0;class#BST#0" expanded="true" />
+            <element signature="method#height#1;class#BST#0" expanded="true" />
+            <element signature="method#levelOrder#0;class#BST#0" expanded="true" />
+            <element signature="e#8728#8734#0" expanded="true" />
+            <element signature="method#check#0;class#BST#0" expanded="true" />
+            <element signature="e#9736#9737#0" expanded="true" />
+            <element signature="e#9782#9783#0" expanded="true" />
+            <element signature="method#isBST#1;class#BST#0" expanded="true" />
+            <element signature="method#isSizeConsistent#0;class#BST#0" expanded="true" />
+            <element signature="method#isSizeConsistent#1;class#BST#0" expanded="true" />
+            <element signature="method#isRankConsistent#0;class#BST#0" expanded="true" />
+            <element signature="method#main#0;class#BST#0" expanded="true" />
+            <element signature="e#11186#11203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/RedBlackBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6597" max-vertical-offset="9707">
+          <caret line="462" column="40" selection-start-line="462" selection-start-column="40" selection-end-line="462" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Node#0;class#Node#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#isRed#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#size#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#size#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="e#2509#2510#0" expanded="true" />
+            <element signature="e#2544#2545#0" expanded="true" />
+            <element signature="method#get#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#get#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="e#3314#3315#0" expanded="true" />
+            <element signature="e#3353#3354#0" expanded="true" />
+            <element signature="method#put#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#put#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#deleteMin#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#deleteMin#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#deleteMax#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#deleteMax#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#delete#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#delete#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#rotateRight#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#rotateLeft#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#flipColors#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#moveRedLeft#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#moveRedRight#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#balance#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#height#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#height#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#min#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#min#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#max#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#max#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#floor#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#floor#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#ceiling#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#ceiling#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#select#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#select#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="e#13653#13654#0" expanded="true" />
+            <element signature="e#13691#13692#0" expanded="true" />
+            <element signature="method#rank#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="e#14313#14314#0" expanded="true" />
+            <element signature="e#14354#14355#0" expanded="true" />
+            <element signature="method#keys#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#size#2;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#check#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="e#16188#16189#0" expanded="true" />
+            <element signature="e#16234#16235#0" expanded="true" />
+            <element signature="method#isBST#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#isSizeConsistent#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#isSizeConsistent#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#isRankConsistent#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#is23#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#is23#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#isBalanced#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#isBalanced#1;class#RedBlackBST#0" expanded="true" />
+            <element signature="method#main#0;class#RedBlackBST#0" expanded="true" />
+            <element signature="e#18697#18714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SeparateChainingHashST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="662" max-vertical-offset="2465">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="method#SeparateChainingHashST#1;class#SeparateChainingHashST#0" expanded="true" />
+            <element signature="method#resize#0;class#SeparateChainingHashST#0" expanded="true" />
+            <element signature="e#1886#1898#0" expanded="true" />
+            <element signature="e#2212#2213#0" expanded="true" />
+            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2349#2350#0" expanded="true" />
+            <element signature="e#2373#2374#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2473#2474#0" expanded="true" />
+            <element signature="e#2552#2553#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="method#get#0;class#SeparateChainingHashST#0" expanded="true" />
+            <element signature="method#put#0;class#SeparateChainingHashST#0" expanded="true" />
+            <element signature="method#delete#0;class#SeparateChainingHashST#0" expanded="true" />
+            <element signature="method#keys#0;class#SeparateChainingHashST#0" expanded="true" />
+            <element signature="method#main#0;class#SeparateChainingHashST#0" expanded="true" />
+            <element signature="e#4023#4040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LinearProbingHashST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1410" max-vertical-offset="3213">
+          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="method#LinearProbingHashST#1;class#LinearProbingHashST#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="method#resize#0;class#LinearProbingHashST#0" expanded="true" />
+            <element signature="e#1931#1943#0" expanded="true" />
+            <element signature="method#put#0;class#LinearProbingHashST#0" expanded="true" />
+            <element signature="method#get#0;class#LinearProbingHashST#0" expanded="true" />
+            <element signature="method#delete#0;class#LinearProbingHashST#0" expanded="true" />
+            <element signature="method#keys#0;class#LinearProbingHashST#0" expanded="true" />
+            <element signature="method#check#0;class#LinearProbingHashST#0" expanded="true" />
+            <element signature="method#main#0;class#LinearProbingHashST#0" expanded="true" />
+            <element signature="e#5105#5122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/ST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1283392" vertical-offset="1661" max-vertical-offset="3706">
+          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2506#2507#0" expanded="true" />
+            <element signature="method#get#0;class#ST#0" expanded="true" />
+            <element signature="method#put#0;class#ST#0" expanded="true" />
+            <element signature="method#delete#0;class#ST#0" expanded="true" />
+            <element signature="method#contains#0;class#ST#0" expanded="true" />
+            <element signature="e#4589#4590#0" expanded="true" />
+            <element signature="e#4621#4622#0" expanded="true" />
+            <element signature="e#4792#4793#0" expanded="true" />
+            <element signature="e#4826#4827#0" expanded="true" />
+            <element signature="e#5160#5161#0" expanded="true" />
+            <element signature="e#5194#5195#0" expanded="true" />
+            <element signature="e#5730#5731#0" expanded="true" />
+            <element signature="e#5775#5776#0" expanded="true" />
+            <element signature="method#min#0;class#ST#0" expanded="true" />
+            <element signature="method#max#0;class#ST#0" expanded="true" />
+            <element signature="method#ceiling#0;class#ST#0" expanded="true" />
+            <element signature="method#floor#0;class#ST#0" expanded="true" />
+            <element signature="method#main#0;class#ST#0" expanded="true" />
+            <element signature="e#7859#7876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SET.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3212" max-vertical-offset="5015">
+          <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="method#add#0;class#SET#0" expanded="true" />
+            <element signature="method#contains#0;class#SET#0" expanded="true" />
+            <element signature="method#delete#0;class#SET#0" expanded="true" />
+            <element signature="e#3238#3239#0" expanded="true" />
+            <element signature="e#3271#3272#0" expanded="true" />
+            <element signature="e#3423#3424#0" expanded="true" />
+            <element signature="e#3457#3458#0" expanded="true" />
+            <element signature="e#3759#3760#0" expanded="true" />
+            <element signature="e#3796#3797#0" expanded="true" />
+            <element signature="method#max#0;class#SET#0" expanded="true" />
+            <element signature="method#min#0;class#SET#0" expanded="true" />
+            <element signature="method#ceiling#0;class#SET#0" expanded="true" />
+            <element signature="method#floor#0;class#SET#0" expanded="true" />
+            <element signature="method#union#0;class#SET#0" expanded="true" />
+            <element signature="method#intersects#0;class#SET#0" expanded="true" />
+            <element signature="method#equals#0;class#SET#0" expanded="true" />
+            <element signature="method#toString#0;class#SET#0" expanded="true" />
+            <element signature="method#main#0;class#SET#0" expanded="true" />
+            <element signature="e#8219#8227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/DeDup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#DeDup#0" expanded="true" />
+            <element signature="e#1147#1155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/WhiteFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#WhiteFilter#0" expanded="true" />
+            <element signature="e#1461#1469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BlackFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#BlackFilter#0" expanded="true" />
+            <element signature="e#1462#1470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LookupCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#LookupCSV#0" expanded="true" />
+            <element signature="e#1946#1962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LookupIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#LookupIndex#0" expanded="true" />
+            <element signature="e#1339#1362#0" expanded="true" />
+            <element signature="e#1411#1434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/FileIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#FileIndex#0" expanded="true" />
+            <element signature="e#1176#1195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SparseVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9682997" vertical-offset="445" max-vertical-offset="2227">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding>
+            <element signature="method#SparseVector#0;class#SparseVector#0" expanded="true" />
+            <element signature="method#put#0;class#SparseVector#0" expanded="true" />
+            <element signature="method#get#0;class#SparseVector#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="method#dot#0;class#SparseVector#0" expanded="true" />
+            <element signature="method#dot#1;class#SparseVector#0" expanded="true" />
+            <element signature="method#norm#0;class#SparseVector#0" expanded="true" />
+            <element signature="method#scale#0;class#SparseVector#0" expanded="true" />
+            <element signature="method#plus#0;class#SparseVector#0" expanded="true" />
+            <element signature="method#toString#0;class#SparseVector#0" expanded="true" />
+            <element signature="method#main#0;class#SparseVector#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,14 +2,6 @@ package com.chapter02.sorts.sources;
 
 
 /*************************************************************************
- *  Compilation:  javac Merge.java
- *  Execution:    java Merge < input.txt
- *  Dependencies: StdOut.java StdIn.java
- *  Data files:   http://algs4.cs.princeton.edu/22mergesort/tiny.txt
- *                http://algs4.cs.princeton.edu/22mergesort/words3.txt
- *
- *  Sorts a sequence of strings from standard input using mergesort.
- *
  *  % more tiny.txt
  *  S O R T E X A M P L E
  *
@@ -28,15 +20,8 @@ import edu.princeton.cs.introcs.StdIn;
 import edu.princeton.cs.introcs.StdOut;
 
 /**
- *  The <tt>Merge</tt> class provides static methods for sorting an
- *  array using mergesort.
- *  <p>
- *  For additional documentation, see <a href="http://algs4.cs.princeton.edu/22mergesort">Section 2.2</a> of
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
- *  For an optimized version, see {MergeX}.
- *
- *  @author Robert Sedgewick
- *  @author Kevin Wayne
+ *  The Merge class provides static methods for sorting an array using mergesort.
+ *  See MergeX: optimized version of mergesort.
  */
 public class Merge {
 
