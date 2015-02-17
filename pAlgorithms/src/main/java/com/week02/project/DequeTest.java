@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
  * Additionally, your iterator implementation must support each operation (including construction)
  * in constant worst-case time.
  */
-public class Deque1<Item> implements Iterable<Item> {
+public class DequeTest<Item> implements Iterable<Item> {
     private int N;
     private Node front;
     private Node end;
@@ -21,7 +21,7 @@ public class Deque1<Item> implements Iterable<Item> {
     }
 
     // construct an empty deque
-    public Deque1() {
+    public DequeTest() {
         front = new Node();
         end = new Node();
         front.next = end;
@@ -148,7 +148,7 @@ public class Deque1<Item> implements Iterable<Item> {
     // unit testing
     public static void main(String[] args) {
 
-        Deque1<String> d = new Deque1<String>();
+        DequeTest<String> d = new DequeTest<String>();
 
         String s1 = "A";
         System.out.println("isEmpty: " + d.isEmpty());
@@ -207,6 +207,7 @@ public class Deque1<Item> implements Iterable<Item> {
         d.addLast(s5);
         d.addLast(s6);
 
+        System.out.println("The size is : " + d.size());
         Iterator itr = d.iterator();
         while (itr.hasNext()) {
             Object i = itr.next();

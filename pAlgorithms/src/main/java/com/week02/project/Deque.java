@@ -1,21 +1,12 @@
-/*
 package com.week02.project;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-*/
-/**
- * Your deque implementation must support each deque operation
- * in constant worst-case time and use space proportional to the number of items currently in the deque.
- * Additionally, your iterator implementation must support each operation (including construction)
- * in constant worst-case time.
- *//*
-
 public class Deque<Item> implements Iterable<Item> {
     private int N;
-    private Node first;
-    private Node last;
+    private Node front;
+    private Node end;
 
     private class Node {
         private Item item;
@@ -25,20 +16,17 @@ public class Deque<Item> implements Iterable<Item> {
 
     // construct an empty deque
     public Deque() {
-        first = new Node();
-        last = new Node();
-        first.next = last;
-        first.pre = null;
-        last.pre = first;
-        last.next = null;
+        front = new Node();
+        end = new Node();
+        front.next = end;
+        front.pre = null;
+        end.pre = front;
+        end.next = null;
     }
 
     // is the deque empty?
     public boolean isEmpty() {
-        if (N == 0) {
-            return true;
-        }
-        return false;
+        return N == 0;
     }
 
     // return the number of items on the deque
@@ -53,17 +41,14 @@ public class Deque<Item> implements Iterable<Item> {
             throw new NullPointerException();
         }
 
-        Node oldFirst = first;
-
-        first = new Node();
+        Node first = new Node();
         first.item = item;
-        first.next = oldFirst;
-        first.pre = oldFirst.pre;
-        oldFirst.pre = first;
+        front.next.pre = first;
+        first.next = front.next;
 
-        if (N == 0) {
-            last = first;
-        }
+        front.next = first;
+        first.pre = front;
+
         N++;
     }
 
@@ -73,13 +58,12 @@ public class Deque<Item> implements Iterable<Item> {
             throw new NullPointerException();
         }
 
-        Node oldLast = last;
-        last = new Node();
+        Node last = new Node();
         last.item = item;
-        last.pre = oldLast;
-        last.next = oldLast.next;
-        oldLast.next = last;
-        if (N == 0) { first = last; }
+        last.pre = end.pre;
+        end.pre = last;
+        last.next = end;
+        last.pre.next = last;
 
         N++;
 
@@ -91,8 +75,16 @@ public class Deque<Item> implements Iterable<Item> {
             throw new NoSuchElementException();
         }
 
-        Item result = first.item;
-        first = first.next;
+        Node temp = front.next;
+        Item result = temp.item;
+
+
+        front.next = front.next.next;
+        front.next.pre = front;
+
+        temp.pre = null;
+        temp.next = null;
+        temp.item = null;
         N--;
         return result;
     }
@@ -104,10 +96,15 @@ public class Deque<Item> implements Iterable<Item> {
             throw new NoSuchElementException();
         }
 
-        Item result = last.item;
-        last = last.pre;
-       // last.next = null;
-        //System.out.println(last.next);
+        Node temp = end.pre;
+        Item result = temp.item;
+
+        end.pre = end.pre.pre;
+        end.pre.next = end;
+
+        temp.item = null;
+        temp.pre = null;
+        temp.next = null;
         N--;
         return result;
     }
@@ -118,14 +115,14 @@ public class Deque<Item> implements Iterable<Item> {
     }
 
     private class ListIterator implements Iterator<Item> {
-        private Node current = first;
+        private Node current = front.next;
 
         public void remove() {
             throw new UnsupportedOperationException();
         }
 
         public boolean hasNext() {
-            return current != null;
+            return current.item != null;
         }
 
         public Item next() {
@@ -142,73 +139,15 @@ public class Deque<Item> implements Iterable<Item> {
     // unit testing
     public static void main(String[] args) {
 
-        Deque<String> d = new Deque<String>();
+        Deque<Object> d = new Deque<Object>();
 
-        */
-/*String s1 = "A";
-        System.out.println("isEmpty: " + d.isEmpty());
-        System.out.println("size is: " + d.size());
+        double[] a = {0.8, 0.0, 0.0, 0.1,0.1,0.0};
+        d.addFirst(a[0]);
+        d.addFirst(a[1]);
+        d.addFirst(a[2]);
+        d.addFirst(a[3]);
+        d.addFirst(a[4]);
+        System.out.println(d.removeLast());
 
-        d.addFirst(s1);
-        System.out.println("Add item: " + s1);
-        System.out.println("isEmpty: " + d.isEmpty());
-        System.out.println("size is: " + d.size());
-        System.out.println("d.first.item: " + d.first.item);
-
-        System.out.println("remove first: " + d.removeFirst());
-        System.out.println("isEmpty: " + d.isEmpty());
-        System.out.println("size is: " + d.size());
-
-        d.addFirst(s1);
-        System.out.println("Add item: " + s1);
-        System.out.println("isEmpty: " + d.isEmpty());
-        System.out.println("size is: " + d.size());
-        System.out.println("d.last.item: " + d.last.item);
-
-        System.out.println("remove last: " + d.removeLast());
-        System.out.println("isEmpty: " + d.isEmpty());
-        System.out.println("size is: " + d.size());
-
-        String s2 = "B";
-        System.out.println("isEmpty: " + d.isEmpty());
-        System.out.println("size is: " + d.size());
-
-        d.addLast(s2);
-        System.out.println("Add item: " + s2);
-        System.out.println("isEmpty: " + d.isEmpty());
-        System.out.println("size is: " + d.size());
-        System.out.println("d.last.item: " + d.last.item);
-
-        System.out.println("remove last: " + d.removeLast());
-        System.out.println("isEmpty: " + d.isEmpty());
-        System.out.println("size is: " + d.size());*//*
-
-
-        String s3 = "C";
-        String s4 = "D";
-        String s5 = "E";
-        String s6 = "F";
-
-        d.addFirst(s3);
-        d.addFirst(s4);
-        d.addFirst(s5);
-        d.addFirst(s6);
-
-       */
-/* Iterator itr = d.iterator();
-        while (itr.hasNext()) {
-            Object i = itr.next();
-            System.out.println(i);
-        }*//*
-
-
-
-        System.out.println(d.first.pre + " : " + d.first.item + " : " + d.first.next);
-        System.out.println(d.first.next.pre + " : " + d.first.next.item + " : " + d.first.next.next);
-
-        System.out.println(d.last.pre.pre+ " : " + d.last.pre.item + " : " + d.last.pre.next);
-        System.out.println(d.last.pre + " : " + d.last.item + " : " + d.last.next);
-
-        System.out.println(d.last.next.pre + " : " + d.last.next.item + " : " + d.last.next.next);
     }
-}*/
+}

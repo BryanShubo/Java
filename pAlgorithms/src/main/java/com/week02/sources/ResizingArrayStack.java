@@ -7,18 +7,15 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
- *  The <tt>ResizingArrayStack</tt> class represents a last-in-first-out (LIFO) stack
- *  of generic items.
- *  It supports the usual <em>push</em> and <em>pop</em> operations, along with methods
- *  for peeking at the top item, testing if the stack is empty, and iterating through
- *  the items in LIFO order.
- *  <p>
+ *  The ResizingArrayStack class represents a last-in-first-out (LIFO) stack of generic items.
+ *  push takes constant amortized time
+ *  pop takes constant amortized time
+ *  size: takes constant time
+ *  peek: takes constant time
+ *  isEmpty: constant time
+ *
  *  This implementation uses a resizing array, which double the underlying array
  *  when it is full and halves the underlying array when it is one-quarter full.
- *  The <em>push</em> and <em>pop</em> operations take constant amortized time.
- *  The <em>size</em>, <em>peek</em>, and <em>is-empty</em> operations takes
- *  constant time in the worst case.
-
  */
 public class ResizingArrayStack<Item> implements Iterable<Item> {
     private Item[] a;         // array of items
