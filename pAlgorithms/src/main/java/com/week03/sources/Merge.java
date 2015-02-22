@@ -1,6 +1,7 @@
-package com.chapter02.sorts.sources;
+package com.week03.sources;
 
-
+import edu.princeton.cs.introcs.In;
+import edu.princeton.cs.introcs.StdOut;
 /*************************************************************************
  *  % more tiny.txt
  *  S O R T E X A M P L E
@@ -15,10 +16,6 @@ package com.chapter02.sorts.sources;
  *  all bad bed bug dad ... yes yet zoo    [ one string per line ]
  *
  *************************************************************************/
-
-import edu.princeton.cs.introcs.In;
-import edu.princeton.cs.introcs.StdIn;
-import edu.princeton.cs.introcs.StdOut;
 
 /**
  *  The Merge class provides static methods for sorting an array using mergesort.
@@ -51,6 +48,7 @@ public class Merge {
 
         // postcondition: a[lo .. hi] is sorted
         assert isSorted(a, lo, hi);
+        show(a);
     }
 
     // mergesort a[lo..hi] using auxiliary array aux[lo..hi]
@@ -123,6 +121,8 @@ public class Merge {
             else if (less(a[aux[j]], a[aux[i]])) index[k] = aux[j++];
             else                                 index[k] = aux[i++];
         }
+
+
     }
 
     /**
@@ -146,16 +146,20 @@ public class Merge {
     private static void sort(Comparable[] a, int[] index, int[] aux, int lo, int hi) {
         if (hi <= lo) return;
         int mid = lo + (hi - lo) / 2;
+
         sort(a, index, aux, lo, mid);
         sort(a, index, aux, mid + 1, hi);
         merge(a, index, aux, lo, mid, hi);
+
     }
 
     // print array to standard output
     private static void show(Comparable[] a) {
         for (int i = 0; i < a.length; i++) {
-            StdOut.println(a[i]);
+            StdOut.print(a[i] + " ");
         }
+        StdOut.println();
+        StdOut.println("==============================");
     }
 
     /**
@@ -171,6 +175,6 @@ public class Merge {
         }
 
         Merge.sort(data);
-        show(data);
+        //show(data);
     }
 }
