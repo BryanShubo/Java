@@ -41,65 +41,58 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/ShellBars.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/InsertionPedantic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/TraceInsertion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/TraceSelection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/TraceShell.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Transaction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/SortTransactions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Sort3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Sort4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Sort5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Sort6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MergeBU.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Quick.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Quick3way.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/QuickX.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/TopM.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MaxPQ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MinPQ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/IndexMinPQ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/IndexMaxPQ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Multiway.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Heap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter01/fundaments/sources/LinkedQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/project/Deque1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/sources/ResizingArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/project/Deque.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/project/RandomizedQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/week02/project/Subset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MergeX.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/FrequencyCounter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SequentialSearchST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BinarySearchST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/RedBlackBST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SeparateChainingHashST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LinearProbingHashST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/ST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SET.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/DeDup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/WhiteFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BlackFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LookupCSV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LookupIndex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/FileIndex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SparseVector.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Merge.java" />
         <option value="$PROJECT_DIR$/data/week03/mergeTest" />
         <option value="$PROJECT_DIR$/src/main/java/com/week03/sources/Merge.java" />
         <option value="$PROJECT_DIR$/data/week03/mergeBUtest.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/week03/sources/MergeBU.java" />
         <option value="$PROJECT_DIR$/data/week03/mergeTest.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/week03/project/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/week03/project/Point.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/week03/project/Brute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/week03/project/Fast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/GraphGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DepthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DepthFirstPaths.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/BreadthFirstPaths.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/CC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Bipartite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Cycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/SymbolGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DegreesOfSeparation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Digraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DigraphGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DirectedDFS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DepthFirstDirectedPaths.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DepthFirstOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/BreadthFirstDirectedPaths.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/TransitiveClosure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/SymbolDigraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Topological.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/KosarajuSharirSCC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/TarjanSCC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/GabowSCC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/EdgeWeightedGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Edge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/LazyPrimMST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/PrimMST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/KruskalMST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/BoruvkaMST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/EdgeWeightedDigraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DirectedEdge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DijkstraSP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DijkstraAllPairsSP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/AcyclicSP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/AcyclicLP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/CPM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/BellmanFordSP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/EdgeWeightedDirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Arbitrage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/FloydWarshall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/AdjMatrixEdgeWeightedDigraph.java" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -116,169 +109,52 @@
             <id />
           </State>
           <State>
-            <id>ActionScript specificJavaScript</id>
+            <id>AOP</id>
           </State>
           <State>
-            <id>Bitwise operation issuesJavaScript</id>
+            <id>Android Lint</id>
           </State>
           <State>
-            <id>Code style issuesJavaScript</id>
+            <id>Declaration redundancy</id>
           </State>
           <State>
-            <id>Control flow issuesJavaScript</id>
+            <id>Google Web Toolkit issues</id>
           </State>
           <State>
-            <id>Data flow issuesJavaScript</id>
+            <id>Groovy</id>
           </State>
           <State>
-            <id>Error handlingJavaScript</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>JBoss Seam issues</id>
-          </State>
-          <State>
-            <id>JPA issues</id>
-          </State>
-          <State>
-            <id>JSP Inspections</id>
-          </State>
-          <State>
-            <id>JUnit issues</id>
-          </State>
-          <State>
-            <id>JavaBeans issues</id>
+            <id>Java language level migration aids</id>
           </State>
           <State>
             <id>JavaScript</id>
           </State>
           <State>
-            <id>Javadoc issues</id>
-          </State>
-          <State>
-            <id>Language Injection</id>
-          </State>
-          <State>
-            <id>Logging issues</id>
-          </State>
-          <State>
-            <id>Manifest</id>
-          </State>
-          <State>
-            <id>Maven</id>
-          </State>
-          <State>
-            <id>Method metrics</id>
-          </State>
-          <State>
-            <id>Naming conventions</id>
+            <id>JavaScript validity issuesJavaScript</id>
           </State>
           <State>
             <id>Numeric issues</id>
           </State>
           <State>
-            <id>OSGi</id>
-          </State>
-          <State>
-            <id>Packaging issues</id>
-          </State>
-          <State>
-            <id>Pattern Validation</id>
-          </State>
-          <State>
             <id>Performance issues</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>Portability issues</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
           </State>
           <State>
             <id>Probable bugs</id>
           </State>
           <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
             <id>Probable bugsJavaScript</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>RELAX NG</id>
-          </State>
-          <State>
-            <id>RESTful Web Service</id>
-          </State>
-          <State>
-            <id>Resource management issues</id>
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-          <State>
-            <id>Security issues</id>
           </State>
           <State>
             <id>Serialization issues</id>
           </State>
           <State>
-            <id>Spring MVCSpring Model</id>
-          </State>
-          <State>
-            <id>Spring Model</id>
-          </State>
-          <State>
-            <id>Spring SecuritySpring Model</id>
-          </State>
-          <State>
-            <id>Spring Web FlowSpring Model</id>
-          </State>
-          <State>
-            <id>Struts</id>
-          </State>
-          <State>
-            <id>Struts 1Struts</id>
-          </State>
-          <State>
-            <id>Tapestry inspections</id>
-          </State>
-          <State>
-            <id>TestNG</id>
-          </State>
-          <State>
             <id>Threading issues</id>
           </State>
           <State>
-            <id>Velocity inspections</id>
-          </State>
-          <State>
-            <id>Visibility issues</id>
-          </State>
-          <State>
-            <id>WSDL issues</id>
-          </State>
-          <State>
-            <id>Web Services</id>
-          </State>
-          <State>
-            <id>WebSocket issues</id>
-          </State>
-          <State>
-            <id>XML</id>
-          </State>
-          <State>
             <id>XPath</id>
-          </State>
-          <State>
-            <id>XSLT</id>
-          </State>
-          <State>
-            <id>toString() issues</id>
           </State>
         </expanded-state>
       </profile-state>
@@ -310,8 +186,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -369,39 +243,11 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,14 +263,10 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -437,43 +279,15 @@
       <recent name="C:\Users\Shubo\Desktop\GitHub\Java pAlgorithms\Java\pAlgorithms\data\week01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Merge">
-    <configuration default="false" name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Fast">
+    <configuration default="false" name="BouncingBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.week02.project.*" />
+          <option name="PATTERN" value="com.chapter01.fundaments.sources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.week02.project.Deque" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="pAlgorithms" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DequeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.week02.project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.week02.project.DequeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.chapter01.fundaments.sources.BouncingBall" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -488,44 +302,16 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RandomizedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.week02.project.*" />
+          <option name="PATTERN" value="com.week03.project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.week02.project.RandomizedQueue" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="pAlgorithms" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.week03.sources.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.week03.sources.Merge" />
+      <option name="MAIN_CLASS_NAME" value="com.week03.project.Point" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="data\week03\mergeTest.txt" />
+      <option name="PROGRAM_PARAMETERS" value="data\collinear\input8.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -544,16 +330,38 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MergeBU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.week03.sources.*" />
+          <option name="PATTERN" value="com.week03.project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.week03.sources.MergeBU" />
+      <option name="MAIN_CLASS_NAME" value="com.week03.project.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pAlgorithms" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Sort4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.chapter02.sorts.sources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.chapter02.sorts.sources.Sort4" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="data\week03\mergeBUtest.txt" />
+      <option name="PROGRAM_PARAMETERS" value="8 15 2 4" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -779,6 +587,34 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="false" name="Fast" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.week03.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.week03.project.Fast" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="data\collinear\input80.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pAlgorithms" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="PercolationTest.testOpen" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -861,23 +697,51 @@
       <patterns />
       <method />
     </configuration>
-    <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PercolationTest.testOpen" />
-      <item index="1" class="java.lang.String" itemvalue="Application.QuickFindUF" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.com.week01.project in pAlgorithms" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Deque" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DequeTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.RandomizedQueue" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Merge" />
-      <item index="7" class="java.lang.String" itemvalue="Application.MergeBU" />
+    <configuration default="false" name="Brute" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.week03.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.week03.project.Brute" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="data\collinear\input40.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pAlgorithms" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="9">
+      <item index="0" class="java.lang.String" itemvalue="Application.Fast" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PercolationTest.testOpen" />
+      <item index="2" class="java.lang.String" itemvalue="Application.QuickFindUF" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.com.week01.project in pAlgorithms" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Brute" />
+      <item index="5" class="java.lang.String" itemvalue="Application.BouncingBall" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Point" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Sort4" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Merge" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MergeBU" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RandomizedQueue" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Deque" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DequeTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Point" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Sort4" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BouncingBall" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -909,11 +773,17 @@
       <workItem from="1424230510567" duration="598000" />
       <workItem from="1424399550308" duration="4853000" />
       <workItem from="1424524377625" duration="932000" />
+      <workItem from="1424626001436" duration="640000" />
+      <workItem from="1424838290450" duration="1130000" />
+      <workItem from="1424924595238" duration="196000" />
+      <workItem from="1424924808271" duration="42455000" />
+      <workItem from="1425860052437" duration="9114000" />
+      <workItem from="1426040617949" duration="13833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143639000" />
+    <option name="totallyTimeSpent" value="211007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-447" width="1216" height="1896" extended-state="6" />
@@ -933,18 +803,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38330495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37194777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -998,7 +868,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="26" />
+      <option name="time" value="44" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1006,370 +876,799 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/SortTransactions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/data/collinear/rs1423.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Sort3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.19596542" vertical-offset="0" max-vertical-offset="1735">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Sort4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Sort5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2645533" vertical-offset="0" max-vertical-offset="1735">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Sort6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48809522" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Quick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9682997" vertical-offset="1431" max-vertical-offset="3213">
-          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/QuickX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1104" max-vertical-offset="2907">
-          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/TopM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MaxPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9804035" vertical-offset="3008" max-vertical-offset="4811">
-          <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MinPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2855" max-vertical-offset="4658">
-          <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/IndexMinPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1270" max-vertical-offset="5763">
-          <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/IndexMaxPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1338" max-vertical-offset="5933">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Multiway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9804035" vertical-offset="322" max-vertical-offset="2125">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter01/fundaments/sources/LinkedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter01/fundaments/sources/LinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6802999" vertical-offset="0" max-vertical-offset="2737">
-          <caret line="196" column="67" selection-start-line="196" selection-start-column="67" selection-end-line="196" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week01/project/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0685879" vertical-offset="0" max-vertical-offset="1735">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/Princeton/stdlib-package/1.0/stdlib-package-1.0.jar!/edu/princeton/cs/introcs/StdRandom.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/Princeton/stdlib-package/1.0/stdlib-package-1.0.jar!/edu/princeton/cs/introcs/StdRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25029036" vertical-offset="2578" max-vertical-offset="4488">
-          <caret line="270" column="23" selection-start-line="270" selection-start-column="23" selection-end-line="270" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week02/project/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92013425" vertical-offset="1026" max-vertical-offset="2516">
-          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/tale.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-156.21326" vertical-offset="271030" max-vertical-offset="272765">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week02/sources/ResizingArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751">
-          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week02/project/RandomizedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="2584">
-          <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week02/project/Subset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MergeX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039193083" vertical-offset="0" max-vertical-offset="1735">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/FrequencyCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SequentialSearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1427" max-vertical-offset="3230">
-          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BinarySearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2702" max-vertical-offset="4505">
-          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9804035" vertical-offset="4487" max-vertical-offset="6290">
-          <caret line="364" column="0" selection-start-line="364" selection-start-column="0" selection-end-line="364" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/RedBlackBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6597" max-vertical-offset="9707">
-          <caret line="462" column="40" selection-start-line="462" selection-start-column="40" selection-end-line="462" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SeparateChainingHashST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="662" max-vertical-offset="2465">
-          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LinearProbingHashST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1410" max-vertical-offset="3213">
-          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/ST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1283392" vertical-offset="1661" max-vertical-offset="3706">
-          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SET.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3212" max-vertical-offset="5015">
-          <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/DeDup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/WhiteFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/BlackFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LookupCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/LookupIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/FileIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter03/searching/sources/SparseVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9682997" vertical-offset="445" max-vertical-offset="2227">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Quick3way.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.362536" vertical-offset="0" max-vertical-offset="1735">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week01/sources/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048991356" vertical-offset="0" max-vertical-offset="1735">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week01/sources/QuickFindUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15795587" vertical-offset="0" max-vertical-offset="1722">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week02/project/DequeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="2380">
-          <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.25185186" vertical-offset="0" max-vertical-offset="1080">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2645533" vertical-offset="0" max-vertical-offset="1751">
+        <state vertical-scroll-proportion="0.2645533" vertical-offset="0" max-vertical-offset="1735">
           <caret line="29" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/week03/mergeBUtest.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1060">
-          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter02/sorts/sources/MergeBU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27602676" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="17" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/week03/mergeTest.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1060">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/week03/sources/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08876081" vertical-offset="934" max-vertical-offset="2669">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.10835735" vertical-offset="628" max-vertical-offset="2363">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.46051872" vertical-offset="3247" max-vertical-offset="9911">
+          <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/week03/project/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="1343">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/week03/project/Brute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#merge#0;class#Merge#0" expanded="true" />
-            <element signature="method#sort#0;class#Merge#0" expanded="true" />
-            <element signature="method#sort#1;class#Merge#0" expanded="true" />
-            <element signature="method#merge#1;class#Merge#0" expanded="true" />
-            <element signature="method#show#0;class#Merge#0" expanded="true" />
-            <element signature="method#main#0;class#Merge#0" expanded="true" />
+            <element signature="method#main#0;class#Brute#0" expanded="true" />
+            <element signature="method#readPoints#0;class#Brute#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/week03/sources/MergeBU.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/week03/project/Fast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79965156" vertical-offset="0" max-vertical-offset="1722">
-          <caret line="128" column="27" selection-start-line="128" selection-start-column="27" selection-end-line="128" selection-end-column="27" />
-          <folding />
+        <state vertical-scroll-proportion="0.6466859" vertical-offset="0" max-vertical-offset="3621">
+          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+          <folding>
+            <element signature="method#refresh#0;class#Fast#0" expanded="true" />
+            <element signature="method#addLine#0;class#Fast#0" expanded="true" />
+            <element signature="method#collinear#0;class#Fast#0" expanded="true" />
+            <element signature="method#readPoints#0;class#Fast#0" expanded="true" />
+            <element signature="e#5152#5216#0" expanded="false" />
+            <element signature="method#sort#0;class#Fast#0" expanded="true" />
+            <element signature="method#sort#1;class#Fast#0" expanded="true" />
+            <element signature="method#merge#0;class#Fast#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="3723">
+          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Graph#0;class#Graph#0" expanded="true" />
+            <element signature="method#Graph#1;class#Graph#0" expanded="true" />
+            <element signature="method#Graph#2;class#Graph#0" expanded="true" />
+            <element signature="e#3830#3839#0" expanded="true" />
+            <element signature="e#4163#4164#0" expanded="true" />
+            <element signature="e#4187#4188#0" expanded="true" />
+            <element signature="e#4322#4323#0" expanded="true" />
+            <element signature="e#4346#4347#0" expanded="true" />
+            <element signature="method#validateVertex#0;class#Graph#0" expanded="true" />
+            <element signature="method#addEdge#0;class#Graph#0" expanded="true" />
+            <element signature="method#adj#0;class#Graph#0" expanded="true" />
+            <element signature="method#degree#0;class#Graph#0" expanded="true" />
+            <element signature="method#toString#0;class#Graph#0" expanded="true" />
+            <element signature="method#main#0;class#Graph#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/GraphGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="7089">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Edge#0;class#Edge#0;class#GraphGenerator#0" expanded="true" />
+            <element signature="method#simple#0;class#GraphGenerator#0" expanded="true" />
+            <element signature="e#2358#2364#0" expanded="true" />
+            <element signature="method#simple#1;class#GraphGenerator#0" expanded="true" />
+            <element signature="e#3804#3805#0" expanded="true" />
+            <element signature="e#3841#3842#0" expanded="true" />
+            <element signature="e#4281#4282#0" expanded="true" />
+            <element signature="e#4328#4329#0" expanded="true" />
+            <element signature="method#bipartite#0;class#GraphGenerator#0" expanded="true" />
+            <element signature="e#5274#5280#0" expanded="true" />
+            <element signature="method#bipartite#1;class#GraphGenerator#0" expanded="true" />
+            <element signature="method#path#0;class#GraphGenerator#0" expanded="true" />
+            <element signature="method#binaryTree#0;class#GraphGenerator#0" expanded="true" />
+            <element signature="method#cycle#0;class#GraphGenerator#0" expanded="true" />
+            <element signature="method#wheel#0;class#GraphGenerator#0" expanded="true" />
+            <element signature="method#star#0;class#GraphGenerator#0" expanded="true" />
+            <element signature="method#regular#0;class#GraphGenerator#0" expanded="true" />
+            <element signature="method#tree#0;class#GraphGenerator#0" expanded="true" />
+            <element signature="e#12291#12300#0" expanded="true" />
+            <element signature="method#main#0;class#GraphGenerator#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DepthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="1887">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DepthFirstSearch#0;class#DepthFirstSearch#0" expanded="true" />
+            <element signature="method#dfs#0;class#DepthFirstSearch#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
+            <element signature="e#2486#2487#0" expanded="true" />
+            <element signature="e#2689#2690#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="method#main#0;class#DepthFirstSearch#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DepthFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="526" max-vertical-offset="2329">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DepthFirstPaths#0;class#DepthFirstPaths#0" expanded="true" />
+            <element signature="method#dfs#0;class#DepthFirstPaths#0" expanded="true" />
+            <element signature="e#2587#2588#0" expanded="true" />
+            <element signature="e#2619#2620#0" expanded="true" />
+            <element signature="method#pathTo#0;class#DepthFirstPaths#0" expanded="true" />
+            <element signature="e#3046#3055#0" expanded="true" />
+            <element signature="method#main#0;class#DepthFirstPaths#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/BreadthFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8524496" vertical-offset="0" max-vertical-offset="4369">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#BreadthFirstPaths#0;class#BreadthFirstPaths#0" expanded="true" />
+            <element signature="method#BreadthFirstPaths#1;class#BreadthFirstPaths#0" expanded="true" />
+            <element signature="method#bfs#0;class#BreadthFirstPaths#0" expanded="true" />
+            <element signature="e#3459#3468#0" expanded="true" />
+            <element signature="method#bfs#1;class#BreadthFirstPaths#0" expanded="true" />
+            <element signature="e#4089#4098#0" expanded="true" />
+            <element signature="e#4818#4819#0" expanded="true" />
+            <element signature="e#4850#4851#0" expanded="true" />
+            <element signature="e#5113#5114#0" expanded="true" />
+            <element signature="e#5145#5146#0" expanded="true" />
+            <element signature="method#pathTo#0;class#BreadthFirstPaths#0" expanded="true" />
+            <element signature="e#5528#5537#0" expanded="true" />
+            <element signature="method#check#0;class#BreadthFirstPaths#0" expanded="true" />
+            <element signature="method#main#0;class#BreadthFirstPaths#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/CC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7048992" vertical-offset="0" max-vertical-offset="3060">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#CC#0;class#CC#0" expanded="false" />
+            <element signature="method#dfs#0;class#CC#0" expanded="false" />
+            <element signature="e#3402#3403#0" expanded="false" />
+            <element signature="e#3430#3431#0" expanded="false" />
+            <element signature="e#3692#3693#0" expanded="false" />
+            <element signature="e#3726#3727#0" expanded="false" />
+            <element signature="e#3869#3870#0" expanded="false" />
+            <element signature="e#3897#3898#0" expanded="false" />
+            <element signature="e#4242#4243#0" expanded="false" />
+            <element signature="e#4279#4280#0" expanded="false" />
+            <element signature="e#4675#4676#0" expanded="false" />
+            <element signature="e#4712#4713#0" expanded="false" />
+            <element signature="method#main#0;class#CC#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Bipartite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="3553">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Bipartite#0;class#Bipartite#0" expanded="true" />
+            <element signature="method#dfs#0;class#Bipartite#0" expanded="true" />
+            <element signature="e#3422#3423#0" expanded="true" />
+            <element signature="e#3456#3457#0" expanded="true" />
+            <element signature="method#color#0;class#Bipartite#0" expanded="true" />
+            <element signature="e#4346#4347#0" expanded="true" />
+            <element signature="e#4374#4375#0" expanded="true" />
+            <element signature="method#check#0;class#Bipartite#0" expanded="true" />
+            <element signature="method#main#0;class#Bipartite#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Cycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="3009">
+          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Cycle#0;class#Cycle#0" expanded="true" />
+            <element signature="method#hasSelfLoop#0;class#Cycle#0" expanded="true" />
+            <element signature="method#hasParallelEdges#0;class#Cycle#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3724#3725#0" expanded="true" />
+            <element signature="e#3752#3753#0" expanded="true" />
+            <element signature="method#dfs#0;class#Cycle#0" expanded="true" />
+            <element signature="method#main#0;class#Cycle#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DegreesOfSeparation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="577" max-vertical-offset="2312">
+          <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24970964" vertical-offset="352" max-vertical-offset="4029">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Digraph#0;class#Digraph#0" expanded="true" />
+            <element signature="method#Digraph#1;class#Digraph#0" expanded="true" />
+            <element signature="method#Digraph#2;class#Digraph#0" expanded="true" />
+            <element signature="e#4075#4084#0" expanded="true" />
+            <element signature="e#4412#4413#0" expanded="true" />
+            <element signature="e#4436#4437#0" expanded="true" />
+            <element signature="e#4575#4576#0" expanded="true" />
+            <element signature="e#4599#4600#0" expanded="true" />
+            <element signature="method#validateVertex#0;class#Digraph#0" expanded="true" />
+            <element signature="method#addEdge#0;class#Digraph#0" expanded="true" />
+            <element signature="method#adj#0;class#Digraph#0" expanded="true" />
+            <element signature="method#outdegree#0;class#Digraph#0" expanded="true" />
+            <element signature="method#reverse#0;class#Digraph#0" expanded="true" />
+            <element signature="method#toString#0;class#Digraph#0" expanded="true" />
+            <element signature="method#main#0;class#Digraph#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DigraphGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="7531">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Edge#0;class#Edge#0;class#DigraphGenerator#0" expanded="true" />
+            <element signature="method#compareTo#0;class#Edge#0;class#DigraphGenerator#0" expanded="true" />
+            <element signature="method#simple#0;class#DigraphGenerator#0" expanded="true" />
+            <element signature="e#2106#2112#0" expanded="true" />
+            <element signature="method#simple#1;class#DigraphGenerator#0" expanded="true" />
+            <element signature="e#3693#3694#0" expanded="true" />
+            <element signature="e#3734#3735#0" expanded="true" />
+            <element signature="method#dag#0;class#DigraphGenerator#0" expanded="true" />
+            <element signature="e#4462#4468#0" expanded="true" />
+            <element signature="method#tournament#0;class#DigraphGenerator#0" expanded="true" />
+            <element signature="method#rootedInDAG#0;class#DigraphGenerator#0" expanded="true" />
+            <element signature="e#6371#6377#0" expanded="true" />
+            <element signature="method#rootedOutDAG#0;class#DigraphGenerator#0" expanded="true" />
+            <element signature="e#7898#7904#0" expanded="true" />
+            <element signature="e#9116#9117#0" expanded="true" />
+            <element signature="e#9158#9159#0" expanded="true" />
+            <element signature="e#9646#9647#0" expanded="true" />
+            <element signature="e#9689#9690#0" expanded="true" />
+            <element signature="method#path#0;class#DigraphGenerator#0" expanded="true" />
+            <element signature="method#binaryTree#0;class#DigraphGenerator#0" expanded="true" />
+            <element signature="method#cycle#0;class#DigraphGenerator#0" expanded="true" />
+            <element signature="method#strong#0;class#DigraphGenerator#0" expanded="true" />
+            <element signature="e#12880#12886#0" expanded="true" />
+            <element signature="method#main#0;class#DigraphGenerator#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DirectedDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DirectedDFS#0;class#DirectedDFS#0" expanded="true" />
+            <element signature="method#DirectedDFS#1;class#DirectedDFS#0" expanded="true" />
+            <element signature="method#dfs#0;class#DirectedDFS#0" expanded="true" />
+            <element signature="e#2920#2921#0" expanded="true" />
+            <element signature="e#2952#2953#0" expanded="true" />
+            <element signature="e#3195#3196#0" expanded="true" />
+            <element signature="e#3223#3224#0" expanded="true" />
+            <element signature="method#main#0;class#DirectedDFS#0" expanded="true" />
+            <element signature="e#3560#3569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DepthFirstDirectedPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.215562" vertical-offset="118" max-vertical-offset="2329">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DepthFirstDirectedPaths#0;class#DepthFirstDirectedPaths#0" expanded="true" />
+            <element signature="method#dfs#0;class#DepthFirstDirectedPaths#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
+            <element signature="method#pathTo#0;class#DepthFirstDirectedPaths#0" expanded="true" />
+            <element signature="e#3187#3196#0" expanded="true" />
+            <element signature="method#main#0;class#DepthFirstDirectedPaths#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24553314" vertical-offset="696" max-vertical-offset="4131">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DepthFirstOrder#0;class#DepthFirstOrder#0" expanded="true" />
+            <element signature="method#DepthFirstOrder#1;class#DepthFirstOrder#0" expanded="true" />
+            <element signature="method#dfs#0;class#DepthFirstOrder#0" expanded="true" />
+            <element signature="method#dfs#1;class#DepthFirstOrder#0" expanded="true" />
+            <element signature="e#4665#4666#0" expanded="true" />
+            <element signature="e#4694#4695#0" expanded="true" />
+            <element signature="e#4882#4883#0" expanded="true" />
+            <element signature="e#4912#4913#0" expanded="true" />
+            <element signature="e#5078#5079#0" expanded="true" />
+            <element signature="e#5110#5111#0" expanded="true" />
+            <element signature="e#5273#5274#0" expanded="true" />
+            <element signature="e#5304#5305#0" expanded="true" />
+            <element signature="method#reversePost#0;class#DepthFirstOrder#0" expanded="true" />
+            <element signature="e#5537#5546#0" expanded="true" />
+            <element signature="method#check#0;class#DepthFirstOrder#0" expanded="true" />
+            <element signature="method#main#0;class#DepthFirstOrder#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DirectedCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24553314" vertical-offset="254" max-vertical-offset="2771">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DirectedCycle#0;class#DirectedCycle#0" expanded="true" />
+            <element signature="method#dfs#0;class#DirectedCycle#0" expanded="true" />
+            <element signature="e#3517#3518#0" expanded="true" />
+            <element signature="e#3553#3554#0" expanded="true" />
+            <element signature="e#3831#3832#0" expanded="true" />
+            <element signature="e#3859#3860#0" expanded="true" />
+            <element signature="method#check#0;class#DirectedCycle#0" expanded="true" />
+            <element signature="method#main#0;class#DirectedCycle#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/SymbolGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="667" max-vertical-offset="3043">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SymbolGraph#0;class#SymbolGraph#0" expanded="true" />
+            <element signature="method#main#0;class#SymbolGraph#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/BreadthFirstDirectedPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1546" max-vertical-offset="3281">
+          <caret line="148" column="39" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#BreadthFirstDirectedPaths#0;class#BreadthFirstDirectedPaths#0" expanded="true" />
+            <element signature="method#BreadthFirstDirectedPaths#1;class#BreadthFirstDirectedPaths#0" expanded="true" />
+            <element signature="method#bfs#0;class#BreadthFirstDirectedPaths#0" expanded="true" />
+            <element signature="e#3090#3099#0" expanded="true" />
+            <element signature="method#bfs#1;class#BreadthFirstDirectedPaths#0" expanded="true" />
+            <element signature="e#3642#3651#0" expanded="true" />
+            <element signature="e#4374#4375#0" expanded="true" />
+            <element signature="e#4406#4407#0" expanded="true" />
+            <element signature="e#4658#4659#0" expanded="true" />
+            <element signature="e#4690#4691#0" expanded="true" />
+            <element signature="e#5051#5060#0" expanded="true" />
+            <element signature="method#main#0;class#BreadthFirstDirectedPaths#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/TransitiveClosure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.529683" vertical-offset="84" max-vertical-offset="1887">
+          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#TransitiveClosure#0;class#TransitiveClosure#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2755#2756#0" expanded="true" />
+            <element signature="method#main#0;class#TransitiveClosure#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/SymbolDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.98025554" vertical-offset="811" max-vertical-offset="2601">
+          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SymbolDigraph#0;class#SymbolDigraph#0" expanded="true" />
+            <element signature="e#3531#3532#0" expanded="true" />
+            <element signature="e#3568#3569#0" expanded="true" />
+            <element signature="e#3829#3830#0" expanded="true" />
+            <element signature="e#3861#3862#0" expanded="true" />
+            <element signature="e#4150#4151#0" expanded="true" />
+            <element signature="e#4180#4181#0" expanded="true" />
+            <element signature="e#4413#4414#0" expanded="true" />
+            <element signature="e#4437#4438#0" expanded="true" />
+            <element signature="method#main#0;class#SymbolDigraph#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Topological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8132565" vertical-offset="0" max-vertical-offset="2176">
+          <caret line="83" column="57" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Topological#0;class#Topological#0" expanded="true" />
+            <element signature="e#3452#3453#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3730#3731#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="method#main#0;class#Topological#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/KosarajuSharirSCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1053" max-vertical-offset="3621">
+          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#KosarajuSharirSCC#0;class#KosarajuSharirSCC#0" expanded="true" />
+            <element signature="method#dfs#0;class#KosarajuSharirSCC#0" expanded="true" />
+            <element signature="e#4804#4805#0" expanded="true" />
+            <element signature="e#4832#4833#0" expanded="true" />
+            <element signature="e#5179#5180#0" expanded="true" />
+            <element signature="e#5216#5217#0" expanded="true" />
+            <element signature="e#5458#5459#0" expanded="true" />
+            <element signature="e#5486#5487#0" expanded="true" />
+            <element signature="method#check#0;class#KosarajuSharirSCC#0" expanded="true" />
+            <element signature="method#main#0;class#KosarajuSharirSCC#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/TarjanSCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="3111">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#TarjanSCC#0;class#TarjanSCC#0" expanded="true" />
+            <element signature="method#dfs#0;class#TarjanSCC#0" expanded="true" />
+            <element signature="e#3518#3519#0" expanded="true" />
+            <element signature="e#3546#3547#0" expanded="true" />
+            <element signature="e#3894#3895#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
+            <element signature="e#4173#4174#0" expanded="true" />
+            <element signature="e#4201#4202#0" expanded="true" />
+            <element signature="method#check#0;class#TarjanSCC#0" expanded="true" />
+            <element signature="method#main#0;class#TarjanSCC#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/GabowSCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="577" max-vertical-offset="3247">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#GabowSCC#0;class#GabowSCC#0" expanded="true" />
+            <element signature="method#dfs#0;class#GabowSCC#0" expanded="true" />
+            <element signature="e#3860#3861#0" expanded="true" />
+            <element signature="e#3888#3889#0" expanded="true" />
+            <element signature="e#4235#4236#0" expanded="true" />
+            <element signature="e#4272#4273#0" expanded="true" />
+            <element signature="e#4514#4515#0" expanded="true" />
+            <element signature="e#4542#4543#0" expanded="true" />
+            <element signature="method#check#0;class#GabowSCC#0" expanded="true" />
+            <element signature="method#main#0;class#GabowSCC#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1355" max-vertical-offset="4318">
+          <caret line="109" column="44" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#EdgeWeightedGraph#0;class#EdgeWeightedGraph#0" expanded="true" />
+            <element signature="method#EdgeWeightedGraph#1;class#EdgeWeightedGraph#0" expanded="true" />
+            <element signature="method#EdgeWeightedGraph#3;class#EdgeWeightedGraph#0" expanded="true" />
+            <element signature="e#5074#5080#0" expanded="true" />
+            <element signature="e#5435#5436#0" expanded="true" />
+            <element signature="e#5459#5460#0" expanded="true" />
+            <element signature="e#5622#5623#0" expanded="true" />
+            <element signature="e#5646#5647#0" expanded="true" />
+            <element signature="method#validateVertex#0;class#EdgeWeightedGraph#0" expanded="true" />
+            <element signature="method#addEdge#0;class#EdgeWeightedGraph#0" expanded="true" />
+            <element signature="method#adj#0;class#EdgeWeightedGraph#0" expanded="true" />
+            <element signature="method#degree#0;class#EdgeWeightedGraph#0" expanded="true" />
+            <element signature="method#edges#0;class#EdgeWeightedGraph#0" expanded="true" />
+            <element signature="e#7268#7274#0" expanded="true" />
+            <element signature="method#toString#0;class#EdgeWeightedGraph#0" expanded="true" />
+            <element signature="method#main#0;class#EdgeWeightedGraph#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9804035" vertical-offset="169" max-vertical-offset="1972">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="method#Edge#0;class#Edge#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2186#2187#0" expanded="true" />
+            <element signature="method#other#0;class#Edge#0" expanded="true" />
+            <element signature="method#compareTo#0;class#Edge#0" expanded="true" />
+            <element signature="e#3505#3506#0" expanded="true" />
+            <element signature="e#3569#3570#0" expanded="true" />
+            <element signature="method#main#0;class#Edge#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/LazyPrimMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3089431" vertical-offset="2188" max-vertical-offset="3961">
+          <caret line="160" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#7377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/PrimMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1967" max-vertical-offset="4165">
+          <caret line="150" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#7423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/KruskalMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1308" max-vertical-offset="3655">
+          <caret line="109" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#6387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/BoruvkaMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.101626016" vertical-offset="777" max-vertical-offset="3706">
+          <caret line="56" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#6901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/EdgeWeightedDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1270" max-vertical-offset="3978">
+          <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#EdgeWeightedDigraph#0;class#EdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#EdgeWeightedDigraph#1;class#EdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#EdgeWeightedDigraph#3;class#EdgeWeightedDigraph#0" expanded="true" />
+            <element signature="e#4761#4775#0" expanded="true" />
+            <element signature="e#5149#5150#0" expanded="true" />
+            <element signature="e#5173#5174#0" expanded="true" />
+            <element signature="e#5340#5341#0" expanded="true" />
+            <element signature="e#5364#5365#0" expanded="true" />
+            <element signature="method#validateVertex#0;class#EdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#addEdge#0;class#EdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#adj#0;class#EdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#outdegree#0;class#EdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#edges#0;class#EdgeWeightedDigraph#0" expanded="true" />
+            <element signature="e#7138#7152#0" expanded="true" />
+            <element signature="method#toString#0;class#EdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#main#0;class#EdgeWeightedDigraph#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DirectedEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="method#DirectedEdge#0;class#DirectedEdge#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2046#2047#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2214#2215#0" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2553#2554#0" expanded="true" />
+            <element signature="e#2627#2628#0" expanded="true" />
+            <element signature="method#main#0;class#DirectedEdge#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DijkstraSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23573487" vertical-offset="798" max-vertical-offset="4182">
+          <caret line="71" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#8399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/DijkstraAllPairsSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38213256" vertical-offset="0" max-vertical-offset="1735">
+          <caret line="39" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/AcyclicSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44149855" vertical-offset="492" max-vertical-offset="2805">
+          <caret line="74" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/CPM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6368876" vertical-offset="187" max-vertical-offset="1955">
+          <caret line="76" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/AcyclicLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24553314" vertical-offset="152" max-vertical-offset="2822">
+          <caret line="34" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/BellmanFordSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.009872242" vertical-offset="2380" max-vertical-offset="5304">
+          <caret line="141" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/EdgeWeightedDirectedCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27492794" vertical-offset="509" max-vertical-offset="3604">
+          <caret line="58" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#6479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/Arbitrage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7060519" vertical-offset="50" max-vertical-offset="1785">
+          <caret line="75" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/FloydWarshall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5100865" vertical-offset="271" max-vertical-offset="4879">
+          <caret line="68" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chapter04/graphs/sources/AdjMatrixEdgeWeightedDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6853026" vertical-offset="0" max-vertical-offset="3026">
+          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AdjMatrixEdgeWeightedDigraph#0;class#AdjMatrixEdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#AdjMatrixEdgeWeightedDigraph#1;class#AdjMatrixEdgeWeightedDigraph#0" expanded="true" />
+            <element signature="e#3200#3201#0" expanded="true" />
+            <element signature="e#3224#3225#0" expanded="true" />
+            <element signature="e#3391#3392#0" expanded="true" />
+            <element signature="e#3415#3416#0" expanded="true" />
+            <element signature="method#addEdge#0;class#AdjMatrixEdgeWeightedDigraph#0" expanded="true" />
+            <element signature="e#4086#4087#0" expanded="true" />
+            <element signature="e#4127#4128#0" expanded="true" />
+            <element signature="method#AdjIterator#0;class#AdjIterator#0;class#AdjMatrixEdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#iterator#0;class#AdjIterator#0;class#AdjMatrixEdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#hasNext#0;class#AdjIterator#0;class#AdjMatrixEdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#next#0;class#AdjIterator#0;class#AdjMatrixEdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#remove#0;class#AdjIterator#0;class#AdjMatrixEdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#toString#0;class#AdjMatrixEdgeWeightedDigraph#0" expanded="true" />
+            <element signature="method#main#0;class#AdjMatrixEdgeWeightedDigraph#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
