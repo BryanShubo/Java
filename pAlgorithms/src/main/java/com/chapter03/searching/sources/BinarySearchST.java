@@ -2,11 +2,6 @@ package com.chapter03.searching.sources;
 
 
 /*************************************************************************
- *  Compilation:  javac BinarySearchST.java
- *  Execution:    java BinarySearchST
- *  Dependencies: StdIn.java StdOut.java
- *  Data files:   http://algs4.cs.princeton.edu/31elementary/tinyST.txt
- *
  *  Symbol table implementation with binary search in an ordered array.
  *
  *  % more tinyST.txt

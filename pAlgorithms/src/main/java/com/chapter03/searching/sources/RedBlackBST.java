@@ -1,18 +1,9 @@
 package com.chapter03.searching.sources;
 /*************************************************************************
- *  Compilation:  javac RedBlackBST.java
- *  Execution:    java RedBlackBST < input.txt
- *  Dependencies: StdIn.java StdOut.java
- *  Data files:   http://algs4.cs.princeton.edu/33balanced/tinyST.txt
- *
- *  A symbol table implemented using a left-leaning red-black BST.
  *  This is the 2-3 version.
  *
  *  Note: commented out assertions because DrJava now enables assertions
  *        by default.
- *
- *  % more tinyST.txt
- *  S E A R C H E X A M P L E
  *
  *  % java RedBlackBST < tinyST.txt
  *  A 8
