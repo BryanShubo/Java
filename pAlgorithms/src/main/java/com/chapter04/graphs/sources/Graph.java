@@ -1,14 +1,8 @@
 package com.chapter04.graphs.sources;
-
-
 /*************************************************************************
- *  Compilation:  javac Graph.java
- *  Execution:    java Graph input.txt
- *  Dependencies: Bag.java In.java StdOut.java
  *  Data files:   http://algs4.cs.princeton.edu/41undirected/tinyG.txt
  *
- *  A graph, implemented using an array of sets.
- *  Parallel edges and self-loops allowed.
+ *  A graph, implemented using an array of sets. Parallel edges and self-loops allowed.
  *
  *  % java Graph tinyG.txt
  *  13 vertices, 13 edges
@@ -32,7 +26,6 @@ package com.chapter04.graphs.sources;
  *  1: 220 203 200 194 189 164 150 130 107 72
  *  2: 141 110 108 86 79 51 42 18 14
  *  ...
- *
  *************************************************************************/
 
 
@@ -42,24 +35,17 @@ import edu.princeton.cs.introcs.In;
 import edu.princeton.cs.introcs.StdOut;
 
 /**
- *  The <tt>Graph</tt> class represents an undirected graph of vertices
- *  named 0 through <em>V</em> - 1.
+ *  The Graph class represents an undirected graph of vertices
+ *  named 0 through V- 1.
  *  It supports the following two primary operations: add an edge to the graph,
  *  iterate over all of the vertices adjacent to a vertex. It also provides
- *  methods for returning the number of vertices <em>V</em> and the number
- *  of edges <em>E</em>. Parallel edges and self-loops are permitted.
- *  <p>
+ *  methods for returning the number of vertices V and the number
+ *  of edges E. Parallel edges and self-loops are permitted.
  *  This implementation uses an adjacency-lists representation, which
  *  is a vertex-indexed array of {@ Bag} objects.
  *  All operations take constant time (in the worst case) except
  *  iterating over the vertices adjacent to a given vertex, which takes
  *  time proportional to the number of such vertices.
- *  <p>
- *  For additional documentation, see <a href="http://algs4.cs.princeton.edu/41undirected">Section 4.1</a> of
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
- *
- *  @author Robert Sedgewick
- *  @author Kevin Wayne
  */
 public class Graph {
     private final int V;
@@ -67,9 +53,9 @@ public class Graph {
     private Bag<Integer>[] adj;
 
     /**
-     * Initializes an empty graph with <tt>V</tt> vertices and 0 edges.
+     * Initializes an empty graph with V vertices and 0 edges.
      * param V the number of vertices
-     * @throws java.lang.IllegalArgumentException if <tt>V</tt> < 0
+     * @throws java.lang.IllegalArgumentException if V < 0
      */
     public Graph(int V) {
         if (V < 0) throw new IllegalArgumentException("Number of vertices must be nonnegative");
@@ -102,7 +88,7 @@ public class Graph {
     }
 
     /**
-     * Initializes a new graph that is a deep copy of <tt>G</tt>.
+     * Initializes a new graph that is a deep copy of G.
      * @param G the graph to copy
      */
     public Graph(Graph G) {

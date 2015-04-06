@@ -1,9 +1,7 @@
-/*
 package com.chapter04.graphs.sources;
 
-
-*/
-/*************************************************************************
+/*
+************************************************************************
  *  Compilation:  javac EdgeWeightedDirectedCycle.java
  *  Execution:    java EdgeWeightedDirectedCycle V E F
  *  Dependencies: EdgeWeightedDigraph.java DirectedEdge Stack.java
@@ -12,14 +10,13 @@ package com.chapter04.graphs.sources;
  *  Runs in O(E + V) time.
  *
  *
- *************************************************************************//*
+ *************************************************************************/
 
 
 import edu.princeton.cs.algs4.Stack;
 import edu.princeton.cs.introcs.StdOut;
 import edu.princeton.cs.introcs.StdRandom;
 
-*/
 /**
  *  The <tt>EdgeWeightedDirectedCycle</tt> class represents a data type for
  *  determining whether an edge-weighted digraph has a directed cycle.
@@ -43,25 +40,24 @@ import edu.princeton.cs.introcs.StdRandom;
  *
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
- *//*
+ */
 
 public class EdgeWeightedDirectedCycle {
     private boolean[] marked;             // marked[v] = has vertex v been marked?
-    private DirectedEdge[] edgeTo;        // edgeTo[v] = previous edge on path to v
+    private edu.princeton.cs.algs4.DirectedEdge[] edgeTo;        // edgeTo[v] = previous edge on path to v
     private boolean[] onStack;            // onStack[v] = is vertex on the stack?
-    private Stack<DirectedEdge> cycle;    // directed cycle (or null if no such cycle)
+    private Stack<edu.princeton.cs.algs4.DirectedEdge> cycle;    // directed cycle (or null if no such cycle)
 
-    */
 /**
      * Determines whether the edge-weighted digraph <tt>G</tt> has a directed cycle and,
      * if so, finds such a cycle.
-     * @param G the edge-weighted digraph
-     *//*
+     * @param G the edge-weighted digraph*/
 
-    public EdgeWeightedDirectedCycle(EdgeWeightedDigraph G) {
+
+    public EdgeWeightedDirectedCycle(edu.princeton.cs.algs4.EdgeWeightedDigraph G) {
         marked  = new boolean[G.V()];
         onStack = new boolean[G.V()];
-        edgeTo  = new DirectedEdge[G.V()];
+        edgeTo  = new edu.princeton.cs.algs4.DirectedEdge[G.V()];
         for (int v = 0; v < G.V(); v++)
             if (!marked[v]) dfs(G, v);
 
@@ -70,10 +66,10 @@ public class EdgeWeightedDirectedCycle {
     }
 
     // check that algorithm computes either the topological order or finds a directed cycle
-    private void dfs(EdgeWeightedDigraph G, int v) {
+    private void dfs(edu.princeton.cs.algs4.EdgeWeightedDigraph G, int v) {
         onStack[v] = true;
         marked[v] = true;
-        for (DirectedEdge e : G.adj(v)) {
+        for (edu.princeton.cs.algs4.DirectedEdge e : G.adj(v)) {
             int w = e.to();
 
             // short circuit if directed cycle found
@@ -87,7 +83,7 @@ public class EdgeWeightedDirectedCycle {
 
             // trace back directed cycle
             else if (onStack[w]) {
-                cycle = new Stack<DirectedEdge>();
+                cycle = new Stack<edu.princeton.cs.algs4.DirectedEdge>();
                 while (e.from() != w) {
                     cycle.push(e);
                     e = edgeTo[e.from()];
@@ -99,38 +95,36 @@ public class EdgeWeightedDirectedCycle {
         onStack[v] = false;
     }
 
-    */
 /**
      * Does the edge-weighted digraph have a directed cycle?
      * @return <tt>true</tt> if the edge-weighted digraph has a directed cycle,
-     * <tt>false</tt> otherwise
-     *//*
+     * <tt>false</tt> otherwise*/
+
 
     public boolean hasCycle() {
         return cycle != null;
     }
 
-    */
 /**
      * Returns a directed cycle if the edge-weighted digraph has a directed cycle,
      * and <tt>null</tt> otherwise.
      * @return a directed cycle (as an iterable) if the edge-weighted digraph
-     *    has a directed cycle, and <tt>null</tt> otherwise
-     *//*
+     *    has a directed cycle, and <tt>null</tt> otherwise*/
 
-    public Iterable<DirectedEdge> cycle() {
+
+    public Iterable<edu.princeton.cs.algs4.DirectedEdge> cycle() {
         return cycle;
     }
 
 
     // certify that digraph is either acyclic or has a directed cycle
-    private boolean check(EdgeWeightedDigraph G) {
+    private boolean check(edu.princeton.cs.algs4.EdgeWeightedDigraph G) {
 
         // edge-weighted digraph is cyclic
         if (hasCycle()) {
             // verify cycle
-            DirectedEdge first = null, last = null;
-            for (DirectedEdge e : cycle()) {
+            edu.princeton.cs.algs4.DirectedEdge first = null, last = null;
+            for (edu.princeton.cs.algs4.DirectedEdge e : cycle()) {
                 if (first == null) first = e;
                 if (last != null) {
                     if (last.to() != e.from()) {
@@ -151,10 +145,9 @@ public class EdgeWeightedDirectedCycle {
         return true;
     }
 
-    */
 /**
-     * Unit tests the <tt>EdgeWeightedDirectedCycle</tt> data type.
-     *//*
+     * Unit tests the <tt>EdgeWeightedDirectedCycle</tt> data type.*/
+
 
     public static void main(String[] args) {
 
@@ -162,7 +155,7 @@ public class EdgeWeightedDirectedCycle {
         int V = Integer.parseInt(args[0]);
         int E = Integer.parseInt(args[1]);
         int F = Integer.parseInt(args[2]);
-        EdgeWeightedDigraph G = new EdgeWeightedDigraph(V);
+        edu.princeton.cs.algs4.EdgeWeightedDigraph G = new edu.princeton.cs.algs4.EdgeWeightedDigraph(V);
         int[] vertices = new int[V];
         for (int i = 0; i < V; i++) vertices[i] = i;
         StdRandom.shuffle(vertices);
@@ -173,7 +166,7 @@ public class EdgeWeightedDirectedCycle {
                 w = StdRandom.uniform(V);
             } while (v >= w);
             double weight = Math.random();
-            G.addEdge(new DirectedEdge(v, w, weight));
+            G.addEdge(new edu.princeton.cs.algs4.DirectedEdge(v, w, weight));
         }
 
         // add F extra edges
@@ -181,16 +174,16 @@ public class EdgeWeightedDirectedCycle {
             int v = (int) (Math.random() * V);
             int w = (int) (Math.random() * V);
             double weight = Math.random();
-            G.addEdge(new DirectedEdge(v, w, weight));
+            G.addEdge(new edu.princeton.cs.algs4.DirectedEdge(v, w, weight));
         }
 
         StdOut.println(G);
 
         // find a directed cycle
-        EdgeWeightedDirectedCycle finder = new EdgeWeightedDirectedCycle(G);
+        edu.princeton.cs.algs4.EdgeWeightedDirectedCycle finder = new edu.princeton.cs.algs4.EdgeWeightedDirectedCycle(G);
         if (finder.hasCycle()) {
             StdOut.print("Cycle: ");
-            for (DirectedEdge e : finder.cycle()) {
+            for (edu.princeton.cs.algs4.DirectedEdge e : finder.cycle()) {
                 StdOut.print(e + " ");
             }
             StdOut.println();
@@ -203,4 +196,3 @@ public class EdgeWeightedDirectedCycle {
     }
 
 }
-*/

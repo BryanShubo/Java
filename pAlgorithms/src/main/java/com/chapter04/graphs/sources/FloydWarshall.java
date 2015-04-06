@@ -1,8 +1,6 @@
-/*
 package com.chapter04.graphs.sources;
 
 
-*/
 /*************************************************************************
  * Compilation:  javac FloydWarshall.java
  * Execution:  java FloydWarshall V E
@@ -17,7 +15,7 @@ package com.chapter04.graphs.sources;
  * Reference: "The Floyd-Warshall algorithm on graphs with negative cycles"
  * by Stefan Hougardy
  *
- *************************************************************************//*
+ *************************************************************************/
 
 
 
@@ -26,7 +24,6 @@ import edu.princeton.cs.algs4.EdgeWeightedDirectedCycle;
 import edu.princeton.cs.algs4.Stack;
 import edu.princeton.cs.introcs.StdOut;
 
-*/
 /**
  * The <tt>FloydWarshall</tt> class represents a data type for solving the
  * all-pairs shortest paths problem in edge-weighted digraphs with
@@ -46,25 +43,24 @@ import edu.princeton.cs.introcs.StdOut;
  * <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  *
  * @author Robert Sedgewick
- * @author Kevin Wayne
- *//*
+ * @author Kevin Wayne*/
+
  public class FloydWarshall {
     private boolean hasNegativeCycle;  // is there a negative cycle?
     private double[][] distTo;  // distTo[v][w] = length of shortest v->w path
-    private DirectedEdge[][] edgeTo;  // edgeTo[v][w] = last edge on shortest v->w path
+    private edu.princeton.cs.algs4.DirectedEdge[][] edgeTo;  // edgeTo[v][w] = last edge on shortest v->w path
 
-    */
 /**
      * Computes a shortest paths tree from each vertex to to every other vertex in
      * the edge-weighted digraph <tt>G</tt>. If no such shortest path exists for
      * some pair of vertices, it computes a negative cycle.
-     * @param G the edge-weighted digraph
-     *//*
+     * @param G the edge-weighted digraph*/
 
-    public FloydWarshall(AdjMatrixEdgeWeightedDigraph G) {
+
+    public FloydWarshall(edu.princeton.cs.algs4.AdjMatrixEdgeWeightedDigraph G) {
         int V = G.V();
         distTo = new double[V][V];
-        edgeTo = new DirectedEdge[V][V];
+        edgeTo = new edu.princeton.cs.algs4.DirectedEdge[V][V];
 
         // initialize distances to infinity
         for (int v = 0; v < V; v++) {
@@ -75,7 +71,7 @@ import edu.princeton.cs.introcs.StdOut;
 
         // initialize distances using edge-weighted digraph's
         for (int v = 0; v < G.V(); v++) {
-            for (DirectedEdge e : G.adj(v)) {
+            for (edu.princeton.cs.algs4.DirectedEdge e : G.adj(v)) {
                 distTo[e.from()][e.to()] = e.weight();
                 edgeTo[e.from()][e.to()] = e;
             }
@@ -106,33 +102,31 @@ import edu.princeton.cs.introcs.StdOut;
         }
     }
 
-    */
 /**
      * Is there a negative cycle?
-     * @return <tt>true</tt> if there is a negative cycle, and <tt>false</tt> otherwise
-     *//*
+     * @return <tt>true</tt> if there is a negative cycle, and <tt>false</tt> otherwise*/
+
 
     public boolean hasNegativeCycle() {
         return hasNegativeCycle;
     }
 
-    */
 /**
      * Returns a negative cycle, or <tt>null</tt> if there is no such cycle.
      * @return a negative cycle as an iterable of edges,
-     * or <tt>null</tt> if there is no such cycle
-     *//*
+     * or <tt>null</tt> if there is no such cycle*/
 
-    public Iterable<DirectedEdge> negativeCycle() {
+
+    public Iterable<edu.princeton.cs.algs4.DirectedEdge> negativeCycle() {
         for (int v = 0; v < distTo.length; v++) {
             // negative cycle in v's predecessor graph
             if (distTo[v][v] < 0.0) {
                 int V = edgeTo.length;
-                EdgeWeightedDigraph spt = new EdgeWeightedDigraph(V);
+                edu.princeton.cs.algs4.EdgeWeightedDigraph spt = new edu.princeton.cs.algs4.EdgeWeightedDigraph(V);
                 for (int w = 0; w < V; w++)
                     if (edgeTo[v][w] != null)
                         spt.addEdge(edgeTo[v][w]);
-                EdgeWeightedDirectedCycle finder = new EdgeWeightedDirectedCycle(spt);
+                edu.princeton.cs.algs4.EdgeWeightedDirectedCycle finder = new edu.princeton.cs.algs4.EdgeWeightedDirectedCycle(spt);
                 assert finder.hasCycle();
                 return finder.cycle();
             }
@@ -140,28 +134,26 @@ import edu.princeton.cs.introcs.StdOut;
         return null;
     }
 
-    */
 /**
      * Is there a path from the vertex <tt>s</tt> to vertex <tt>t</tt>?
      * @param s the source vertex
      * @param t the destination vertex
      * @return <tt>true</tt> if there is a path from vertex <tt>s</tt>
-     * to vertex <tt>t</tt>, and <tt>false</tt> otherwise
-     *//*
+     * to vertex <tt>t</tt>, and <tt>false</tt> otherwise*/
+
 
     public boolean hasPath(int s, int t) {
         return distTo[s][t] < Double.POSITIVE_INFINITY;
     }
 
-    */
 /**
      * Returns the length of a shortest path from vertex <tt>s</tt> to vertex <tt>t</tt>.
      * @param s the source vertex
      * @param t the destination vertex
      * @return the length of a shortest path from vertex <tt>s</tt> to vertex <tt>t</tt>;
      * <tt>Double.POSITIVE_INFINITY</tt> if no such path
-     * @throws UnsupportedOperationException if there is a negative cost cycle
-     *//*
+     * @throws UnsupportedOperationException if there is a negative cost cycle*/
+
 
     public double dist(int s, int t) {
         if (hasNegativeCycle())
@@ -169,34 +161,33 @@ import edu.princeton.cs.introcs.StdOut;
         return distTo[s][t];
     }
 
-    */
 /**
      * Returns a shortest path from vertex <tt>s</tt> to vertex <tt>t</tt>.
      * @param s the source vertex
      * @param t the destination vertex
      * @return a shortest path from vertex <tt>s</tt> to vertex <tt>t</tt>
      * as an iterable of edges, and <tt>null</tt> if no such path
-     * @throws UnsupportedOperationException if there is a negative cost cycle
-     *//*
+     * @throws UnsupportedOperationException if there is a negative cost cycle*/
 
-    public Iterable<DirectedEdge> path(int s, int t) {
+
+    public Iterable<edu.princeton.cs.algs4.DirectedEdge> path(int s, int t) {
         if (hasNegativeCycle())
             throw new UnsupportedOperationException("Negative cost cycle exists");
         if (!hasPath(s, t)) return null;
-        Stack<DirectedEdge> path = new Stack<DirectedEdge>();
-        for (DirectedEdge e = edgeTo[s][t]; e != null; e = edgeTo[s][e.from()]) {
+        Stack<edu.princeton.cs.algs4.DirectedEdge> path = new Stack<edu.princeton.cs.algs4.DirectedEdge>();
+        for (edu.princeton.cs.algs4.DirectedEdge e = edgeTo[s][t]; e != null; e = edgeTo[s][e.from()]) {
             path.push(e);
         }
         return path;
     }
 
     // check optimality conditions
-    private boolean check(EdgeWeightedDigraph G, int s) {
+    private boolean check(edu.princeton.cs.algs4.EdgeWeightedDigraph G, int s) {
 
         // no negative cycle
         if (!hasNegativeCycle()) {
             for (int v = 0; v < G.V(); v++) {
-                for (DirectedEdge e : G.adj(v)) {
+                for (edu.princeton.cs.algs4.DirectedEdge e : G.adj(v)) {
                     int w = e.to();
                     for (int i = 0; i < G.V(); i++) {
                         if (distTo[i][w] > distTo[i][v] + e.weight()) {
@@ -211,10 +202,9 @@ import edu.princeton.cs.introcs.StdOut;
     }
 
 
-    */
 /**
-     * Unit tests the <tt>FloydWarshall</tt> data type.
-     *//*
+     * Unit tests the <tt>FloydWarshall</tt> data type.*/
+
 
     public static void main(String[] args) {
 
@@ -226,8 +216,8 @@ import edu.princeton.cs.introcs.StdOut;
             int v = (int) (V * Math.random());
             int w = (int) (V * Math.random());
             double weight = Math.round(100 * (Math.random() - 0.15)) / 100.0;
-            if (v == w) G.addEdge(new DirectedEdge(v, w, Math.abs(weight)));
-            else G.addEdge(new DirectedEdge(v, w, weight));
+            if (v == w) G.addEdge(new edu.princeton.cs.algs4.DirectedEdge(v, w, Math.abs(weight)));
+            else G.addEdge(new edu.princeton.cs.algs4.DirectedEdge(v, w, weight));
         }
 
         StdOut.println(G);
@@ -253,7 +243,7 @@ import edu.princeton.cs.introcs.StdOut;
         // print negative cycle
         if (spt.hasNegativeCycle()) {
             StdOut.println("Negative cost cycle:");
-            for (DirectedEdge e : spt.negativeCycle())
+            for (edu.princeton.cs.algs4.DirectedEdge e : spt.negativeCycle())
                 StdOut.println(e);
             StdOut.println();
         }
@@ -264,7 +254,7 @@ import edu.princeton.cs.introcs.StdOut;
                 for (int w = 0; w < G.V(); w++) {
                     if (spt.hasPath(v, w)) {
                         StdOut.printf("%d to %d (%5.2f)  ", v, w, spt.dist(v, w));
-                        for (DirectedEdge e : spt.path(v, w))
+                        for (edu.princeton.cs.algs4.DirectedEdge e : spt.path(v, w))
                             StdOut.print(e + "  ");
                         StdOut.println();
                     }
@@ -278,4 +268,3 @@ import edu.princeton.cs.introcs.StdOut;
     }
 
 }
-*/

@@ -1,9 +1,7 @@
-/*
 package com.chapter04.graphs.sources;
 
-
-*/
-/******************************************************************************
+/*
+*****************************************************************************
  *  Compilation:  javac PrimMST.java
  *  Execution:    java PrimMST filename.txt
  *  Dependencies: EdgeWeightedGraph.java Edge.java Queue.java
@@ -39,7 +37,7 @@ package com.chapter04.graphs.sources;
  *  ...
  *  647.66307
  *
- ******************************************************************************//*
+ ******************************************************************************/
 
 
 import edu.princeton.cs.algs4.IndexMinPQ;
@@ -48,7 +46,6 @@ import edu.princeton.cs.algs4.UF;
 import edu.princeton.cs.introcs.In;
 import edu.princeton.cs.introcs.StdOut;
 
-*/
 /**
  *  The <tt>PrimMST</tt> class represents a data type for computing a
  *  <em>minimum spanning tree</em> in an edge-weighted graph.
@@ -73,26 +70,25 @@ import edu.princeton.cs.introcs.StdOut;
  *  and {BoruvkaMST}.
  *
  *  @author Robert Sedgewick
- *  @author Kevin Wayne
- *//*
+ *  @author Kevin Wayne*/
+
 
 public class PrimMST {
-    private Edge[] edgeTo;        // edgeTo[v] = shortest edge from tree vertex to non-tree vertex
+    private edu.princeton.cs.algs4.Edge[] edgeTo;        // edgeTo[v] = shortest edge from tree vertex to non-tree vertex
     private double[] distTo;      // distTo[v] = weight of shortest such edge
     private boolean[] marked;     // marked[v] = true if v on tree, false otherwise
-    private IndexMinPQ<Double> pq;
+    private edu.princeton.cs.algs4.IndexMinPQ<Double> pq;
 
-    */
 /**
      * Compute a minimum spanning tree (or forest) of an edge-weighted graph.
-     * @param G the edge-weighted graph
-     *//*
+     * @param G the edge-weighted graph*/
 
-    public PrimMST(EdgeWeightedGraph G) {
-        edgeTo = new Edge[G.V()];
+
+    public PrimMST(edu.princeton.cs.algs4.EdgeWeightedGraph G) {
+        edgeTo = new edu.princeton.cs.algs4.Edge[G.V()];
         distTo = new double[G.V()];
         marked = new boolean[G.V()];
-        pq = new IndexMinPQ<Double>(G.V());
+        pq = new edu.princeton.cs.algs4.IndexMinPQ<Double>(G.V());
         for (int v = 0; v < G.V(); v++) distTo[v] = Double.POSITIVE_INFINITY;
 
         for (int v = 0; v < G.V(); v++)      // run from each vertex to find
@@ -103,7 +99,7 @@ public class PrimMST {
     }
 
     // run Prim's algorithm in graph G, starting from vertex s
-    private void prim(EdgeWeightedGraph G, int s) {
+    private void prim(edu.princeton.cs.algs4.EdgeWeightedGraph G, int s) {
         distTo[s] = 0.0;
         pq.insert(s, distTo[s]);
         while (!pq.isEmpty()) {
@@ -113,9 +109,9 @@ public class PrimMST {
     }
 
     // scan vertex v
-    private void scan(EdgeWeightedGraph G, int v) {
+    private void scan(edu.princeton.cs.algs4.EdgeWeightedGraph G, int v) {
         marked[v] = true;
-        for (Edge e : G.adj(v)) {
+        for (edu.princeton.cs.algs4.Edge e : G.adj(v)) {
             int w = e.other(v);
             if (marked[w]) continue;         // v-w is obsolete edge
             if (e.weight() < distTo[w]) {
@@ -127,17 +123,16 @@ public class PrimMST {
         }
     }
 
-    */
 /**
      * Returns the edges in a minimum spanning tree (or forest).
      * @return the edges in a minimum spanning tree (or forest) as
-     *    an iterable of edges
-     *//*
+     *    an iterable of edges*/
 
-    public Iterable<Edge> edges() {
-        Queue<Edge> mst = new Queue<Edge>();
+
+    public Iterable<edu.princeton.cs.algs4.Edge> edges() {
+        Queue<edu.princeton.cs.algs4.Edge> mst = new Queue<edu.princeton.cs.algs4.Edge>();
         for (int v = 0; v < edgeTo.length; v++) {
-            Edge e = edgeTo[v];
+            edu.princeton.cs.algs4.Edge e = edgeTo[v];
             if (e != null) {
                 mst.enqueue(e);
             }
@@ -145,26 +140,25 @@ public class PrimMST {
         return mst;
     }
 
-    */
 /**
      * Returns the sum of the edge weights in a minimum spanning tree (or forest).
-     * @return the sum of the edge weights in a minimum spanning tree (or forest)
-     *//*
+     * @return the sum of the edge weights in a minimum spanning tree (or forest)*/
+
 
     public double weight() {
         double weight = 0.0;
-        for (Edge e : edges())
+        for (edu.princeton.cs.algs4.Edge e : edges())
             weight += e.weight();
         return weight;
     }
 
 
     // check optimality conditions (takes time proportional to E V lg* V)
-    private boolean check(EdgeWeightedGraph G) {
+    private boolean check(edu.princeton.cs.algs4.EdgeWeightedGraph G) {
 
         // check weight
         double totalWeight = 0.0;
-        for (Edge e : edges()) {
+        for (edu.princeton.cs.algs4.Edge e : edges()) {
             totalWeight += e.weight();
         }
         double EPSILON = 1E-12;
@@ -175,7 +169,7 @@ public class PrimMST {
 
         // check that it is acyclic
         UF uf = new UF(G.V());
-        for (Edge e : edges()) {
+        for (edu.princeton.cs.algs4.Edge e : edges()) {
             int v = e.either(), w = e.other(v);
             if (uf.connected(v, w)) {
                 System.err.println("Not a forest");
@@ -185,7 +179,7 @@ public class PrimMST {
         }
 
         // check that it is a spanning forest
-        for (Edge e : G.edges()) {
+        for (edu.princeton.cs.algs4.Edge e : G.edges()) {
             int v = e.either(), w = e.other(v);
             if (!uf.connected(v, w)) {
                 System.err.println("Not a spanning forest");
@@ -194,17 +188,17 @@ public class PrimMST {
         }
 
         // check that it is a minimal spanning forest (cut optimality conditions)
-        for (Edge e : edges()) {
+        for (edu.princeton.cs.algs4.Edge e : edges()) {
 
             // all edges in MST except e
             uf = new UF(G.V());
-            for (Edge f : edges()) {
+            for (edu.princeton.cs.algs4.Edge f : edges()) {
                 int x = f.either(), y = f.other(x);
                 if (f != e) uf.union(x, y);
             }
 
             // check that e is min weight edge in crossing cut
-            for (Edge f : G.edges()) {
+            for (edu.princeton.cs.algs4.Edge f : G.edges()) {
                 int x = f.either(), y = f.other(x);
                 if (!uf.connected(x, y)) {
                     if (f.weight() < e.weight()) {
@@ -219,16 +213,15 @@ public class PrimMST {
         return true;
     }
 
-    */
 /**
-     * Unit tests the <tt>PrimMST</tt> data type.
-     *//*
+     * Unit tests the <tt>PrimMST</tt> data type.*/
+
 
     public static void main(String[] args) {
         In in = new In(args[0]);
-        EdgeWeightedGraph G = new EdgeWeightedGraph(in);
-        PrimMST mst = new PrimMST(G);
-        for (Edge e : mst.edges()) {
+        edu.princeton.cs.algs4.EdgeWeightedGraph G = new edu.princeton.cs.algs4.EdgeWeightedGraph(in);
+        edu.princeton.cs.algs4.PrimMST mst = new edu.princeton.cs.algs4.PrimMST(G);
+        for (edu.princeton.cs.algs4.Edge e : mst.edges()) {
             StdOut.println(e);
         }
         StdOut.printf("%.5f\n", mst.weight());
@@ -236,4 +229,3 @@ public class PrimMST {
 
 
 }
-*/

@@ -1,8 +1,6 @@
-/*
 package com.chapter04.graphs.sources;
 
 
-*/
 /*************************************************************************
  *  Compilation:  javac CPM.java
  *  Execution:    java CPM < input.txt
@@ -26,14 +24,13 @@ package com.chapter04.graphs.sources;
  *     9    41.0    70.0
  *  Finish time:   173.0
  *
- *************************************************************************//*
+ *************************************************************************/
 
 
 import edu.princeton.cs.algs4.AcyclicLP;
 import edu.princeton.cs.introcs.StdIn;
 import edu.princeton.cs.introcs.StdOut;
 
-*/
 /**
  *  The <tt>CPM</tt> class provides a client that solves the
  *  parallel precedence-constrained job scheduling problem
@@ -55,19 +52,18 @@ import edu.princeton.cs.introcs.StdOut;
  *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  *
  *  @author Robert Sedgewick
- *  @author Kevin Wayne
- *//*
+ *  @author Kevin Wayne*/
+
 
 public class CPM {
 
     // this class cannot be instantiated
     private CPM() { }
 
-    */
 /**
      *  Reads the precedence constraints from standard input
-     *  and prints a feasible schedule to standard output.
-     *//*
+     *  and prints a feasible schedule to standard output.*/
+
 
     public static void main(String[] args) {
 
@@ -79,23 +75,23 @@ public class CPM {
         int sink   = 2*N + 1;
 
         // build network
-        EdgeWeightedDigraph G = new EdgeWeightedDigraph(2*N + 2);
+        edu.princeton.cs.algs4.EdgeWeightedDigraph G = new edu.princeton.cs.algs4.EdgeWeightedDigraph(2*N + 2);
         for (int i = 0; i < N; i++) {
             double duration = StdIn.readDouble();
-            G.addEdge(new DirectedEdge(source, i, 0.0));
-            G.addEdge(new DirectedEdge(i+N, sink, 0.0));
-            G.addEdge(new DirectedEdge(i, i+N,    duration));
+            G.addEdge(new edu.princeton.cs.algs4.DirectedEdge(source, i, 0.0));
+            G.addEdge(new edu.princeton.cs.algs4.DirectedEdge(i+N, sink, 0.0));
+            G.addEdge(new edu.princeton.cs.algs4.DirectedEdge(i, i+N,    duration));
 
             // precedence constraints
             int M = StdIn.readInt();
             for (int j = 0; j < M; j++) {
                 int precedent = StdIn.readInt();
-                G.addEdge(new DirectedEdge(N+i, precedent, 0.0));
+                G.addEdge(new edu.princeton.cs.algs4.DirectedEdge(N+i, precedent, 0.0));
             }
         }
 
         // compute longest path
-        AcyclicLP lp = new AcyclicLP(G, source);
+        edu.princeton.cs.algs4.AcyclicLP lp = new edu.princeton.cs.algs4.AcyclicLP(G, source);
 
         // print results
         StdOut.println(" job   start  finish");
@@ -106,4 +102,4 @@ public class CPM {
         StdOut.printf("Finish time: %7.1f\n", lp.distTo(sink));
     }
 
-}*/
+}

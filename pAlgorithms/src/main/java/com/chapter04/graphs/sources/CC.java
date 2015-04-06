@@ -1,10 +1,5 @@
 package com.chapter04.graphs.sources;
-
-
 /*************************************************************************
- *  Compilation:  javac CC.java
- *  Execution:    java CC filename.txt
- *  Dependencies: Graph.java StdOut.java Queue.java
  *  Data files:   http://algs4.cs.princeton.edu/41undirected/tinyG.txt
  *
  *  Compute connected components using depth first search.
@@ -31,12 +26,12 @@ import edu.princeton.cs.introcs.In;
 import edu.princeton.cs.introcs.StdOut;
 
 /**
- *  The <tt>CC</tt> class represents a data type for
+ *  The CC class represents a data type for
  *  determining the connected components in an undirected graph.
- *  The <em>id</em> operation determines in which connected component
- *  a given vertex lies; the <em>connected</em> operation
+ *  The id operation determines in which connected component
+ *  a given vertex lies; the connected</em> operation
  *  determines whether two vertices are in the same connected component;
- *  the <em>count</em> operation determines the number of connected
+ *  the count operation determines the number of connected
  *  components; and the <em>size</em> operation determines the number
  *  of vertices in the connect component containing a given vertex.
 
@@ -52,11 +47,6 @@ import edu.princeton.cs.introcs.StdOut;
  *  Afterwards, the <em>id</em>, <em>count</em>, <em>connected</em>,
  *  and <em>size</em> operations take constant time.
  *  <p>
- *  For additional documentation, see <a href="/algs4/41graph">Section 4.1</a> of
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
- *
- *  @author Robert Sedgewick
- *  @author Kevin Wayne
  */
 public class CC {
     private boolean[] marked;   // marked[v] = has vertex v been marked?

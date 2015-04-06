@@ -1,8 +1,6 @@
-/*
 package com.chapter04.graphs.sources;
 
 
-*/
 /*************************************************************************
  *  Compilation:  javac DijkstraAllPairsSP.java
  *  Dependencies: EdgeWeightedDigraph.java Dijkstra.java
@@ -10,12 +8,11 @@ package com.chapter04.graphs.sources;
  *  Dijkstra's algorithm run from each vertex.
  *  Takes time proportional to E V log V and space proportional to EV.
  *
- *************************************************************************//*
+ *************************************************************************/
 
 
 import edu.princeton.cs.algs4.DijkstraSP;
 
-*/
 /**
  *  The <tt>DijkstraAllPairsSP</tt> class represents a data type for solving the
  *  all-pairs shortest paths problem in edge-weighted digraphs
@@ -33,64 +30,59 @@ import edu.princeton.cs.algs4.DijkstraSP;
  *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  *
  *  @author Robert Sedgewick
- *  @author Kevin Wayne
- *//*
+ *  @author Kevin Wayne*/
+
 
 public class DijkstraAllPairsSP {
-    private DijkstraSP[] all;
+    private edu.princeton.cs.algs4.DijkstraSP[] all;
 
-    */
 /**
      * Computes a shortest paths tree from each vertex to to every other vertex in
      * the edge-weighted digraph <tt>G</tt>.
      * @param G the edge-weighted digraph
      * @throws IllegalArgumentException if an edge weight is negative
-     * @throws IllegalArgumentException unless 0 &le; <tt>s</tt> &le; <tt>V</tt> - 1
-     *//*
+     * @throws IllegalArgumentException unless 0 &le; <tt>s</tt> &le; <tt>V</tt> - 1*/
 
-    public DijkstraAllPairsSP(EdgeWeightedDigraph G) {
-        all  = new DijkstraSP[G.V()];
+
+    public DijkstraAllPairsSP(edu.princeton.cs.algs4.EdgeWeightedDigraph G) {
+        all  = new edu.princeton.cs.algs4.DijkstraSP[G.V()];
         for (int v = 0; v < G.V(); v++)
-            all[v] = new DijkstraSP(G, v);
+            all[v] = new edu.princeton.cs.algs4.DijkstraSP(G, v);
     }
 
-    */
 /**
      * Returns a shortest path from vertex <tt>s</tt> to vertex <tt>t</tt>.
      * @param s the source vertex
      * @param t the destination vertex
      * @return a shortest path from vertex <tt>s</tt> to vertex <tt>t</tt>
-     *    as an iterable of edges, and <tt>null</tt> if no such path
-     *//*
+     *    as an iterable of edges, and <tt>null</tt> if no such path*/
 
-    public Iterable<DirectedEdge> path(int s, int t) {
+
+    public Iterable<edu.princeton.cs.algs4.DirectedEdge> path(int s, int t) {
         return all[s].pathTo(t);
     }
 
-    */
 /**
      * Is there a path from the vertex <tt>s</tt> to vertex <tt>t</tt>?
      * @param s the source vertex
      * @param t the destination vertex
      * @return <tt>true</tt> if there is a path from vertex <tt>s</tt>
-     *    to vertex <tt>t</tt>, and <tt>false</tt> otherwise
-     *//*
+     *    to vertex <tt>t</tt>, and <tt>false</tt> otherwise*/
+
 
     public boolean hasPath(int s, int t) {
         return dist(s, t) < Double.POSITIVE_INFINITY;
     }
 
-    */
 /**
      * Returns the length of a shortest path from vertex <tt>s</tt> to vertex <tt>t</tt>.
      * @param s the source vertex
      * @param t the destination vertex
      * @return the length of a shortest path from vertex <tt>s</tt> to vertex <tt>t</tt>;
-     *    <tt>Double.POSITIVE_INFINITY</tt> if no such path
-     *//*
+     *    <tt>Double.POSITIVE_INFINITY</tt> if no such path*/
+
 
     public double dist(int s, int t) {
         return all[s].distTo(t);
     }
 }
-*/

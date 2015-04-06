@@ -1,8 +1,6 @@
-/*
 package com.chapter04.graphs.sources;
 
 
-*/
 /*************************************************************************
  *  Compilation:  javac Arbitrage.java
  *  Execution:    java Arbitrage < input.txt
@@ -25,14 +23,13 @@ package com.chapter04.graphs.sources;
  *   741.00000 EUR = 1012.20600 CAD
  *  1012.20600 CAD = 1007.14497 USD
  *
- *************************************************************************//*
+ *************************************************************************/
 
 
 import edu.princeton.cs.algs4.BellmanFordSP;
 import edu.princeton.cs.introcs.StdIn;
 import edu.princeton.cs.introcs.StdOut;
 
-*/
 /**
  *  The <tt>Arbitrage</tt> class provides a client that finds an arbitrage
  *  opportunity in a currency exchange table by constructing a
@@ -49,19 +46,18 @@ import edu.princeton.cs.introcs.StdOut;
  *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  *
  *  @author Robert Sedgewick
- *  @author Kevin Wayne
- *//*
+ *  @author Kevin Wayne*/
+
 
 public class Arbitrage {
 
     // this class cannot be instantiated
     private Arbitrage() { }
-
-    */
-/**
+/*
+*
      *  Reads the currency exchange table from standard input and
-     *  prints an arbitrage opportunity to standard output (if one exists).
-     *//*
+     *  prints an arbitrage opportunity to standard output (if one exists).*/
+
 
     public static void main(String[] args) {
 
@@ -70,21 +66,21 @@ public class Arbitrage {
         String[] name = new String[V];
 
         // create complete network
-        EdgeWeightedDigraph G = new EdgeWeightedDigraph(V);
+        edu.princeton.cs.algs4.EdgeWeightedDigraph G = new edu.princeton.cs.algs4.EdgeWeightedDigraph(V);
         for (int v = 0; v < V; v++) {
             name[v] = StdIn.readString();
             for (int w = 0; w < V; w++) {
                 double rate = StdIn.readDouble();
-                DirectedEdge e = new DirectedEdge(v, w, -Math.log(rate));
+                edu.princeton.cs.algs4.DirectedEdge e = new edu.princeton.cs.algs4.DirectedEdge(v, w, -Math.log(rate));
                 G.addEdge(e);
             }
         }
 
         // find negative cycle
-        BellmanFordSP spt = new BellmanFordSP(G, 0);
+        edu.princeton.cs.algs4.BellmanFordSP spt = new edu.princeton.cs.algs4.BellmanFordSP(G, 0);
         if (spt.hasNegativeCycle()) {
             double stake = 1000.0;
-            for (DirectedEdge e : spt.negativeCycle()) {
+            for (edu.princeton.cs.algs4.DirectedEdge e : spt.negativeCycle()) {
                 StdOut.printf("%10.5f %s ", stake, name[e.from()]);
                 stake *= Math.exp(-e.weight());
                 StdOut.printf("= %10.5f %s\n", stake, name[e.to()]);
@@ -96,4 +92,3 @@ public class Arbitrage {
     }
 
 }
-*/

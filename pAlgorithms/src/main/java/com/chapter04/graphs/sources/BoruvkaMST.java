@@ -1,8 +1,6 @@
-/*
 package com.chapter04.graphs.sources;
 
 
-*/
 /*************************************************************************
  *  Compilation:  javac BoruvkaMST.java
  *  Execution:    java BoruvkaMST filename.txt
@@ -24,7 +22,7 @@ package com.chapter04.graphs.sources;
  *  0-7 0.16000
  *  1.81000
  *
- *************************************************************************//*
+ *************************************************************************/
 
 
 import edu.princeton.cs.algs4.Bag;
@@ -32,7 +30,6 @@ import edu.princeton.cs.algs4.UF;
 import edu.princeton.cs.introcs.In;
 import edu.princeton.cs.introcs.StdOut;
 
-*/
 /**
  *  The <tt>BoruvkaMST</tt> class represents a data type for computing a
  *  <em>minimum spanning tree</em> in an edge-weighted graph.
@@ -57,29 +54,30 @@ import edu.princeton.cs.introcs.StdOut;
  *  and {KruskalMST}.
  *
  *  @author Robert Sedgewick
- *  @author Kevin Wayne
- *//*
+ *  @author Kevin Wayne*/
+
 
 public class BoruvkaMST {
-    private Bag<Edge> mst = new Bag<Edge>();    // edges in MST
+    private edu.princeton.cs.algs4.Bag<edu.princeton.cs.algs4.Edge> mst = new edu.princeton.cs.algs4.Bag<edu.princeton.cs.algs4.Edge>();    // edges in MST
     private double weight;                      // weight of MST
 
-    */
-/**
+/*
+*
      * Compute a minimum spanning tree (or forest) of an edge-weighted graph.
      * @param G the edge-weighted graph
-     *//*
+*/
 
-    public BoruvkaMST(EdgeWeightedGraph G) {
-        UF uf = new UF(G.V());
+
+    public BoruvkaMST(edu.princeton.cs.algs4.EdgeWeightedGraph G) {
+        edu.princeton.cs.algs4.UF uf = new edu.princeton.cs.algs4.UF(G.V());
 
         // repeat at most log V times or until we have V-1 edges
         for (int t = 1; t < G.V() && mst.size() < G.V() - 1; t = t + t) {
 
             // foreach tree in forest, find closest edge
             // if edge weights are equal, ties are broken in favor of first edge in G.edges()
-            Edge[] closest = new Edge[G.V()];
-            for (Edge e : G.edges()) {
+            edu.princeton.cs.algs4.Edge[] closest = new edu.princeton.cs.algs4.Edge[G.V()];
+            for (edu.princeton.cs.algs4.Edge e : G.edges()) {
                 int v = e.either(), w = e.other(v);
                 int i = uf.find(v), j = uf.find(w);
                 if (i == j) continue;   // same tree
@@ -89,7 +87,7 @@ public class BoruvkaMST {
 
             // add newly discovered edges to MST
             for (int i = 0; i < G.V(); i++) {
-                Edge e = closest[i];
+                edu.princeton.cs.algs4.Edge e = closest[i];
                 if (e != null) {
                     int v = e.either(), w = e.other(v);
                     // don't add the same edge twice
@@ -106,39 +104,37 @@ public class BoruvkaMST {
         assert check(G);
     }
 
-    */
 /**
      * Returns the edges in a minimum spanning tree (or forest).
      * @return the edges in a minimum spanning tree (or forest) as
-     *    an iterable of edges
-     *//*
+     *    an iterable of edges*/
 
-    public Iterable<Edge> edges() {
+
+    public Iterable<edu.princeton.cs.algs4.Edge> edges() {
         return mst;
     }
 
-
-    */
-/**
+/*
+*
      * Returns the sum of the edge weights in a minimum spanning tree (or forest).
-     * @return the sum of the edge weights in a minimum spanning tree (or forest)
-     *//*
+     * @return the sum of the edge weights in a minimum spanning tree (or forest)*/
+
 
     public double weight() {
         return weight;
     }
 
     // is the weight of edge e strictly less than that of edge f?
-    private static boolean less(Edge e, Edge f) {
+    private static boolean less(edu.princeton.cs.algs4.Edge e, edu.princeton.cs.algs4.Edge f) {
         return e.weight() < f.weight();
     }
 
     // check optimality conditions (takes time proportional to E V lg* V)
-    private boolean check(EdgeWeightedGraph G) {
+    private boolean check(edu.princeton.cs.algs4.EdgeWeightedGraph G) {
 
         // check weight
         double totalWeight = 0.0;
-        for (Edge e : edges()) {
+        for (edu.princeton.cs.algs4.Edge e : edges()) {
             totalWeight += e.weight();
         }
         double EPSILON = 1E-12;
@@ -148,8 +144,8 @@ public class BoruvkaMST {
         }
 
         // check that it is acyclic
-        UF uf = new UF(G.V());
-        for (Edge e : edges()) {
+        edu.princeton.cs.algs4.UF uf = new edu.princeton.cs.algs4.UF(G.V());
+        for (edu.princeton.cs.algs4.Edge e : edges()) {
             int v = e.either(), w = e.other(v);
             if (uf.connected(v, w)) {
                 System.err.println("Not a forest");
@@ -159,7 +155,7 @@ public class BoruvkaMST {
         }
 
         // check that it is a spanning forest
-        for (Edge e : G.edges()) {
+        for (edu.princeton.cs.algs4.Edge e : G.edges()) {
             int v = e.either(), w = e.other(v);
             if (!uf.connected(v, w)) {
                 System.err.println("Not a spanning forest");
@@ -168,17 +164,17 @@ public class BoruvkaMST {
         }
 
         // check that it is a minimal spanning forest (cut optimality conditions)
-        for (Edge e : edges()) {
+        for (edu.princeton.cs.algs4.Edge e : edges()) {
 
             // all edges in MST except e
-            uf = new UF(G.V());
-            for (Edge f : mst) {
+             uf = new edu.princeton.cs.algs4.UF(G.V());
+            for (edu.princeton.cs.algs4.Edge f : mst) {
                 int x = f.either(), y = f.other(x);
                 if (f != e) uf.union(x, y);
             }
 
             // check that e is min weight edge in crossing cut
-            for (Edge f : G.edges()) {
+            for (edu.princeton.cs.algs4.Edge f : G.edges()) {
                 int x = f.either(), y = f.other(x);
                 if (!uf.connected(x, y)) {
                     if (f.weight() < e.weight()) {
@@ -192,21 +188,19 @@ public class BoruvkaMST {
 
         return true;
     }
+/*
+*
+     * Unit tests the <tt>BoruvkaMST</tt> data type.*/
 
-    */
-/**
-     * Unit tests the <tt>BoruvkaMST</tt> data type.
-     *//*
 
     public static void main(String[] args) {
         In in = new In(args[0]);
-        EdgeWeightedGraph G = new EdgeWeightedGraph(in);
-        BoruvkaMST mst = new BoruvkaMST(G);
-        for (Edge e : mst.edges()) {
+        edu.princeton.cs.algs4.EdgeWeightedGraph G = new edu.princeton.cs.algs4.EdgeWeightedGraph(in);
+        edu.princeton.cs.algs4.BoruvkaMST mst = new edu.princeton.cs.algs4.BoruvkaMST(G);
+        for (edu.princeton.cs.algs4.Edge e : mst.edges()) {
             StdOut.println(e);
         }
         StdOut.printf("%.5f\n", mst.weight());
     }
 
 }
-*/
