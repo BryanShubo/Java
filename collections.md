@@ -1,24 +1,31 @@
  
-I General Questions: 
+####I General Questions: 
+```
 1) What is the Java Collections API? List down its advantages? 
 2) Explain Collections hierarchy? 
 3) Why Collection interface does not extend Cloneable and Serializable interface? 
 4) Why Map interface does not extend Collection interface? 
+ ```
  
-II List interface related: 
+####II List interface related: 
+```
 1) Why we use List interface? What are main classes implementing List interface? 
 2) How to convert an array of String to ArrayList? 
 3) How to reverse the list? 
-4). ArrayList 
-5). LinkedList 
+4) ArrayList 
+5) LinkedList 
+ ```
  
-III Set interface related: 
+####III Set interface related: 
+```
 1) Why we use Set interface? What are main classes implementing Set interface? 
 2) How HashSet store elements? 
 3) Can a null element added to a TreeSet or HashSet? 
 4) TreeSet 
- 
-IV: Map interface related 
+```
+
+####IV: Map interface related 
+```
 1) Why we use Map interface? What are main classes implementing Map interface? 
 2) What are IdentityHashMap and WeakHashMap? 
 3) HashMap, HashTable, and ConcurrentHashMap? 
@@ -26,8 +33,10 @@ IV: Map interface related
 5) How to design a good key for hashmap? 
 6) What are different Collection views provided by Map interface? 
 7) When to use HashMap or TreeMap? 
- 
-V Tell the difference questions:  
+```
+
+####V Tell the difference questions:  
+```
 1) Difference between Set and List? 
 2) Difference between List and Map? 
 3) Difference between HashMap and HashTable? 
@@ -37,8 +46,10 @@ V Tell the difference questions:
 7) Difference between Iterator and ListIterator? 
 8) Difference between TreeSet and SortedSet? 
 9) Difference between ArrayList and LinkedList? 
- 
-VI: More questions:  
+```
+
+####VI: More questions:  
+```
 1) How to make a collection read only? 
 2) How to make a collection thread safe? 
 3) Why there is no method like Iterator.add() to add elements to the collection? 
@@ -53,8 +64,10 @@ VI: More questions:
 12) What is Comparable and Comparator interface? 
 13) What are Collections and Arrays class? 
 14) Tell me an application scenario of ConcurrencyHashmap? 
- 
-General question 
+``` 
+
+#####I.General question 
+```
 1) What is the Java Collection framework? List down its advantages? 
 A collection is an object that represents a group of objects.  
 Like in set theory, a set is group of elements.  
@@ -94,8 +107,10 @@ Another reason is that Cloneable and Serializable are very specialized behavior 
 Collection has a method add(Object o). Map can not have such method because it need key-value pair.  
 There are other reasons also such as Map supports keySet, valueSet etc. Collection classes does not have such views. 
 Due to such big differences, Collection interface was not used in Map interface, and it was build in separate hierarchy. 
+ ```
  
-List interface related 
+#####II. List interface related 
+```
 1) Why we use List interface? What are main classes implementing List interface? 
 list is an “ordered” collection of elements.  
 This ordering is a zero based index.  
@@ -137,8 +152,9 @@ Collections.reverse(list);
 * Unsynchronized 
 * List list = Collections.synchronizedList(new ArrayList(...)); or Synchronized object 
 * if the list is structurally modified, iterator fail-fast.  Throw ConcurrentModificationException (throw is not guaranteed) 
- 
-vectory is synchronized. 
+
+
+ vectory is synchronized. 
  
 5). LinkedList: 
 * Doubly-linked list implementation of the List and Deque interfaces. Allow  null. 
@@ -149,8 +165,10 @@ vectory is synchronized.
 * if the list is structurally modified, iterator fail-fast.  Throw ConcurrentModificationException (throw is not guaranteed) 
  
 9ef 
- 
-Set interface related 
+  ```
+  
+#####III.Set interface related 
+```
 1) Why we use Set interface? What are main classes implementing Set interface? 
 * It is not ordered collection , no duplicates (uniqueness), and at most one null. 
 * Set also adds a stronger contract on the behavior of the equals and hashCode operations, allowing Set instances to be compared meaningfully even if their implementation types differ.  
@@ -201,8 +219,10 @@ NavigableMap is subtype of SortedMap which does not allow null keys. So essentia
  
 * unsynchronized: SortedSet s = Collections.synchronizedSortedSet(new TreeSet(...)); 
 Fail-fast, throw ConcurrentModificationException 
+ ```
  
-Map interface related 
+#####IV. Map interface related 
+```
 1) Why we use Map interface? What are main classes implementing Map interface? 
 * Map interface is a special type of collection which is used to store key-value pairs.  
 * It does not extend Collection interface for this reason.  
@@ -298,8 +318,10 @@ All the views can be navigated using iterators.
 HashMap is well known class and all of us know that. So, I will leave this part by saying that it is used to store key-value pairs and allows to perform many operations on such collection of pairs. 
 TreeMap is special form of HashMap. It maintains the ordering of keys which is missing in HashMap class. This ordering is by default “natural ordering”. The default ordering can be override by providing an instance of Comparator class, whose compare method will be used to maintain ordering of keys. 
 Please note that all keys inserted into the map must implement the Comparable interface (this is necessary to decide the ordering). Furthermore, all such keys must be mutually comparable: k1.compareTo(k2) must not throw a ClassCastException for any keys k1 and k2 in the map. If the user attempts to put a key into the map that violates this constraint (for example, the user attempts to put a string key into a map whose keys are integers), the put(Object key, Object value) call will throw a ClassCastException. 
+ ```
  
-Tell the difference questions 
+#####V. Tell the difference questions 
+```
 1) Difference between Set and List? 
 The most noticeable differences are : 
 Set is unordered collection where List is ordered collection based on zero based index. 
@@ -337,8 +359,10 @@ SortedSet is an interface which TreeSet implements. That’ it !!
 LinkedList store elements within a doubly-linked list data structure. ArrayList store elements within a dynamically resizing array. 
 LinkedList allows for constant-time insertions or removals, but only sequential access of elements. In other words, you can walk the list forwards or backwards, but grabbing an element in the middle takes time proportional to the size of the list. ArrayLists, on the other hand, allow random access, so you can grab any element in constant time. But adding or removing from anywhere but the end requires shifting all the latter elements over, either to make an opening or fill the gap. 
 LinkedList has more memory overhead than ArrayList because in ArrayList each index only holds actual object (data) but in case of LinkedList each node holds both data and address of next and previous node. 
+ ```
  
-More questions 
+#####VI. More questions 
+```
 1) How to make a collection read only? 
 Use following methods: 
 Collections.unmodifiableList(list); 
@@ -397,7 +421,7 @@ Comparable helps in preserving default natural sorting, whereas Comparator helps
 Collections and Arrays classes are special utility classes to support collection framework core classes. They provide utility functions to get read-only/ synchronized collections, sort the collection on various ways etc. 
 Arrays also helps array of objects to convert in collection objects. Arrays also have some functions which helps in copying or working in part of array objects. 
 14) Tell me an application scenario of  ConcurrencyHashmap? 
- 
+ ```
  
  
  
