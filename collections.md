@@ -69,47 +69,51 @@
 #####I.General question 
 1. What is the Java Collection framework? List down its advantages? 
 ```
-A collection is an object that represents a group of objects. Like in set theory, a set is group of elements.  
+1) A collection is an object that represents a group of objects. Like in set theory, a set is group of elements.  
  
-The collections framework was designed and developed primarily by Joshua Bloch, and was introduced in JDK 1.2. 
+2) The collections framework was designed and developed primarily by Joshua Bloch, and was introduced in JDK 1.2. 
  
-Its most noticeable advantages can be listed as: 
-Reduced programming effort due to ready to use code 
-Increased performance because of high-performance implementations of data structures and algorithms 
-Provides interoperability between unrelated APIs by establishing a common language to pass collections back and forth 
-Easy to learn APIs by learning only some top level interfaces and supported operations 
+3) Its most noticeable advantages can be listed as: 
+a. Reduced programming effort due to ready to use code 
+b. Increased performance because of high-performance implementations of data structures and algorithms 
+c. Provides interoperability between unrelated APIs by establishing a common language to pass collections 
+   back and forth 
+d. Easy to learn APIs by learning only some top level interfaces and supported operations 
 ```
+2. Explain Collection’s hierarchy?
+```
+1) Collection interface. It is extended by Set, List and Queue interfaces.  
 
-```
-2) Explain Collection’s hierarchy? 
-Java Collection Hierarchy 
-Java Collection Hierarchy 
-Collection. It is extended by Set, List and Queue interfaces.  
- 
-Remember the signature of Collection interface. It will help you in many question. 
-http://howtodoinjava.com/2013/07/09/useful-java-collection-interview-questions/# 
- 
- 
+2) Map interface. It is extended by sortedMap.
  
 public interface Collection extends Iterable { 
 //method definitions 
 } 
-Framework also consist of Map interface, which is part of collection framework. but it does not extend Collection interface. 
+
+Framework also consist of Map interface, which is part of collection framework. 
+But it does not extend Collection interface. 
  ```
+ 3. Why Collection interface does not extend Cloneable and Serializable interface? 
  ```
-3) Why Collection interface does not extend Cloneable and Serializable interface? 
-Well, simplest answer is “there is no need to do it“.  
-Extending an interface simply means that you are creating a subtype of interface, in other words a more specialized behavior and Collection interface is not expected to do what Cloneable and Serializable interfaces do. 
+1) Well, simplest answer is “there is no need to do it“.  
+
+2)Extending an interface simply means that you are creating a subtype of interface, in other words a more 
+specialized behavior and Collection interface is not expected to do what Cloneable and Serializable interfaces do. 
  
-Another reason is that not everybody will have a reason to have Cloneable collection because if it has very large data, then every unnecessary clone operation will consume a big memory. Beginners might use it without knowing the consequences. 
+3) Another reason is that not everybody will have a reason to have Cloneable collection because if it has 
+very large data, then every unnecessary clone operation will consume a big memory. Beginners might use it 
+without knowing the consequences. 
  
-Another reason is that Cloneable and Serializable are very specialized behavior and so should be implemented only when required. For example, many concrete classes in collection implement these interfaces. So if you want this feature. use these collection classes otherwise use their alternative classes. 
+4) One more reason is that Cloneable and Serializable are very specialized behavior and so should be 
+implemented only when required. For example, many concrete classes in collection implement these interfaces. 
+So if you want this feature. use these collection classes otherwise use their alternative classes. 
+ ```
  
+4 Why Map interface does not extend Collection interface?  
  ```
- ```
-4) Why Map interface does not extend Collection interface? 
- Because they are incompatible.  
-Collection has a method add(Object o). Map can not have such method because it need key-value pair.  
+1) Because they are incompatible.  
+
+2) Collection has a method add(Object o). Map can not have such method because it need key-value pair.  
 There are other reasons also such as Map supports keySet, valueSet etc. Collection classes does not have such views. 
 Due to such big differences, Collection interface was not used in Map interface, and it was build in separate hierarchy. 
  ```
