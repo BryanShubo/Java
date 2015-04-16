@@ -122,23 +122,31 @@ d. You can use variables of an abstract base class to refer to objects of its de
 #####8. Interface 
 ```
 a. Interfaces are abstract classes taken to extremes.  
-* An interface can define only abstract methods and constants. All the members of an interface are implicitly public.  
-* The variables of an interface are implicitly public, final, and static.  
-* So, it is must be initialized and once it is assigned, you cannot change the value of a constant. 
+b. An interface can define only abstract methods and constants. 
+c. All the members of an interface are implicitly public.  
+d. The variables of an interface are implicitly public, final, and static. So, it is must be initialized 
+   and once it is assigned, you cannot change the value of a constant. 
  
 8.1 Implementing multiple interfaces 
-A class can implement multiple interfaces. Also, an interface can extend multiple interfaces. However, a class cannot extends many classes. Because a derived class may inherit different implementations for the same method signature from multiple base classes, multiple inheritance is not allowed in Java. For implementing multiple interfaces, the abstract method has no body part, so it is no problem to override. 
+a. A class can implement multiple interfaces. Also, an interface can "extend" multiple interfaces. 
+b. However, a class cannot extends many classes. Because a derived class may inherit different 
+   implementations for the same method signature from multiple base classes, multiple inheritance 
+   is not allowed in Java. For implementing multiple interfaces, the abstract method has no body 
+   part, so it is no problem to override. 
  
 8.2 An interface extending multiple interfaces 
 class extends class(only one) implements interface…interface(multiple) 
 interface extends interface…interface(multiple) 
-* Java interfaces cannot extend classes, which makes sense since classes contain implementation details that cannot be specified within an interface.  
+a. Java interfaces cannot extend classes, which makes sense since classes contain implementation 
+details that cannot be specified within an interface.  
  
-* What happens if the base interface and subinterface define methods with the same signatures? Or when an interface extends more than one interface that defines the same method? 
+b. What happens if the base interface and subinterface define methods with the same signatures? 
+Or when an interface extends more than one interface that defines the same method? 
  
-The answer is that which of the method is inherited is irrelevant. Because the methods don’t have a method body. 
+The answer is that which of the method is inherited is irrelevant. Because the methods don’t 
+have a method body. 
  
-* POINTS TO NOTE ABOUT CLASS AND INTERFACE INHERITANCE: 
+c. POINTS TO NOTE ABOUT CLASS AND INTERFACE INHERITANCE: 
  
 A class can inherit zero or one class. 
 A class uses the keyword extends to inherit a class. 
@@ -155,11 +163,14 @@ The first concrete class in the hierarchy must supply actual method implementati
 
 #####9. Reference variable and object types 
 ```
-You can use a reference variable of a base class/ derived class to refer to an object of its derived class / base class. It’s interesting to note that these variables can’t access all the variables and methods defined in the derived class or the class that implements the interface. 
+You can use a reference variable of a base class/ derived class to refer to an object of its 
+derived class / base class. It’s interesting to note that these variables can’t access all the 
+variables and methods defined in the derived class or the class that implements the interface. 
  
 9.1 Using a variable of the derived class to access its own object 
  
-When you access an object of the subclass using its own type, you can access all the variables and methods that are defined in its base class and interface—the class Employee and the interface Interviewer. 
+When you access an object of the subclass using its own type, you can access all the variables and 
+methods that are defined in its base class and interface—the class Employee and the interface Interviewer. 
  
 9.2 Using a variable of the base class to access an object of a derived class 
 All members of a derived class can’t be accessed using an object of the base class, it isn't allowed. 
@@ -170,42 +181,58 @@ Cannot access to members of subclass or super class.
 
 #####10. Casting 
 ```
-Casting is the process of forcefully making a variable behave as a variable of another type. If a class shares an IS-A or inheritance relationship with another class or interface, their variables can be cast to each other’s type. 
+Casting is the process of forcefully making a variable behave as a variable of another type. 
+If a class shares an IS-A or inheritance relationship with another class or interface, 
+their variables can be cast to each other’s type. 
 ```
 
 #####11. Use this and super to access objects and constructors 
 ```
 11.1 this() 
-*USING THIS TO ACCESS VARIABLES AND METHODS: You can use the keyword this to refer to all methods and variables that are accessible to a class. 
+a. USING THIS TO ACCESS VARIABLES AND METHODS: You can use the keyword this to refer to 
+all methods and variables that are accessible to a class. 
  
-* this refers to the instance of the class in which it’s used. this can be used to access the inherited members of a base class in the derived class. 
+b. this refers to the instance of the class in which it’s used. this can be used to access 
+the inherited members of a base class in the derived class. 
  
 11.2 super() 
 super refers to the parent or base class of a class. 
  
 11.21 USING SUPER TO ACCESS CONSTRUCTORS OF BASE CLASS 
-If present, a call to a superclass’s constructor must be the first statement in a derived class’s constructor. Otherwise, a call to super(); (the no-arg constructor) is inserted automatically by the compiler. 
+If present, a call to a superclass’s constructor must be the first statement in a derived 
+class’s constructor. Otherwise, a call to super(); (the no-arg constructor) is inserted 
+automatically by the compiler. 
  
 11.22 USING SUPER AND THIS IN STATIC METHODS 
-The keywords super and this are implicit object references. Because static methods belong to a class, not to objects of a class, you can’t use this and super in static methods.  
+The keywords super and this are implicit object references. Because static methods belong 
+to a class, not to objects of a class, you can’t use this and super in static methods.  
 ```
 
 #####12. RULES TO REMEMBER WHEN DEFINING OVERRIDDEN METHODS 
 ```
 1) Overridden methods are defined by classes and interfaces that share inheritance relationships. 
 2) The name of the overridden method must be the same in both the base class and the derived class. 
-3)The argument list passed to the overridden method must be the same in both the base class and derived class. 
-4)The return type of an overriding method in the derived class can be the same, or a subclass of the return type of the overridden method in the base class. When the overriding method returns a subclass of the return type of the overridden method, it is known as a covariant return type. 
+3)The argument list passed to the overridden method must be the same in both the base class and 
+derived class. 
+4)The return type of an overriding method in the derived class can be the same, or a subclass of the 
+return type of the overridden method in the base class. When the overriding method returns a subclass 
+of the return type of the overridden method, it is known as a covariant return type. 
 5) An overridden method defined in the base class can be an abstract method or a non-abstract method. 
-6) Access modifiers for an overriding method can be the same or less restrictive than the method being overridden, but they can’t be more restrictive. 
-7): To implement polymorphism with classes, you can define abstract or non-abstract methods in the base class and override them in the derived classes. 
-#: DO POLYMORPHIC METHODS ALWAYS HAVE TO BE ABSTRACT? No, polymorphic methods don’t always have to be abstract. 
-8): CAN POLYMORPHISM WORK WITH OVERLOADED METHODS? No, polymorphism works only with overridden methods. Overridden methods have the same number and type of method arguments, whereas overloaded methods define a method argument list with either a different number or type of method parameters. 
+6) Access modifiers for an overriding method can be the same or less restrictive than the method being 
+overridden, but they can’t be more restrictive. 
+7): To implement polymorphism with classes, you can define abstract or non-abstract methods in the base 
+class and override them in the derived classes. 
+#: DO POLYMORPHIC METHODS ALWAYS HAVE TO BE ABSTRACT? No, polymorphic methods don’t always have to be 
+abstract. 
+8): CAN POLYMORPHISM WORK WITH OVERLOADED METHODS? No, polymorphism works only with overridden methods. 
+Overridden methods have the same number and type of method arguments, whereas overloaded methods define 
+a method argument list with either a different number or type of method parameters. 
 ```
 
 #####13. Polymorphism 
 ```
-The literal meaning of the word “polymorphism” is “many forms.” The usefulness of polymorphism lies in the ability of an object to behave in its own specific manner when the same action is passed to it. 
+The literal meaning of the word “polymorphism” is “many forms.” The usefulness of polymorphism lies 
+in the ability of an object to behave in its own specific manner when the same action is passed to it. 
  
 13.1.  static binding (early binding) and dynamic binding (late binding) 
 1) Static binding: binding at the compile time. The instance variables. 
@@ -222,7 +249,8 @@ Output:-
 Some Variable in SuperClass 
 Some Variable in SuperClass 
  
-2) Dynamic binding: binding at the run-time. All instance methods but all the static methods. This is the reason why static methods cannot actually be overriden. 
+2) Dynamic binding: binding at the run-time. All instance methods but all the static methods. 
+This is the reason why static methods cannot actually be overriden. 
  
 Example: 
 SuperClass superClass1 = new SuperClass(); 
@@ -234,9 +262,12 @@ superClass2.someMethod(); // SubClass version is called
  
  
 13.2 Polymorphism with interfaces 
-Whereas polymorphism with classes has a class as the base class, polymorphism with interfaces requires a class to implement an interface. Polymorphism with interfaces always involves abstract methods from the implemented interface because interfaces can define only abstract methods. 
+Whereas polymorphism with classes has a class as the base class, polymorphism with interfaces 
+requires a class to implement an interface. Polymorphism with interfaces always involves abstract 
+methods from the implemented interface because interfaces can define only abstract methods. 
  
-1) overloaded methods don’t participate in polymorphism. Only overridden methods—methods with the same method signatures—participate in polymorphism. 
+1) overloaded methods don’t participate in polymorphism. Only overridden methods—methods with the 
+same method signatures—participate in polymorphism. 
 ```
 
 #####14. Java OOPs concepts 
@@ -248,25 +279,38 @@ Polymorphism – many forms
 Data abstraction – hiding the data 
 Inheritance 
  
-2): Every program need to have an input data on which your business logic operates on. This input data is stored in variables and objects, which is a DATA part of your program. 
+2): Every program need to have an input data on which your business logic operates on. This input data 
+is stored in variables and objects, which is a DATA part of your program. 
  
-3): The business logic is defined in terms of business functions which is called as a CODE part of your program. When we combine these data and code together, it forms an encapsulation and gives us something called as a Class. 
+3): The business logic is defined in terms of business functions which is called as a CODE part of your 
+program. When we combine these data and code together, it forms an encapsulation and gives us something 
+called as a Class. 
  
-4): In Java, any method which is static, can only access other static members directly and to access non-static members, it needs an object. 
+4): In Java, any method which is static, can only access other static members directly and to access 
+non-static members, it needs an object. 
  
 5): An object in java is always initialized dynamically using “new” keyword. 
  
-6): When a class does not have any constructor defined, then JVM provides a default constructor which is invoked during object initialization. 
+6): When a class does not have any constructor defined, then JVM provides a default constructor 
+which is invoked during object initialization. 
  
 7): When a program is having some initialization statements, those can be defined within a constructor. 
  
-8): A block which has a same name as a class name, does not have any return type, used to initialize global variables and gets invoked automatically whenever an object of that class is dynamically initialized is called as a Constructor. 
+8): A block which has a same name as a class name, does not have any return type, used to initialize 
+global variables and gets invoked automatically whenever an object of that class is dynamically initialized 
+is called as a Constructor. 
  
-9): A class can have more than one constructor but with a change in their signatures (No. of parameters and/or type of parameters). This is called as a constructor overloading. 
+9): A class can have more than one constructor but with a change in their signatures (No. of parameters 
+and/or type of parameters). This is called as a constructor overloading. 
  
-10): If one constructor of a class is required to invoke another constructor of the same class, you need to use a keyword called as “this”. But “this” statement must be declared as the first statement in that block. The this statement will run first. super() won’t be invoked in this block. After this statement is finished, the rest of statement will be executed. super statement must be also declared as the first statement in that block. So it is impossible to use both this and super in a block. 
+10): If one constructor of a class is required to invoke another constructor of the same class, you need 
+to use a keyword called as “this”. But “this” statement must be declared as the first statement in that 
+block. The this statement will run first. super() won’t be invoked in this block. After this statement 
+is finished, the rest of statement will be executed. super statement must be also declared as the first 
+statement in that block. So it is impossible to use both this and super in a block. 
  
-11): A class can have many forms of a method with the same name but with different signatures which is called as Method Overloading. We cannot overload a method just by changing the return type. 
+11): A class can have many forms of a method with the same name but with different signatures which is 
+called as Method Overloading. We cannot overload a method just by changing the return type. 
  
 12): private members are not visible in the sub class. But you can override private method in sub class. 
 ```
@@ -277,26 +321,34 @@ interface can multi-implements but class can only extends one abstract
 methods in interface are all claim as public but abstract don’t need to 
 class variables in interface are all static & final but abstract not required 
 interface don’t allow implemented method, abstract not required 
-methods in implement class are all need to be implement, but in extend class don’t need to implement except non-abstract modifier. 
+methods in implement class are all need to be implement, but in extend class don’t need to implement 
+except non-abstract modifier. 
 ```
 
 #####16: What are some alternatives to inheritance? 
 ```
 1): Delegation is an alternative to inheritance.  
-2) Delegation means that you include an instance of another class as an instance variable, and forward messages to the instance.  
-3) It is often safer than inheritance because it forces you to think about each message you forward, because the instance is of a known class, rather than a new class, and because it doesn't force you to accept all the methods of the super class. 
-4) you can provide only the methods that really make sense. On the other hand, it makes you write more code, and it is harder to reuse (because it is not a subclass). 
+2) Delegation means that you include an instance of another class as an instance variable, and forward 
+messages to the instance.  
+3) It is often safer than inheritance because it forces you to think about each message you forward, 
+because the instance is of a known class, rather than a new class, and because it doesn't force you to 
+accept all the methods of the super class. 
+4) you can provide only the methods that really make sense. On the other hand, it makes you write more code, 
+and it is harder to reuse (because it is not a subclass). 
 ```
 
 #####17. inner class vs nested class 
 ```
 1) Nested class consists of static nested class and not-static nested class (inner class). 
  
-2)  An instance of an inner class has access to all of the members of the outer class, even those that are marked “private”.  In outer class, it needs an inner class object to access inner class members. 
+2)  An instance of an inner class has access to all of the members of the outer class, even those that 
+are marked “private”.  In outer class, it needs an inner class object to access inner class members. 
  
 3): If an inner class contains at least one static member, then the inner class must be declared as static. 
-4): A static nested class can access only static members of outer class and to access non-static members, it needs an object of outer class. 
+4): A static nested class can access only static members of outer class and to access non-static members, 
+it needs an object of outer class. 
 5): Any static method of outer class can directly access static inner class. 
 6):  A nested class can be declared within a loop, if else, method OR anywhere within the class. 
-7): An inner class which is defined inside a method can only access final type of variables from within the method but everything from outside the method. 
+7): An inner class which is defined inside a method can only access final type of variables from within 
+the method but everything from outside the method. 
 ``` 
