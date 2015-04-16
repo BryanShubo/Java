@@ -1,12 +1,13 @@
-###1. Creating String objects 
-###2. Comparison 
-###3. String constant pool:  
-###4. The class String is immutable 
-###5. Methods of the class String:  
-###6. StringBuffer vs StringBuilder 
-###7. How to put a String into constant String pool? 
+####1. Creating String objects 
+####2. Comparison 
+####3. String constant pool:  
+####4. The class String is immutable 
+####5. Methods of the class String:  
+####6. StringBuffer vs StringBuilder 
+####7. How to put a String into constant String pool? 
  
-1.Creating String objects 
+#####1.Creating String objects 
+```
 String s1 = new String(“Java1”);  
 // create a new object in heap. Dynamic allocation, it is given by programmer 
  
@@ -17,7 +18,8 @@ whether a defined String object put into String constant pool or not ?
 judge whether it can be compiled before runtime in JVM. 
  
 reference of String always store in heap, but actual object itself it depends situation: 1. if it can be compiled, it will stored in constant pool. 2. if it can’t (new keyword), it will stored in heap. 
- 
+```
+
 2. Comparison 
 The operator == compares the addresses of the objects referred to two strings.  
  
