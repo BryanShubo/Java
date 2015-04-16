@@ -67,10 +67,9 @@
 ``` 
 
 #####I.General question 
+1. What is the Java Collection framework? List down its advantages? 
 ```
-1) What is the Java Collection framework? List down its advantages? 
-A collection is an object that represents a group of objects.  
-Like in set theory, a set is group of elements.  
+A collection is an object that represents a group of objects. Like in set theory, a set is group of elements.  
  
 The collections framework was designed and developed primarily by Joshua Bloch, and was introduced in JDK 1.2. 
  
