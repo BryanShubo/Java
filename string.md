@@ -59,11 +59,14 @@ The immutability of String objects helps the JVM reuse String objects,
 reducing memory overhead and increasing performance. 
 1): STRING USES A CHAR ARRAY TO STORE ITS VALUE: The arrays are fixed in size—they 
 can’t grow once they’re initialized. 
+
 2): STRING USES FINAL VARIABLE TO STORE ITS VALUE 
+
 3): METHODS OF STRING DON’T MODIFY THE CHAR ARRAY: All the methods defined in the class String, 
 such as substring, concat, toLowerCase, toUpperCase, trim, and so on, which seem to modify the 
 contents of the String object on which they’re called, create and return a new String object, 
 rather than modifying the existing value. 
+
 4): Strings are immutable. Once initialized, a String value can’t be modified. 
 All the String methods that return a modified String value return a new String object 
 with the modified value. The original String value always remains the same. 
@@ -72,20 +75,27 @@ with the modified value. The original String value always remains the same.
 ####5. Methods of the class String:  
 ```
 1)charAt(int index): retrieve a character at a specified index of a String. 
+
 2) indexOf(char or String): If the specified char or String is found in the target String, 
 this method returns the first matching position; otherwise, it returns -1; 
+
 3) substring(int start) or substring(int start, end), the first returns a substring of a 
 String from the position you specify to the end of the String. An interesting point of second method 
 is that the return string does not include the last character. 
 For instance, s.substring(2,4) return s[2], s[3]. 
+
 4) trim(): method returns a new String by removing all the leading and trailing white space 
 in a String. White spaces are blanks (new lines, spaces, or tabs). 
+
 5) replace(char, char) or replace(String, String) cannot mix it: This method will return 
 a new String by replacing all the occurrences of a char with another char. Instead of 
 specifying a char to be replaced by another char, you can also specify a sequence of 
 characters—a String to be replaced by another String. 
+
 6) length(): method to retrieve the length of a String. 
+
 7) startsWith(String) or startsWith(String, int) / endsWith(String) 
+
 8) method chaining: evaluated from left to right. 
  ```
  
