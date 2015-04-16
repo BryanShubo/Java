@@ -10,7 +10,9 @@ all the objects of a class.
 ```
 #####2. overloaded methods 
 ```
-Overloaded methods are methods with the same name but different method parameter lists. Overloaded methods accept different lists of arguments. The argument lists can differ in terms of any of the following: 
+Overloaded methods are methods with the same name but different method parameter lists. 
+Overloaded methods accept different lists of arguments. The argument lists can differ 
+in terms of any of the following: 
  
 1) Change in the number of parameters that are accepted 
 2) Change in the types of parameters that are accepted 
@@ -19,9 +21,12 @@ Overloaded methods are methods with the same name but different method parameter
 
 #####3. What is Overriding? 
 ```
-When a class defines a method using the same name, return type, and arguments as a method in its superclass, the method in the class overrides the method in the superclass. 
+When a class defines a method using the same name, return type, and arguments as a method 
+in its superclass, the method in the class overrides the method in the superclass. 
  
-When the method is invoked for an object of the class, it is the new definition of the method that is called, and not the method definition from superclass. Methods may be overridden to be more public, not more private. (private->default->protected->public) 
+When the method is invoked for an object of the class, it is the new definition of the 
+method that is called, and not the method definition from superclass. Methods may be overridden 
+to be more public, not more private. (private->default->protected->public) 
 ``` 
  
 #####4. Constructors of a class 
@@ -31,12 +36,18 @@ default, and user-defined constructors, and create overloaded constructors.
 4.1) why you can’t define a return type for a constructor? 
 It creates and returns an object of its class. 
  
-4.2)  initializer block is used to initialize the variables of anonymous classes. An anonymous class is a type of inner class. In the absence of a name, anonymous classes can’t define a constructor and rely on an initializer block to initialize their variables upon the creation of an object of their class.  
+4.2)  initializer block is used to initialize the variables of anonymous classes. 
+An anonymous class is a type of inner class. In the absence of a name, anonymous classes can’t 
+define a constructor and rely on an initializer block to initialize their variables upon the 
+creation of an object of their class.  
  
 A lot of action can happen within an initializer block:  
-It can create local variables. 
-It can access and assign values to instance and static variables.  
-It can call methods and define loops, conditional statements, and try-catch-finally blocks. Unlike constructors, an initializer block can’t accept method parameters. 
+a. It can create local variables. 
+b. It can access and assign values to instance and static variables.  
+c. It can call methods and define loops, conditional statements, and 
+try-catch-finally blocks. Unlike constructors, an initializer block can’t accept 
+method parameters. 
+
 Example:  
 class Employee { 
 Employee() { 
@@ -55,29 +66,30 @@ Output:
 Employee:initializer 
 Employee:constructor 
  
- 
- 
 4.3) Default constructor 
 Java defines a default, no-argument constructor if and only if you don’t define a constructor.  
  
 It calls the constructor of the super (parent) class and assigns default values to all the instance variables. 
  
-But if you modify the class later by adding a constructor to it, the Java compiler will remove the default, no argument constructor that it initially added to the class. 
+But if you modify the class later by adding a constructor to it, the Java compiler will remove the default, 
+no argument constructor that it initially added to the class. 
  
 4.4)  Overloaded constructors 
 Here’s a quick list of rules to remember for the exam for defining and using overloaded constructors: 
  
-Overloaded constructors must be defined using different argument lists. 
-Overloaded constructors can’t be defined by just a change in the access modifiers. 
-Overloaded constructors may be defined using different access modifiers. 
-A constructor can call another overloaded constructor by using the keyword this. 
-A constructor can’t invoke a constructor by using its class’s name. 
-If present, the call to another constructor must be the first statement in a constructor. 
+a. Overloaded constructors must be defined using different argument lists. 
+b. Overloaded constructors can’t be defined by just a change in the access modifiers. 
+c. Overloaded constructors may be defined using different access modifiers. 
+d. A constructor can call another overloaded constructor by using the keyword this. 
+e. A constructor can’t invoke a constructor by using its class’s name. 
+f. If present, the call to another constructor must be the first statement in a constructor. 
 ``` 
  
 #####5. Encapsulation
 ```
-The terms encapsulation and information hiding are used interchangeably. One of the best ways to create a well-encapsulated class is to define its instance variables as private variables and allow access to these variables using public methods. 
+The terms encapsulation and information hiding are used interchangeably. One of the best ways to 
+create a well-encapsulated class is to define its instance variables as private variables and 
+allow access to these variables using public methods. 
 ``` 
  
 #####6 . Passing objects and primitives to methods 
@@ -96,18 +108,20 @@ Default— accessible to same package.
 protected—accessible to all the derived classes, regardless of the package 
 public—visible to all the other classes. 
  
-7.2 A derived class can call a base class’s constructors using the implicit reference super, but it doesn’t inherit them. 
+7.2 A derived class can call a base class’s constructors using the implicit reference super, 
+but it doesn’t inherit them. 
  
 7.3 Implementing inheritance using an abstract base class: 
-*You can never create objects of an abstract class. 
-*A base class can be defined as an abstract class, even if it doesn’t define any abstract methods. 
-*A derived class should implement all the abstract methods of its base class. If it doesn’t, it must be defined as an abstract derived class. 
-*You can use variables of an abstract base class to refer to objects of its derived class. 
+a. You can never create objects of an abstract class. 
+b. A base class can be defined as an abstract class, even if it doesn’t define any abstract methods. 
+c. A derived class should implement all the abstract methods of its base class. If it doesn’t, 
+it must be defined as an abstract derived class. 
+d. You can use variables of an abstract base class to refer to objects of its derived class. 
 ```
 
 #####8. Interface 
 ```
-* Interfaces are abstract classes taken to extremes.  
+a. Interfaces are abstract classes taken to extremes.  
 * An interface can define only abstract methods and constants. All the members of an interface are implicitly public.  
 * The variables of an interface are implicitly public, final, and static.  
 * So, it is must be initialized and once it is assigned, you cannot change the value of a constant. 
