@@ -132,6 +132,25 @@ to manipulate the collection based on index location of element. These methods c
 search, get, iteration and range view. All above operations support index locations. 
 The main classes implementing List interface are: Stack, Vector, ArrayList and LinkedList. 
 ```
+2. Array
+```
+1) Copy array
+int[] copiedArray = Arrays.copyOf(sourceArray, length); // length meaning how many elements you want to copy from
+                                                        // sourceArray
+
+2) Allocating an array dynamically in java? NO. Array is static.
+
+3) Change the length of an array? No. You have to create a new array and copy the sourceArray.
+sourceArray.size()== 3;
+int[] newArray = Arrays.copyOf(sourceArray, 6);// change the length
+
+4) Sort an array
+Arrays.sort(arrayToSort); // It is a static method.
+
+5) Array vs ArrayList
+Array is static and not used for dynamic length changing.
+```
+
 2 How to convert an array of String to arraylist? 
 ```
 1) For now, lets learn that there are two utility classes in Collection framework which are mostly seen 
