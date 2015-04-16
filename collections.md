@@ -67,7 +67,7 @@
 ``` 
 
 #####I.General question 
-1. What is the Java Collection framework? List down its advantages? 
+1 What is the Java Collection framework? List down its advantages? 
 ```
 1) A collection is an object that represents a group of objects. Like in set theory, a set is group of elements.  
  
@@ -80,7 +80,7 @@ c. Provides interoperability between unrelated APIs by establishing a common lan
    back and forth 
 d. Easy to learn APIs by learning only some top level interfaces and supported operations 
 ```
-2. Explain Collection’s hierarchy?
+2 Explain Collection’s hierarchy?
 ```
 1) Collection interface. It is extended by Set, List and Queue interfaces.  
 
@@ -93,7 +93,7 @@ public interface Collection extends Iterable {
 Framework also consist of Map interface, which is part of collection framework. 
 But it does not extend Collection interface. 
 ```
-3. Why Collection interface does not extend Cloneable and Serializable interface? 
+3 Why Collection interface does not extend Cloneable and Serializable interface? 
 ```
 1) Well, simplest answer is “there is no need to do it“.  
 
@@ -119,42 +119,42 @@ Due to such big differences, Collection interface was not used in Map interface,
 ```
  
 #####II. List interface related 
+1 Why we use List interface? What are main classes implementing List interface?
 ```
-1) Why we use List interface? What are main classes implementing List interface? 
-list is an “ordered” collection of elements.  
-This ordering is a zero based index.  
-It allows duplicates. 
-Apart from methods defined in Collection interface, it does have its own methods also which are largely to manipulate the collection based on index location of element. These methods can be grouped as search, get, iteration and range view. All above operations support index locations. 
+1) list is an “ordered” collection of elements.  
+
+2) This ordering is a zero based index.  
+
+3) It allows duplicates. 
+
+4) Apart from methods defined in Collection interface, it does have its own methods also which are largely 
+to manipulate the collection based on index location of element. These methods can be grouped as 
+search, get, iteration and range view. All above operations support index locations. 
 The main classes implementing List interface are: Stack, Vector, ArrayList and LinkedList. 
- 
-2) How to convert an array of String to arraylist? 
-For now, lets learn that there are two utility classes in Collection framework which are mostly seen in interviews i.e. Collections and Arrays. 
-Collections class provides some static functions to perform specific operations on collection types. And Arrays provide utility functions to be performed on array types.http://howtodoinjava.com/2013/07/09/useful-java-collection-interview-questions/# 
-1 
-2 
-3 
-4 
-5 
+```
+2 How to convert an array of String to arraylist? 
+```
+1) For now, lets learn that there are two utility classes in Collection framework which are mostly seen 
+in interviews i.e. Collections and Arrays. 
+
+2) Collections class provides some static functions to perform specific operations on collection types. 
+And Arrays provide utility functions to be performed on array types. 
+
 //String array 
 String[] words = {"ace", "boom", "crew", "dog", "eon"}; 
 //Use Arrays utility class 
 List wordList = Arrays.asList(words); 
 //Now you can iterate over the list 
-Please not that this function is not specific to String class, it will return List of element of any type, of which the array is. e.g.http://howtodoinjava.com/2013/07/09/useful-java-collection-interview-questions/# 
-1 
-2 
-3 
-4 
+Please not that this function is not specific to String class, it will return List of element of any type, of which the array is. 
+
 //String array 
 Integer[] nums = {1,2,3,4}; 
 //Use Arrays utility class 
 List numsList = Arrays.asList(nums); 
  
 3) How to reverse the list? 
-Use it reverse() method to reverse the list.http://howtodoinjava.com/2013/07/09/useful-java-collection-interview-questions/# 
-1 
+Use it reverse() method to reverse the list.
 Collections.reverse(list); 
- 
  
 4) ArrayList: 
 * Resizable-array implementation of the List interface. Allow null. 
@@ -162,19 +162,16 @@ Collections.reverse(list);
 * List list = Collections.synchronizedList(new ArrayList(...)); or Synchronized object 
 * if the list is structurally modified, iterator fail-fast.  Throw ConcurrentModificationException (throw is not guaranteed) 
 
-
- vectory is synchronized. 
+vectory is synchronized. 
  
 5). LinkedList: 
 * Doubly-linked list implementation of the List and Deque interfaces. Allow  null. 
 * All of the operations perform as could be expected for a doubly-linked list.  
-* Operations that index into the list will traverse the list from the beginning or the end, whichever is closer to the specified index. 
+* Operations that index into the list will traverse the list from the beginning or the end, whichever is closer to the       specified index. 
 * Unsynchronized.  
 * List list = Collections.synchronizedList(new LinkedList()) or Synchronized object 
 * if the list is structurally modified, iterator fail-fast.  Throw ConcurrentModificationException (throw is not guaranteed) 
- 
-9ef 
-  ```
+ ```
   
 #####III.Set interface related 
 ```
