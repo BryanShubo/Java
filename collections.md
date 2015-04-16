@@ -92,9 +92,9 @@ public interface Collection extends Iterable {
 
 Framework also consist of Map interface, which is part of collection framework. 
 But it does not extend Collection interface. 
- ```
- 3. Why Collection interface does not extend Cloneable and Serializable interface? 
- ```
+```
+3. Why Collection interface does not extend Cloneable and Serializable interface? 
+```
 1) Well, simplest answer is “there is no need to do it“.  
 
 2)Extending an interface simply means that you are creating a subtype of interface, in other words a more 
@@ -107,16 +107,16 @@ without knowing the consequences.
 4) One more reason is that Cloneable and Serializable are very specialized behavior and so should be 
 implemented only when required. For example, many concrete classes in collection implement these interfaces. 
 So if you want this feature. use these collection classes otherwise use their alternative classes. 
- ```
+```
  
 4 Why Map interface does not extend Collection interface?  
- ```
+```
 1) Because they are incompatible.  
 
 2) Collection has a method add(Object o). Map can not have such method because it need key-value pair.  
 There are other reasons also such as Map supports keySet, valueSet etc. Collection classes does not have such views. 
 Due to such big differences, Collection interface was not used in Map interface, and it was build in separate hierarchy. 
- ```
+```
  
 #####II. List interface related 
 ```
