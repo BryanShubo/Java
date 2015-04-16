@@ -132,7 +132,8 @@ to manipulate the collection based on index location of element. These methods c
 search, get, iteration and range view. All above operations support index locations. 
 The main classes implementing List interface are: Stack, Vector, ArrayList and LinkedList. 
 ```
-2. Array
+
+2 Array
 ```
 1) Copy array
 int[] copiedArray = Arrays.copyOf(sourceArray, length); // length meaning how many elements you want to copy from
