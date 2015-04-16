@@ -79,6 +79,9 @@ Reduced programming effort due to ready to use code
 Increased performance because of high-performance implementations of data structures and algorithms 
 Provides interoperability between unrelated APIs by establishing a common language to pass collections back and forth 
 Easy to learn APIs by learning only some top level interfaces and supported operations 
+```
+
+```
 2) Explain Collection’s hierarchy? 
 Java Collection Hierarchy 
 Java Collection Hierarchy 
@@ -93,7 +96,8 @@ public interface Collection extends Iterable {
 //method definitions 
 } 
 Framework also consist of Map interface, which is part of collection framework. but it does not extend Collection interface. 
- 
+ ```
+ ```
 3) Why Collection interface does not extend Cloneable and Serializable interface? 
 Well, simplest answer is “there is no need to do it“.  
 Extending an interface simply means that you are creating a subtype of interface, in other words a more specialized behavior and Collection interface is not expected to do what Cloneable and Serializable interfaces do. 
@@ -102,6 +106,8 @@ Another reason is that not everybody will have a reason to have Cloneable collec
  
 Another reason is that Cloneable and Serializable are very specialized behavior and so should be implemented only when required. For example, many concrete classes in collection implement these interfaces. So if you want this feature. use these collection classes otherwise use their alternative classes. 
  
+ ```
+ ```
 4) Why Map interface does not extend Collection interface? 
  Because they are incompatible.  
 Collection has a method add(Object o). Map can not have such method because it need key-value pair.  
