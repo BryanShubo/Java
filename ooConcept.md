@@ -1,24 +1,31 @@
-1. Scope of variables 
+#####1. Scope of variables 
+```
 1) Local variables: must be initialized. 
  
-2) Instance variables:  is available for the life of an object. These are the values that need to be accessed by multiple methods. It has a default value. 
+2) Instance variables:  is available for the life of an object. These are the values that need to be 
+accessed by multiple methods. It has a default value. 
  
-3 Class variables (static variables): are used to store values that should be shared by all the objects of a class. 
- 
-2. overloaded methods 
+3) Class variables (static variables): are used to store values that should be shared by 
+all the objects of a class. 
+```
+#####2. overloaded methods 
+```
 Overloaded methods are methods with the same name but different method parameter lists. Overloaded methods accept different lists of arguments. The argument lists can differ in terms of any of the following: 
  
 1) Change in the number of parameters that are accepted 
 2) Change in the types of parameters that are accepted 
 3) Change in the positions of the parameters that are accepted (based on parameter type, not variable names) 
- 
-3. What is Overriding? 
+```
+
+#####3. What is Overriding? 
+```
 When a class defines a method using the same name, return type, and arguments as a method in its superclass, the method in the class overrides the method in the superclass. 
  
 When the method is invoked for an object of the class, it is the new definition of the method that is called, and not the method definition from superclass. Methods may be overridden to be more public, not more private. (private->default->protected->public) 
+``` 
  
- 
-4. Constructors of a class 
+#####4. Constructors of a class 
+```
 default, and user-defined constructors, and create overloaded constructors. 
  
 4.1) why you can’t define a return type for a constructor? 
@@ -66,18 +73,22 @@ Overloaded constructors may be defined using different access modifiers.
 A constructor can call another overloaded constructor by using the keyword this. 
 A constructor can’t invoke a constructor by using its class’s name. 
 If present, the call to another constructor must be the first statement in a constructor. 
+``` 
  
- 
-5. Encapsulation 
+#####5. Encapsulation
+```
 The terms encapsulation and information hiding are used interchangeably. One of the best ways to create a well-encapsulated class is to define its instance variables as private variables and allow access to these variables using public methods. 
+``` 
  
- 
-6 . Passing objects and primitives to methods 
+#####6 . Passing objects and primitives to methods 
+```
 6.1. Passing primitives to methods: value is not modified. 
  
 6.2 Passing object references to methods: value is modified. 
- 
-7. Inheritance 
+```
+
+#####7. Inheritance 
+```
 7.1 Which base class members are inherited by a derived class? 
 A derived class inherits all the non-private members of its base class.  
  
@@ -92,8 +103,10 @@ public—visible to all the other classes.
 *A base class can be defined as an abstract class, even if it doesn’t define any abstract methods. 
 *A derived class should implement all the abstract methods of its base class. If it doesn’t, it must be defined as an abstract derived class. 
 *You can use variables of an abstract base class to refer to objects of its derived class. 
- 
-8. Interface 
+```
+
+#####8. Interface 
+```
 * Interfaces are abstract classes taken to extremes.  
 * An interface can define only abstract methods and constants. All the members of an interface are implicitly public.  
 * The variables of an interface are implicitly public, final, and static.  
@@ -124,8 +137,10 @@ An abstract class can extend a concrete class and vice versa.
 An abstract class can implement interfaces. 
 An abstract class can extend another abstract class. 
 The first concrete class in the hierarchy must supply actual method implementations for all abstract methods. 
- 
-9. Reference variable and object types 
+```
+
+#####9. Reference variable and object types 
+```
 You can use a reference variable of a base class/ derived class to refer to an object of its derived class / base class. It’s interesting to note that these variables can’t access all the variables and methods defined in the derived class or the class that implements the interface. 
  
 9.1 Using a variable of the derived class to access its own object 
@@ -137,11 +152,15 @@ All members of a derived class can’t be accessed using an object of the base c
  
 9.3 Using a variable of an implemented interface to access a derived class object 
 Cannot access to members of subclass or super class. 
- 
-10. Casting 
+```
+
+#####10. Casting 
+```
 Casting is the process of forcefully making a variable behave as a variable of another type. If a class shares an IS-A or inheritance relationship with another class or interface, their variables can be cast to each other’s type. 
- 
-11. Use this and super to access objects and constructors 
+```
+
+#####11. Use this and super to access objects and constructors 
+```
 11.1 this() 
 *USING THIS TO ACCESS VARIABLES AND METHODS: You can use the keyword this to refer to all methods and variables that are accessible to a class. 
  
@@ -155,9 +174,10 @@ If present, a call to a superclass’s constructor must be the first statement i
  
 11.22 USING SUPER AND THIS IN STATIC METHODS 
 The keywords super and this are implicit object references. Because static methods belong to a class, not to objects of a class, you can’t use this and super in static methods.  
- 
-12. RULES TO REMEMBER WHEN DEFINING OVERRIDDEN METHODS 
- 
+```
+
+#####12. RULES TO REMEMBER WHEN DEFINING OVERRIDDEN METHODS 
+```
 1) Overridden methods are defined by classes and interfaces that share inheritance relationships. 
 2) The name of the overridden method must be the same in both the base class and the derived class. 
 3)The argument list passed to the overridden method must be the same in both the base class and derived class. 
@@ -167,8 +187,10 @@ The keywords super and this are implicit object references. Because static metho
 7): To implement polymorphism with classes, you can define abstract or non-abstract methods in the base class and override them in the derived classes. 
 #: DO POLYMORPHIC METHODS ALWAYS HAVE TO BE ABSTRACT? No, polymorphic methods don’t always have to be abstract. 
 8): CAN POLYMORPHISM WORK WITH OVERLOADED METHODS? No, polymorphism works only with overridden methods. Overridden methods have the same number and type of method arguments, whereas overloaded methods define a method argument list with either a different number or type of method parameters. 
- 
-13. Polymorphism 
+```
+
+#####13. Polymorphism 
+```
 The literal meaning of the word “polymorphism” is “many forms.” The usefulness of polymorphism lies in the ability of an object to behave in its own specific manner when the same action is passed to it. 
  
 13.1.  static binding (early binding) and dynamic binding (late binding) 
@@ -201,8 +223,10 @@ superClass2.someMethod(); // SubClass version is called
 Whereas polymorphism with classes has a class as the base class, polymorphism with interfaces requires a class to implement an interface. Polymorphism with interfaces always involves abstract methods from the implemented interface because interfaces can define only abstract methods. 
  
 1) overloaded methods don’t participate in polymorphism. Only overridden methods—methods with the same method signatures—participate in polymorphism. 
- 
-14. Java OOPs concepts 
+```
+
+#####14. Java OOPs concepts 
+```
 1) Traditional programming vs. object oriented programming 
  
 Encapsulation 
@@ -231,25 +255,27 @@ Inheritance
 11): A class can have many forms of a method with the same name but with different signatures which is called as Method Overloading. We cannot overload a method just by changing the return type. 
  
 12): private members are not visible in the sub class. But you can override private method in sub class. 
- 
- 
- 
- 
- 
- 14: What is the difference between an Interface and an Abstract class? 
+```
+
+#####15: What is the difference between an Interface and an Abstract class? 
+```
 interface can multi-implements but class can only extends one abstract 
 methods in interface are all claim as public but abstract don’t need to 
 class variables in interface are all static & final but abstract not required 
 interface don’t allow implemented method, abstract not required 
 methods in implement class are all need to be implement, but in extend class don’t need to implement except non-abstract modifier. 
- 
-15: What are some alternatives to inheritance? 
+```
+
+#####16: What are some alternatives to inheritance? 
+```
 1): Delegation is an alternative to inheritance.  
 2) Delegation means that you include an instance of another class as an instance variable, and forward messages to the instance.  
 3) It is often safer than inheritance because it forces you to think about each message you forward, because the instance is of a known class, rather than a new class, and because it doesn't force you to accept all the methods of the super class. 
 4) you can provide only the methods that really make sense. On the other hand, it makes you write more code, and it is harder to reuse (because it is not a subclass). 
- 
-16. inner class vs nested class 
+```
+
+#####17. inner class vs nested class 
+```
 1) Nested class consists of static nested class and not-static nested class (inner class). 
  
 2)  An instance of an inner class has access to all of the members of the outer class, even those that are marked “private”.  In outer class, it needs an inner class object to access inner class members. 
@@ -259,4 +285,4 @@ methods in implement class are all need to be implement, but in extend class don
 5): Any static method of outer class can directly access static inner class. 
 6):  A nested class can be declared within a loop, if else, method OR anywhere within the class. 
 7): An inner class which is defined inside a method can only access final type of variables from within the method but everything from outside the method. 
- 
+``` 
