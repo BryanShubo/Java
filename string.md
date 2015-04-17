@@ -70,6 +70,15 @@ rather than modifying the existing value.
 4): Strings are immutable. Once initialized, a String value can’t be modified. 
 All the String methods that return a modified String value return a new String object 
 with the modified value. The original String value always remains the same. 
+
+5): Examples
+String s1 = "abc";
+s1.concate("d");
+System.out.println(s1); // abc
+
+StringBuffer s2 = new StringBuffer("abc");
+s2.append("d");
+System.out.println(s2); // abcd
  ```
  
 ####5. Methods of the class String:  
