@@ -1,4 +1,6 @@
-Following features of C++ are not there in Java. 
+
+#####Following features of C++ are not there in Java. 
+```
 No pointers 
 No sizeof operator 
 No scope resolution operator 
@@ -19,9 +21,10 @@ No global variables, no global function because java is pure OO.
 No friend functions 
 No friend classes 
 No templates in java 
+```
  
- 
-Final variables in Java 
+#####Final variables in Java 
+```
 In Java, when final keyword is used with a variable of primitive data types (int, float, .. etc), value of the variable cannot be changed. 
 For example following program gives error because i is final. 
 public class Test { 
@@ -41,6 +44,7 @@ public class Test2 {
       t1.i = 30;  // Works 
     } 
 } 
+```
  
  
 How are Java objects stored in memory? 
