@@ -26,6 +26,7 @@ No templates in java
 #####Final variables in Java 
 ```
 In Java, when final keyword is used with a variable of primitive data types (int, float, .. etc), value of the variable cannot be changed. 
+
 For example following program gives error because i is final. 
 public class Test { 
     public static void main(String args[]) { 
@@ -33,7 +34,10 @@ public class Test {
         i = 30; // Error because i is final. 
     } 
 } 
-When final is used with non-primitive variables (Note that non-primitive variables are always references to objects in Java), the members of the referred object can be changed. final for non-primitive variables just mean that they cannot be changed to refer to any other object 
+When final is used with non-primitive variables (Note that non-primitive variables are always references
+to objects in Java), the members of the referred object can be changed. final for non-primitive variables 
+just mean that they cannot be changed to refer to any other object 
+
 class Test1 { 
    int i = 10; 
 } 
@@ -49,18 +53,27 @@ public class Test2 {
  
 #####How are Java objects stored in memory? 
 ```
-In Java, all objects are dynamically allocated. When we only declare a variable of a class type, Java just creates a reference. To allocate memory to an object, we must use new(). 
+In Java, all objects are dynamically allocated. When we only declare a variable of a class type, 
+Java just creates a reference. To allocate memory to an object, we must use new(). 
 ```
 
 ```
 New features in Java SE 8 
-Lambda Expressions; Pipelines and Streams; Date and Time API; Default Methods; Type Annotations; Nashhorn JavaScript Engine; Concurrent Accumulators; Parallel operations; PermGen Error Removed; TLS SNI 
+Lambda Expressions; Pipelines and Streams; Date and Time API; Default Methods; Type Annotations; 
+Nashhorn JavaScript Engine; Concurrent Accumulators; Parallel operations; PermGen Error Removed; TLS SNI 
+
 New features in Java SE 7 
-Strings in switch Statement; Type Inference for Generic Instance Creation; Multiple Exception Handling; Support for Dynamic Languages; Try with Resources; Java nio Package; Binary Literals, underscore in literals; Diamond Syntax; Automatic null Handling 
+Strings in switch Statement; Type Inference for Generic Instance Creation; Multiple Exception Handling; 
+Support for Dynamic Languages; Try with Resources; Java nio Package; Binary Literals, underscore in literals; 
+Diamond Syntax; Automatic null Handling 
+
 New features in Java SE 6 
-Scripting Language Support; JDBC 4.0 API; Java Compiler API; Pluggable Annotations; Native PKI, Java GSS, Kerberos and LDAP support; Integrated Web Services; Lot more enhancements. 
+Scripting Language Support; JDBC 4.0 API; Java Compiler API; Pluggable Annotations; Native PKI, Java GSS,
+Kerberos and LDAP support; Integrated Web Services; Lot more enhancements. 
+
 New features in J2SE 5.0 
-Generics; Enhanced for Loop; Autoboxing/Unboxing; Typesafe Enums; Varargs; Static Import; Metadata (Annotations); Instrumentation 
+Generics; Enhanced for Loop; Autoboxing/Unboxing; Typesafe Enums; Varargs; Static Import; Metadata 
+(Annotations); Instrumentation 
 ```
 
 #####Java Interview Questions 1 
