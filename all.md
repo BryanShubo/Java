@@ -47,9 +47,12 @@ public class Test2 {
 ```
  
  
-How are Java objects stored in memory? 
+#####How are Java objects stored in memory? 
+```
 In Java, all objects are dynamically allocated. When we only declare a variable of a class type, Java just creates a reference. To allocate memory to an object, we must use new(). 
- 
+```
+
+```
 New features in Java SE 8 
 Lambda Expressions; Pipelines and Streams; Date and Time API; Default Methods; Type Annotations; Nashhorn JavaScript Engine; Concurrent Accumulators; Parallel operations; PermGen Error Removed; TLS SNI 
 New features in Java SE 7 
@@ -58,7 +61,10 @@ New features in Java SE 6
 Scripting Language Support; JDBC 4.0 API; Java Compiler API; Pluggable Annotations; Native PKI, Java GSS, Kerberos and LDAP support; Integrated Web Services; Lot more enhancements. 
 New features in J2SE 5.0 
 Generics; Enhanced for Loop; Autoboxing/Unboxing; Typesafe Enums; Varargs; Static Import; Metadata (Annotations); Instrumentation 
-Java Interview Questions 1 
+```
+
+#####Java Interview Questions 1 
+```
 1. Are main, next, delete, goto, and exit keywords in Java? 
 A： No. Delete is not a keyword in Java. Java does not make use of explicit destructors the way C++ does. To exit a program explicitly you use exit method in System object. 
 2. Java VS C++  
@@ -145,8 +151,7 @@ Java by default initializes it to the default value for that primitive type. Thu
 The object references are all initialized to null in Java. However in order to do anything useful with these references, you must set them to a valid object, else you will get NullPointerExceptions everywhere you try to use such default initialized references. 
 35. What are the different scopes for Java variables? 
 A: The scope of a Java variable is determined by the context in which the variable is declared. Thus a java variable can have one of the three scopes at any given point in time. 
- 
- 
+
 1. Instance : – These are typical object level variables, they are initialized to default values at the time of creation of object, and remain accessible as long as the object accessible. 
  
  
@@ -168,7 +173,12 @@ System.out.println ("1" + 3);
 A: It will print 13. 
 41. What will be the default values of all the elements of an array defined as an instance variable? 
 A: If the array is an array of primitive types, then all the elements of the array will be initialized to the default value corresponding to that primitive type. e.g. All the elements of an array of int will be initialized to 0, while that of boolean type will be initialized to false. Whereas if the array is an array of references (of any type), all the elements will be initialized to null. 
-Java Interview Questions 2 
+
+
+```
+
+#####Java Interview Questions 2 
+```
 1. Can we execute a java program without a main class? 
 A: Yes. The working sequence is 
  
@@ -309,10 +319,11 @@ Criteria to choose among String, StringBuffer and StringBuilder
 10. What is singleton design pattern? 
 1) Singleton is a class which has only one instance in whole application and provides a getInstance() method to access the singleton instance.  
 2) Example: using Singleton pattern like java.lang.Runtime which provides getRuntime() method to get access of it and used to get free memory and total memory in Java. 
-IBM: 
+```
+
  
-IBM: 
- 
+#####IBM: 
+``` 
 1. JDBC, statement vs prepared statement 
         
 Statement :  
@@ -443,13 +454,14 @@ Core Java:
  
  
 24: java internationalization 
+```
+
  
  
  
+#####Function is generally defined by DB, it receives parameter and return some value. But it does not relate to a specific table. 
  
-Function is generally defined by DB, it receives parameter and return some value. But it does not relate to a specific table. 
- 
- 
+```
  
 1:Use Procedure to take some action. But use function to return some value.  
 2:You can call function from sql query but Procedure can't.  
@@ -503,3 +515,4 @@ Function is generally defined by DB, it receives parameter and return some value
  
 comparator and comparable 
  
+```
