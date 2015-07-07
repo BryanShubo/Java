@@ -35,7 +35,7 @@ switch (day) {
    default: System.out.println("Invalid");
 
 }
-```java
+```
 equals() and hashcode() method from java.lang.String is used in comparison, which is case-sensitive. 
 Benefit of using String in switch is that, Java compiler can generate more efficient code than using 
 nested if-then-else statement. See here for more detailed information of how to use String on Switch 
@@ -72,7 +72,7 @@ public static void main(String args[]) {
             }
         }
     }
-```java
+```
 Look at this code, how many lines of boiler codes?
 
 Now in Java 7, you can use try-with-resource feature to automatically close resources, which implements 
@@ -95,7 +95,7 @@ public static void main(String args[]) {
   System.out.println("Can't read the file");
  }
 }
-```java
+```
 Since Java is taking care of closing opened resources including files and streams, may be no more leaking
 of file descriptors and probably an end to file descriptor error. Even JDBC 4.1 is retrofitted as 
 AutoClosable too. 
