@@ -1,6 +1,10 @@
 ###1 Type Inference
 
-Before JDK 1.7 introduce a new operator <<, known as diamond operator to making type inference available for constructors as well. Prior to Java 7, type inference is only available for methods, and Joshua Bloch has rightly predicted in Effective Java 2nd Edition, it’s now available for constructor as well. Prior JDK 7, you type more to specify types on both left and right hand side of object creation expression, but now it only needed on left hand side, as shown in below example.
+Before JDK 1.7 introduce a new operator <>, known as diamond operator to making type inference available for 
+constructors as well. Prior to Java 7, type inference is only available for methods, and Joshua Bloch has 
+rightly predicted in Effective Java 2nd Edition, it’s now available for constructor as well. Prior JDK 7, 
+you type more to specify types on both left and right hand side of object creation expression, but now it 
+only needed on left hand side, as shown in below example.
 
 Prior JDK 7
 ```java
@@ -9,15 +13,18 @@ List<Integer> primes = new ArrayList<Integer>();
 ```
 
 In JDK 7
+```java
 Map<String, List<String>> employeeRecords =  new HashMap<>();
 List<Integer> primes = new ArrayList<>();
+```
 
-So you have to type less in Java 7, while working with Collections, where we heavily use Generics. See here for more detailed information on diamond operator in Java.
+So you have to type less in Java 7, while working with Collections, where we heavily use Generics. 
 
+###2 String in Switch
 
-2) String in Switch
-
-Before JDK 7, only integral types can be used as selector for switch-case statement. In JDK 7, you can use a String object as the selector. For example,
+Before JDK 7, only integral types can be used as selector for switch-case statement. In JDK 7, you can 
+use a String object as the selector. For example,
+```java
 String state = "NEW";
 
 switch (day) {
@@ -28,12 +35,20 @@ switch (day) {
    default: System.out.println("Invalid");
 
 }
-equals() and hashcode() method from java.lang.String is used in comparison, which is case-sensitive. Benefit of using String in switch is that, Java compiler can generate more efficient code than using nested if-then-else statement. See here for more detailed information of how to use String on Switch case statement.
+```java
+equals() and hashcode() method from java.lang.String is used in comparison, which is case-sensitive. 
+Benefit of using String in switch is that, Java compiler can generate more efficient code than using 
+nested if-then-else statement. See here for more detailed information of how to use String on Switch 
+case statement.
 
 
-3) Automatic Resource Management
+###3 Automatic Resource Management
 
-Before JDK 7, we need to use a finally block, to ensure that a resource is closed regardless of whether the try statement completes normally or abruptly, for example while reading files and streams, we need to close them into finally block, which result in lots of boiler plate and messy code, as shown below :
+Before JDK 7, we need to use a finally block, to ensure that a resource is closed regardless of 
+whether the try statement completes normally or abruptly, for example while reading files and streams, 
+we need to close them into finally block, which result in lots of boiler plate and messy code, as shown below :
+
+```java
 public static void main(String args[]) {
         FileInputStream fin = null;
         BufferedReader br = null;
@@ -57,11 +72,16 @@ public static void main(String args[]) {
             }
         }
     }
-
+```java
 Look at this code, how many lines of boiler codes?
 
-Now in Java 7, you can use try-with-resource feature to automatically close resources, which implements AutoClosable and Closeable interface e.g. Streams, Files, Socket handles, database connections etc. JDK 7 introduces a try-with-resources statement, which ensures that each of the resources in try(resources) is closed at the end of the statement by calling close() method of AutoClosable. Now same example in Java 7 will look like below, a much concise and cleaner code :
+Now in Java 7, you can use try-with-resource feature to automatically close resources, which implements 
+AutoClosable and Closeable interface e.g. Streams, Files, Socket handles, database connections etc. JDK 7 
+introduces a try-with-resources statement, which ensures that each of the resources in try(resources) is 
+closed at the end of the statement by calling close() method of AutoClosable. Now same example in Java 7 
+will look like below, a much concise and cleaner code :
 
+```java
 public static void main(String args[]) {
        try (FileInputStream fin = new FileInputStream("info.xml");
   BufferedReader br = new BufferedReader(new InputStreamReader(fin));) {
@@ -75,7 +95,10 @@ public static void main(String args[]) {
   System.out.println("Can't read the file");
  }
 }
-Since Java is taking care of closing opened resources including files and streams, may be no more leaking of file descriptors and probably an end to file descriptor error. Even JDBC 4.1 is retrofitted as AutoClosable too. 
+```java
+Since Java is taking care of closing opened resources including files and streams, may be no more leaking
+of file descriptors and probably an end to file descriptor error. Even JDBC 4.1 is retrofitted as 
+AutoClosable too. 
 
 4) Fork Join Framework
 
