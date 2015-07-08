@@ -1,15 +1,19 @@
-Map is one of the most important data structures in Java. In this post, I will illustrate how to use different types of maps, such as HashMap, TreeMap, HashTable and LinkedHashMap.
+Map is one of the most important data structures in Java. In this post, I will illustrate how to use different types of maps, such as 
+HashMap 
+TreeMap
+HashTable
+LinkedHashMap
 
 1. Map Overview
 
-
-
-There are 4 commonly used implementations of Map in Java SE - HashMap, TreeMap, Hashtable and LinkedHashMap. If we use only one sentence to describe each implementation, it would be the following:
-
+There are 4 commonly used implementations of Map in Java SE - HashMap, TreeMap, Hashtable and LinkedHashMap. 
+If we use only one sentence to describe each implementation, it would be the following:
+```
 HashMap is implemented as a hash table, and there is no ordering on keys or values.
 TreeMap is implemented based on red-black tree structure, and it is ordered by the key.
 LinkedHashMap preserves the insertion order
 Hashtable is synchronized, in contrast to HashMap. It has an overhead for synchronization.
+```
 This is the reason that HashMap should be used if the program is thread-safe.
 
 2. HashMap
@@ -57,10 +61,11 @@ black dog - 15
 red dog - 10
 white dog - 20
 ```
-Note here, we add "white dogs" twice by mistake, but the HashMap accepts it. This does not make sense, because now we are confused with how many white dogs are really there.
+Note here, we add "white dogs" twice by mistake, but the HashMap accepts it. This does not make sense,
+because now we are confused with how many white dogs are really there.
 
 The Dog class should be defined as follows:
-
+```java
 class Dog {
 	String color;
  
@@ -86,6 +91,7 @@ Now the output is:
 red dog - 10
 white dog - 20
 black dog - 15
+```
 The reason is that HashMap doesn't allow two identical elements. By default, the hashCode() and equals() methods implemented in the Object class are used. The default hashCode() method gives distinct integers for distinct objects, and the equals() method only returns true when two references refer to the same object. Check out the hashCode() and equals() contract if this is not obvious to you.
 
 Check out the most frequently used methods for HashMap, such as iteration, print, etc.
@@ -93,7 +99,7 @@ Check out the most frequently used methods for HashMap, such as iteration, print
 3. TreeMap
 
 A TreeMap is sorted by keys. Let's first take a look at the following example to understand the "sorted by keys" idea.
-
+```java
 class Dog {
 	String color;
  
@@ -135,10 +141,11 @@ Output:
 Exception in thread "main" java.lang.ClassCastException: collection.Dog cannot be cast to java.lang.Comparable
 	at java.util.TreeMap.put(Unknown Source)
 	at collection.TestHashMap.main(TestHashMap.java:35)
+```
 Since TreeMaps are sorted by keys, the object for key has to be able to compare with each other, that's why it has to implement Comparable interface. For example, you use String as key, because String implements Comparable interface.
 
 Let's change the Dog, and make it comparable.
-
+```java
 class Dog implements Comparable<Dog>{
 	String color;
 	int size;
@@ -181,6 +188,7 @@ Output:
 red dog - 10
 black dog - 15
 white dog - 20
+```
 It is sorted by key, i.e., dog size in this case.
 
 If "Dog d4 = new Dog("white", 10);" is replaced with "Dog d4 = new Dog("white", 40);", the output would be:
@@ -201,7 +209,7 @@ The HashMap class is roughly equivalent to Hashtable, except that it is unsynchr
 LinkedHashMap is a subclass of HashMap. That means it inherits the features of HashMap. In addition, the linked list preserves the insertion-order.
 
 Let's replace the HashMap with LinkedHashMap using the same code used for HashMap.
-
+```
 class Dog {
 	String color;
  
@@ -246,8 +254,10 @@ Output is:
 red dog - 10
 black dog - 15
 white dog - 20
+```
 The difference is that if we use HashMap the output could be the following - the insertion order is not preserved.
-
+```
 red dog - 10
 white dog - 20
 black dog - 15
+```
