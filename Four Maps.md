@@ -4,15 +4,15 @@ TreeMap
 HashTable
 LinkedHashMap
 
-1. Map Overview
+###1 Map Overview
 
 There are 4 commonly used implementations of Map in Java SE - HashMap, TreeMap, Hashtable and LinkedHashMap. 
 If we use only one sentence to describe each implementation, it would be the following:
 ```
-HashMap is implemented as a hash table, and there is no ordering on keys or values.
-TreeMap is implemented based on red-black tree structure, and it is ordered by the key.
-LinkedHashMap preserves the insertion order
-Hashtable is synchronized, in contrast to HashMap. It has an overhead for synchronization.
+1) HashMap is implemented as a hash table, and there is no ordering on keys or values.
+2) TreeMap is implemented based on red-black tree structure, and it is ordered by the key.
+3) LinkedHashMap preserves the insertion order
+4) Hashtable is synchronized, in contrast to HashMap. It has an overhead for synchronization.
 ```
 This is the reason that HashMap should be used if the program is thread-safe.
 
@@ -85,14 +85,20 @@ class Dog {
 		return color + " dog";
 	}
 }
+```
+
 Now the output is:
 
+```java
 3
 red dog - 10
 white dog - 20
 black dog - 15
 ```
-The reason is that HashMap doesn't allow two identical elements. By default, the hashCode() and equals() methods implemented in the Object class are used. The default hashCode() method gives distinct integers for distinct objects, and the equals() method only returns true when two references refer to the same object. Check out the hashCode() and equals() contract if this is not obvious to you.
+The reason is that HashMap doesn't allow two identical elements. By default, the hashCode() and equals() 
+methods implemented in the Object class are used. The default hashCode() method gives distinct integers 
+for distinct objects, and the equals() method only returns true when two references refer to the same 
+object. Check out the hashCode() and equals() contract if this is not obvious to you.
 
 Check out the most frequently used methods for HashMap, such as iteration, print, etc.
 
@@ -142,7 +148,9 @@ Exception in thread "main" java.lang.ClassCastException: collection.Dog cannot b
 	at java.util.TreeMap.put(Unknown Source)
 	at collection.TestHashMap.main(TestHashMap.java:35)
 ```
-Since TreeMaps are sorted by keys, the object for key has to be able to compare with each other, that's why it has to implement Comparable interface. For example, you use String as key, because String implements Comparable interface.
+Since TreeMaps are sorted by keys, the object for key has to be able to compare with each other, 
+that's why it has to implement Comparable interface. For example, you use String as key, because 
+String implements Comparable interface.
 
 Let's change the Dog, and make it comparable.
 ```java
@@ -183,8 +191,9 @@ public class TestTreeMap {
 		}
 	}
 }
+```
 Output:
-
+```java
 red dog - 10
 black dog - 15
 white dog - 20
@@ -192,11 +201,12 @@ white dog - 20
 It is sorted by key, i.e., dog size in this case.
 
 If "Dog d4 = new Dog("white", 10);" is replaced with "Dog d4 = new Dog("white", 40);", the output would be:
-
+```java
 white dog - 20
 red dog - 10
 black dog - 15
 white dog - 5
+```
 The reason is that TreeMap now uses compareTo() method to compare keys. Different sizes make different dogs!
 
 4. Hashtable
@@ -249,8 +259,9 @@ public class TestHashMap {
 		}		
 	}
 }
+```
 Output is:
-
+```java
 red dog - 10
 black dog - 15
 white dog - 20
