@@ -4,6 +4,37 @@ TreeMap
 HashTable
 LinkedHashMap
 
+╔══════════════╦═════════════════════╦═══════════════════╦══════════════════════╗
+║   Property   ║       HashMap       ║      TreeMap      ║     LinkedHashMap    ║
+╠══════════════╬═════════════════════╬═══════════════════╬══════════════════════╣
+║              ║  no guarantee order ║ sorted according  ║                      ║
+║   Order      ║ will remain constant║ to the natural    ║    insertion-order   ║
+║              ║      over time      ║    ordering       ║                      ║
+╠══════════════╬═════════════════════╬═══════════════════╬══════════════════════╣
+║  Get/put     ║                     ║                   ║                      ║
+║   remove     ║         O(1)        ║      O(log(n))    ║         O(1)         ║
+║ containsKey  ║                     ║                   ║                      ║
+╠══════════════╬═════════════════════╬═══════════════════╬══════════════════════╣
+║              ║                     ║   NavigableMap    ║                      ║
+║  Interfaces  ║         Map         ║       Map         ║         Map          ║
+║              ║                     ║    SortedMap      ║                      ║
+╠══════════════╬═════════════════════╬═══════════════════╬══════════════════════╣
+║              ║                     ║                   ║                      ║
+║     Null     ║       allowed       ║    only values    ║       allowed        ║
+║ values/keys  ║                     ║                   ║                      ║
+╠══════════════╬═════════════════════╩═══════════════════╩══════════════════════╣
+║              ║   Fail-fast behavior of an iterator cannot be guaranteed       ║
+║   Fail-fast  ║ impossible to make any hard guarantees in the presence of      ║
+║   behavior   ║           unsynchronized concurrent modification               ║
+╠══════════════╬═════════════════════╦═══════════════════╦══════════════════════╣
+║              ║                     ║                   ║                      ║
+║Implementation║      buckets        ║   Red-Black Tree  ║    double-linked     ║
+║              ║                     ║                   ║       buckets        ║
+╠══════════════╬═════════════════════╩═══════════════════╩══════════════════════╣
+║      Is      ║                                                                ║
+║ synchronized ║              implementation is not synchronized                ║
+╚══════════════╩════════════════════════════════════════════════════════════════╝
+
 ###1 Map Overview
 
 There are 4 commonly used implementations of Map in Java SE - HashMap, TreeMap, Hashtable and LinkedHashMap. 
