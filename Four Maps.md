@@ -16,7 +16,10 @@ If we use only one sentence to describe each implementation, it would be the fol
 ```
 This is the reason that HashMap should be used if the program is thread-safe.
 
-2. HashMap
+###2 HashMap
+No ordering on keys or values.
+Unsynchronize.   ( How to make it synchronized: Map m = Collections.synchronizedMap(new HashMap(...));)
+Permit null key or null values.
 
 If the key of a HashMap is a self-defined object, then the equals() and hashCode() contract need to be followed.
 ```java
@@ -214,7 +217,9 @@ The reason is that TreeMap now uses compareTo() method to compare keys. Differen
 From Java Doc:
 The HashMap class is roughly equivalent to Hashtable, except that it is unsynchronized and permits nulls.
 
-5. LinkedHashMap
+###5 LinkedHashMap
+Preserves the insertion-order.
+Unsynchronized
 
 LinkedHashMap is a subclass of HashMap. That means it inherits the features of HashMap. In addition, the linked list preserves the insertion-order.
 
