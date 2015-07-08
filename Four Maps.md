@@ -106,7 +106,8 @@ object. Check out the hashCode() and equals() contract if this is not obvious to
 Check out the most frequently used methods for HashMap, such as iteration, print, etc.
 
 3. TreeMap
-
+Unsynchronized
+Permit only null values
 A TreeMap is sorted by keys. Let's first take a look at the following example to understand the "sorted by keys" idea.
 ```java
 class Dog {
@@ -213,6 +214,8 @@ white dog - 5
 The reason is that TreeMap now uses compareTo() method to compare keys. Different sizes make different dogs!
 
 4. Hashtable
+No null key or value.
+Synchronized.
 
 From Java Doc:
 The HashMap class is roughly equivalent to Hashtable, except that it is unsynchronized and permits nulls.
@@ -220,6 +223,7 @@ The HashMap class is roughly equivalent to Hashtable, except that it is unsynchr
 ###5 LinkedHashMap
 Preserves the insertion-order.
 Unsynchronized
+Permit null key and null values
 
 LinkedHashMap is a subclass of HashMap. That means it inherits the features of HashMap. In addition, the linked list preserves the insertion-order.
 
