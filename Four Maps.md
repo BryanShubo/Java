@@ -15,7 +15,7 @@ This is the reason that HashMap should be used if the program is thread-safe.
 2. HashMap
 
 If the key of a HashMap is a self-defined object, then the equals() and hashCode() contract need to be followed.
-
+```java
 class Dog {
 	String color;
  
@@ -56,6 +56,7 @@ white dog - 5
 black dog - 15
 red dog - 10
 white dog - 20
+```
 Note here, we add "white dogs" twice by mistake, but the HashMap accepts it. This does not make sense, because now we are confused with how many white dogs are really there.
 
 The Dog class should be defined as follows:
