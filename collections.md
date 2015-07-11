@@ -101,7 +101,7 @@ public void method(Collection coll)
 
 
 ###Collection: List, Set
-    List：keep insert-order, duplicates allowed. 
+    List：keep insert-order, duplicates allowed, and have index.
 	Set：unordered, no duplicates.
 	
 ###List APIs
@@ -127,7 +127,7 @@ Fetch:
 
 List:
 	|--Vector:synchronized, CRUD performance is low.
-	|--ArrayList:un-synchronized, CRUD performance is faster than Vector
+	|--ArrayList:un-synchronized, CRUD performance is faster than Vector (designed to replace vector).
 	|--LinkedList:un-synchronized, 。增删元素的速度很快。
 	
 	
