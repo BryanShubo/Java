@@ -14,5 +14,40 @@ package com.javase.collections.list;
  *
  *
  */
-public class Linkedlist {
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+
+        java.util.LinkedList link = new java.util.LinkedList();
+
+        link.addFirst("abc1");
+        link.addFirst("abc2");
+        link.addFirst("abc3");
+        link.addFirst("abc4");
+//		System.out.println(link);
+//		System.out.println(link.getFirst());//return the first but does not delete it
+//		System.out.println(link.getFirst());
+
+//		System.out.println(link.removeFirst());//return the first and delete it
+//		System.out.println(link.removeFirst());
+
+        while(!link.isEmpty()){
+            System.out.println(link.removeLast());
+        }
+
+
+        System.out.println(link);
+//		Iterator it = link.iterator();
+//		while(it.hasNext()){
+//			System.out.println(it.next());
+//		}
+    }
+
 }

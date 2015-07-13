@@ -3,7 +3,7 @@
 Store Object
 Varied-size
 Cannot store primitive type data
-Unsynchronized : basically all collection type are unsynchronized. Only these three are synchronized Hashtable (not from
+Un-synchronized : basically all collection type are uns-ynchronized. Only these three are synchronized Hashtable (not from
 collection), Vector, Stack.
 
 How to make a collection synchronized: Collections.synchronizedCollection(Collection<T> c)
