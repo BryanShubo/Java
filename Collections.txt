@@ -1,3 +1,64 @@
+Bryan
+
+
+
+Drive
+.
+Folder Path
+My Drive
+Videos
+JavaSE_ITCAST
+Code
+day19e
+NEW
+Folders and views
+My Drive
+Shared with me
+Google Photos
+Recent
+Starred
+Trash
+Name
+Owner
+Last modified
+File size
+.settings
+me
+Jun 23, 2015
+—
+bin
+me
+Jun 23, 2015
+—
+src
+me
+Jun 23, 2015
+—
+
+.classpath
+me
+Jun 23, 2015
+301 bytes
+
+.project
+me
+Jun 23, 2015
+382 bytes
+
+Test19.txt
+me
+Jun 23, 2015
+500 bytes
+
+集合框架_4.txt
+me
+Jun 23, 2015
+7 KB
+69 GB used (68%)
+Buy more storage
+Upload status closed
+集合框架_4.txt
+Open with
 集合类的由来：
 	对象用于封装特有数据，对象多了需要存储，如果对象的个数不确定。
 	就使用集合容器进行存储。
@@ -164,39 +225,6 @@ if(this.hashCode()== obj.hashCode() && this.equals(obj))
 
 注意：如果哈希值不同，是不需要判断equals。
 
-
-
--------------------------------------------------------
-
-泛型：
-	jdk1.5出现的安全机制。
-
-好处：
-	1，将运行时期的问题ClassCastException转到了编译时期。
-	2，避免了强制转换的麻烦。
-
-<>:什么时候用？当操作的引用数据类型不确定的时候。就使用<>。将要操作的引用数据类型传入即可.
-   其实<>就是一个用于接收具体引用数据类型的参数范围。
-
-在程序中，只要用到了带有<>的类或者接口，就要明确传入的具体引用数据类型 。
-
-泛型技术是给编译器使用的技术,用于编译时期。确保了类型的安全。
-
-运行时，会将泛型去掉，生成的class文件中是不带泛型的,这个称为泛型的擦除。
-为什么擦除呢？因为为了兼容运行的类加载器。
-
-泛型的补偿：在运行时，通过获取元素的类型进行转换动作。不用使用者在强制转换了。
-
-
-泛型的通配符：? 未知类型。
-
-泛型的限定：
-? extends E: 接收E类型或者E的子类型对象。上限
-一般存储对象的时候用。比如 添加元素 addAll.
-
-? super E: 接收E类型或者E的父类型对象。 下限。
-一般取出对象的时候用。比如比较器。
-
 ===========================================================
 
 集合的一些技巧：
@@ -269,4 +297,68 @@ Map常用的子类：
 	|--Hashtable :内部结构是哈希表，是同步的。不允许null作为键，null作为值。
 		|--Properties：用来存储键值对型的配置文件的信息，可以和IO技术相结合。
 	|--HashMap : 内部结构是哈希表，不是同步的。允许null作为键，null作为值。
-	|--TreeMap : 内部结构是二叉树，不是同步的。可以对Map集合中的键进行排序。 
+	|--TreeMap : 内部结构是二叉树，不是同步的。可以对Map集合中的键进行排序。
+
+
+
+
+
+
+
+
+List list = new ArrayList();//非同步的。
+
+list = MyCollections.synList(list);//返回一个同步的list.
+
+
+
+
+
+
+
+给非同步的集合加锁。
+
+class MyCollections{
+
+	public static  List synList(List list){
+
+		return new MyList(list);
+	}
+
+	private class MyList implements List{
+	private List list;
+
+	private static final Object lock = new Object();
+	MyList(List list){
+		this.list = list;
+	}
+
+	public boolean add(Object obj){
+		synchronized(lock)
+		{
+			return list.add(obj);
+		}
+	}
+
+	public boolean remove(Object obj){
+		synchronized(lock)
+		{
+			return list.remove(obj);
+		}
+	}
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
