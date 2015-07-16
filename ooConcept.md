@@ -206,6 +206,10 @@ automatically by the compiler.
 11.22 USING SUPER AND THIS IN STATIC METHODS 
 The keywords super and this are implicit object references. Because static methods belong 
 to a class, not to objects of a class, you can’t use this and super in static methods.  
+
+11.3 Call base class method from derived class (the method has been overridded)
+
+super.method // this will run the method in base class
 ```
 
 #####12. RULES TO REMEMBER WHEN DEFINING OVERRIDDEN METHODS 
