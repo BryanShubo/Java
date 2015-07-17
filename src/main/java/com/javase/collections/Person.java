@@ -1,6 +1,6 @@
 package com.javase.collections;
 
-public class Person /*extends Object*/ implements Comparable {
+public class Person implements Comparable {
 
     private String name;
     private int age;
@@ -31,7 +31,7 @@ public class Person /*extends Object*/ implements Comparable {
         if(this == obj)
             return true;
         if(!(obj instanceof Person))
-            throw new ClassCastException("ÀàÐÍ´íÎó");
+            throw new ClassCastException("Wrong object");
 
 //		System.out.println(this+"....equals....."+obj);
         Person p = (Person)obj;

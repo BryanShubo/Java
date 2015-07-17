@@ -25,6 +25,8 @@
         <module name="java_se" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java_se" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
