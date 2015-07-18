@@ -17,9 +17,6 @@ public class HashMapDemo {
         hm.put(new Student("wangcai",28),"dalian");
         hm.put(new Student("zhaoliu",24),"tieling");
 
-//		Set<Student> keySet = hm.keySet();
-//		Iterator<Student> it = keySet.iterator();
-
         Iterator<Student> it = hm.keySet().iterator();
 
         while(it.hasNext()){
@@ -32,3 +29,35 @@ public class HashMapDemo {
     }
 
 }
+
+
+// Three ways to iterate map
+
+// 1. using keySet()
+
+/*        Set<Integer> keySet = map.keySet();
+        Iterator<Integer> itr = keySet.iterator();
+
+        while (itr.hasNext()) {
+            Integer key = itr.next();
+            System.out.println(key + " : " + map.get(key));
+        }*/
+
+
+// 2. using entrySet()
+ /*       Iterator<Map.Entry<Integer,Integer>> itr = map.entrySet().iterator();
+
+        while(itr.hasNext()) {
+            Map.Entry<Integer,Integer> mapEntry = itr.next();
+            Integer key = mapEntry.getKey();
+            Integer value = mapEntry.getValue();
+
+            System.out.println(key + " : " + value);
+        }*/
+
+// 3. Enhanced for loop entrySet: this is faster because it converts the map to one object, so just need to
+// access map once.
+// keySet need to search map twice.
+        /*for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            System.out.println(entry);
+        }*/
