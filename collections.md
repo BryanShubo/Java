@@ -439,6 +439,94 @@ hashCode = 31 * hashCode + java.util.Arrays.hashCode(coordinates);
 ```
 
 
+### fail-fast vs fail-safe
+1. What is Concurrent Modification?
+```
+When one or more thread is iterating over the collection, in between, one thread changes the
+structure of the collection (either adding the element to the collection or by deleting the
+element in the collection or by updating the value at particular position in the collection)
+is known as Concurrent Modification
+
+**NOTE**: structural modification is any operation that **ADD** or **delete** element;
+**NOT A STRUCTURAL MODIFICATION**: merely setting the value of an element (in case of list) or
+changing the value associated with an existing key (in case of map) is .
+
+```
+
+2. Fail fast Iterator
+```
+1) Fail fast iterator while iterating through the collection , instantly throws Concurrent Modification
+Exception if there is structural modification  of the collection .
+
+Advantage: in the face of concurrent modification, the iterator fails quickly and cleanly, rather than risking arbitrary,
+non-deterministic behavior at an undetermined time in the future.
+
+2) Fail-fast iterator can throw ConcurrentModificationException in two scenarios :
+*Single Threaded Environment: After the creation of the iterator , if a thread modifies a collection directly while it
+is iterating over the collection with a fail-fast iterator, the iterator will throw this exception.
+
+*Multiple Threaded Environment: If one thread is modifying the structure of the collection while other thread
+is iterating over it .
+
+3) fail-fast iterator supports remove, set, and add operations.
+
+**Note**: According to  Oracle docs , the fail-fast behavior of an iterator cannot be guaranteed in the presence of
+unsynchronized concurrent modification.
+Fail-fast iterators throw ConcurrentModificationException on a best-effort basis.
+Therefore, it would be wrong to write a program that depended on this exception for its correctness:
+the fail-fast behavior of iterators should be used only to detect bugs.
+
+
+4) How  Fail  Fast Iterator  come to know that the internal structure is modified ?
+Iterator read internal data structure (object array) directly . To ensure that internal structure is not modified,
+it maintains an internal  flag "mods".Iterator checks the "mods" flag whenever it gets the next value (using hasNext()
+method and next() method). Value of mods flag changes whenever there is an structural modification.
+Thus indicating iterator to throw ConcurrentModificationException.
+```
+
+3. Fail Safe Iterator :
+```
+1) Fail Safe Iterator makes copy of the internal data structure (object array) and iterates over the copied data structure.
+So , original data structure remains  structurally unchanged. Hence , no ConcurrentModificationException throws by the
+fail safe iterator.
+
+2) Two issues associated with Fail Safe Iterator are :
+*Overhead of maintaining the copied data structure i.e memory.
+
+3) fail-safe iterator does not support remove, set, and add operations.
+
+*Fail safe iterator does not guarantee that the data being read is the data currently in the original data structure.
+
+**Note**: According to Oracle docs , fail safe iterator is ordinarily too costly, but may be more efficient than alternatives
+when traversal operations vastly outnumber mutations, and is useful when you cannot or don’t want to synchronize traversals,
+yet need to preclude interference among concurrent threads. The "snapshot" style iterator method uses a reference to the
+state of the array at the point that the iterator was created. This array never changes during the lifetime of the iterator,
+so interference is impossible and the iterator is guaranteed not to throw ConcurrentModificationException.The iterator
+will not reflect additions, removals, or changes to the list since the iterator was created. Element-changing operations
+on iterators themselves (remove(), set(), and add()) are not supported. These methods throw UnsupportedOperationException.
+```
+
+
+4. Fail-Fast Iterator vs Fail-Safe Iterator
+```
+1) An iterator is considered fail-fast if it throws a ConcurrentModificationException in case the underlying
+collection's structure is modified.
+
+2) While iterating a list or a map values can be updated, only if an attempt is made to add or remove from the
+collection ConcurrentModificationException will be thrown by fail-fast iterator.
+
+3) Fail-fast iterators throw ConcurrentModificationException on a best-effort basis and fail-fast behavior of
+an iterator cannot be guaranteed.
+
+4) fail-safe iterator works with a copy of the collection rather than the original collection thus interference
+is impossible and the iterator is guaranteed not to throw ConcurrentModificationException.
+
+5) remove, set, and add operations are not supported with fail-safe iterator.
+
+```
+
+
+
 
 
 

@@ -5,9 +5,6 @@ import org.junit.Test;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-/**
- * Created by uc0006 on 7/22/2015.
- */
 public class GeneralHashTest {
 
 
