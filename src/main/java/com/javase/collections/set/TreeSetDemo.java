@@ -25,7 +25,8 @@ public class TreeSetDemo {
         * Test duplicate hash code
          *  */
 
-        testDuplicateHashCode();
+        //testDuplicateHashCode();
+
 
     }
 
