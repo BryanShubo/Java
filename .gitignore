@@ -5,6 +5,7 @@ target
 .project
 .idea
 *.class
+.idea
 # Package Files #
 *.jar
 *.war
