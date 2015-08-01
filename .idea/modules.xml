@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ten_Algorithms/Ten_Algorithms.iml" filepath="$PROJECT_DIR$/Ten_Algorithms/Ten_Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodingHire.iml" filepath="$PROJECT_DIR$/CodingHire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ten_Algorithms/Ten_Algorithems.iml" filepath="$PROJECT_DIR$/Ten_Algorithms/Ten_Algorithems.iml" />
     </modules>
   </component>
 </project>

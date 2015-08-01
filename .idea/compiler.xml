@@ -22,7 +22,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="Ten_Algorithms" />
+        <module name="LeetCode" />
+        <module name="Ten_Algorithems" />
       </profile>
     </annotationProcessing>
   </component>

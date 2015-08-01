@@ -6,6 +6,7 @@
   <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Ten_Algorithms</module>
+        <module>LeetCode</module>
     </modules>
     <packaging>pom</packaging>
   <name>CodingHire</name>
