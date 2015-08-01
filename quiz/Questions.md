@@ -1,7 +1,7 @@
 
 ### String
-```java
 Question:
+```java
 public class Barn {
 public static void main(String[] args) {
 new Barn().go("hi", 1);
@@ -22,6 +22,7 @@ Answer: D
 Explanation: The method go(String[], int) in the type Barn is not applicable for the arguments (String, int). The variable argument type String of the method go must be the last parameter.
 <br/>
 
+Question:
 ```java
 public static void parse(String str) {
 try {
@@ -45,6 +46,7 @@ Answer: B
 Explanation/Reference: f cannot be resolved
 <br/>
 
+Question:
 ```java
 public class TestString1 {
 public static void main(String[] args) {
@@ -65,11 +67,13 @@ Answer: D
 Explanation/Reference:
 <br/>
 
+
+Question:
 ```java
-22. StringBuilder sb1 = new StringBuilder("123");
-23. String s1 = "123";
-24. // insert code here
-25. System.out.println(sb1 + " " + s1);
+ StringBuilder sb1 = new StringBuilder("123");
+ String s1 = "123";
+ // insert code here
+. System.out.println(sb1 + " " + s1);
 ```
 Which code fragment, inserted at line 24, outputs "123abc 123abc"?
 <ul>A. sb1.append("abc"); s1.append("abc");</ul>
@@ -84,14 +88,15 @@ Answer: E
 Explanation/Reference:
 <br/>
 
+Question:
 ```java
-01. public class Person {
-02. private String name;
-03. public Person(String name) { this.name = name; }
-04. public boolean equals(Person p) {
-05. return p.name.equals(this.name);
-06. }
-07. }
+ public class Person {
+ private String name;
+ public Person(String name) { this.name = name; }
+ public boolean equals(Person p) {
+ return p.name.equals(this.name);
+ }
+ }
 ```
 Which statement is true?
 <ul>A. The equals method does NOT properly override the Object.equals method.</ul>
@@ -104,6 +109,7 @@ Answer: A
 Explanation/Reference:
 <br/>
 
+Question:
 ```java
 String[] elements = { "for", "tea", "too" };
 String first = (elements.length > 0) ? elements[0] : null;
@@ -117,14 +123,14 @@ Answer: D
 Explanation/Reference:
 <br/>
 
-
+Question:
 ```java
-01. public class TestString3 {
-02. public static void main(String[] args) {
-03. // insert code here
-04. System.out.println(s);
-05. }
-06. }
+ public class TestString3 {
+ public static void main(String[] args) {
+ // insert code here
+ System.out.println(s);
+ }
+ }
 ```
 Which two code fragments, inserted independently at line 3, generate the output 4247? (Choose two.)
 A. String s = "123456789";
@@ -143,11 +149,11 @@ The operator - is undefined for argument type(s) String, String
 The metod delete(int, int) is undefined for type String
 <br/>
 
-
+Question:
 ```java
-11. String test = "Test A. Test B. Test C.";
-12. // insert code here
-13. String[] result = test.split(regex);
+ String test = "Test A. Test B. Test C.";
+ // insert code here
+ String[] result = test.split(regex);
 ```
 Which regular expression, inserted at line 12, correctly splits test into "Test A", "Test B", and "Test C"?
 A. String regex = "";
@@ -160,7 +166,7 @@ Answer: E
 Explanation/Reference:
 <br/>
 
-
+Question:
 ```java
 public class Person {
 private String name;
@@ -184,7 +190,7 @@ Answer: B
 Explanation/Reference:
 <br/>
 
-
+Question:
 ```java
 NumberFormat nf = NumberFormat.getInstance();
 nf.setMaximumFractionDigits(4);
@@ -204,11 +210,12 @@ Answer: CF
 Explanation/Reference:
 <br/>
 
+Question:
 ```java
-12. String csv = "Sue,5,true,3";
-13. Scanner scanner = new Scanner( csv );
-14. scanner.useDelimiter(",");
-15. int age = scanner.nextInt();
+ String csv = "Sue,5,true,3";
+ Scanner scanner = new Scanner( csv );
+ scanner.useDelimiter(",");
+ int age = scanner.nextInt();
 ```
 What is the result?
 A. Compilation fails.
@@ -225,10 +232,11 @@ at java.util.Scanner.nextInt(Unknown Source)
 at Breaker.main(Breaker.java:8)
 <br/>
 
+Question:
 ```java
-11. String test = "a1b2c3";
-12. String[] tokens = test.split("\\d");
-13. for(String s: tokens) System.out.print(s + " ");
+ String test = "a1b2c3";
+ String[] tokens = test.split("\\d");
+ for(String s: tokens) System.out.print(s + " ");
 ```
 What is the result?
 A. a b c
