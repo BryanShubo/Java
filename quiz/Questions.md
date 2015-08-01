@@ -1,7 +1,6 @@
 
 ### String
-<strong>Q7: String***********</strong>
-[java]
+```java
 public class Barn {
 public static void main(String[] args) {
 new Barn().go("hi", 1);
@@ -11,7 +10,7 @@ public void go(String... y, int x) {
 System.out.print(y[y.length - 1] + " ");
 }
 }
-[/java]
+```
 What is the result?
 <ul>A. hi hi</ul>
 <ul>B. hi world</ul>
@@ -22,8 +21,7 @@ Answer: D
 Explanation: The method go(String[], int) in the type Barn is not applicable for the arguments (String, int). The variable argument type String of the method go must be the last parameter.
 <br/>
 
-<strong>Q15: String</strong>
-[java]
+```java
 public static void parse(String str) {
 try {
 float f = Float.parseFloat(str);
@@ -36,7 +34,7 @@ System.out.println(f);
 public static void main(String[] args) {
 parse("invalid");
 }
-[/java]
+```
 What is the result?
 <ul>A. 0.0</ul>
 <ul>B. Compilation fails.</ul>
@@ -46,8 +44,7 @@ Answer: B
 Explanation/Reference: f cannot be resolved
 <br/>
 
-<strong>Q27: String</strong>
-[java]
+```java
 public class TestString1 {
 public static void main(String[] args) {
 String str = "420";
@@ -55,7 +52,7 @@ str += 42;
 System.out.print(str);
 }
 }
-[/java]
+```
 What is the output?
 <ul>A. 42</ul>
 <ul>B. 420</ul>
@@ -67,13 +64,12 @@ Answer: D
 Explanation/Reference:
 <br/>
 
-<strong>Q35: String ****************</strong>
-[java]
+```java
 22. StringBuilder sb1 = new StringBuilder("123");
 23. String s1 = "123";
 24. // insert code here
 25. System.out.println(sb1 + " " + s1);
-[/java]
+```
 Which code fragment, inserted at line 24, outputs "123abc 123abc"?
 <ul>A. sb1.append("abc"); s1.append("abc");</ul>
 <ul>B. sb1.append("abc"); s1.concat("abc");</ul>
@@ -87,8 +83,7 @@ Answer: E
 Explanation/Reference:
 <br/>
 
-<strong>Q48: String***********</strong>
-[java]
+```java
 01. public class Person {
 02. private String name;
 03. public Person(String name) { this.name = name; }
@@ -96,7 +91,7 @@ Explanation/Reference:
 05. return p.name.equals(this.name);
 06. }
 07. }
-[/java]
+```
 Which statement is true?
 <ul>A. The equals method does NOT properly override the Object.equals method.</ul>
 <ul>B. Compilation fails because the private attribute p.name cannot be accessed in line 5.</ul>
@@ -108,11 +103,10 @@ Answer: A
 Explanation/Reference:
 <br/>
 
-<strong>Q3: String</strong>
-[java]
+```java
 String[] elements = { "for", "tea", "too" };
 String first = (elements.length > 0) ? elements[0] : null;
-[/java]
+```
 What is the result?
 A. Compilation fails.
 B. An exception is thrown at runtime.
@@ -123,15 +117,14 @@ Explanation/Reference:
 <br/>
 
 
-<strong>Q56: String </strong>
-[java]
+```java
 01. public class TestString3 {
 02. public static void main(String[] args) {
 03. // insert code here
 04. System.out.println(s);
 05. }
 06. }
-[/java]
+```
 Which two code fragments, inserted independently at line 3, generate the output 4247? (Choose two.)
 A. String s = "123456789";
 s = (s-"123").replace(1,3,"24") - "89";
@@ -150,12 +143,11 @@ The metod delete(int, int) is undefined for type String
 <br/>
 
 
-<strong>Q5: String</strong>
-[java]
+```java
 11. String test = "Test A. Test B. Test C.";
 12. // insert code here
 13. String[] result = test.split(regex);
-[/java]
+```
 Which regular expression, inserted at line 12, correctly splits test into "Test A", "Test B", and "Test C"?
 A. String regex = "";
 B. String regex = " ";
@@ -168,8 +160,7 @@ Explanation/Reference:
 <br/>
 
 
-<strong>Q29: String </strong>
-[java]
+```java
 public class Person {
 private String name;
 public Person(String name) {
@@ -181,7 +172,7 @@ Person p = (Person) o;
 return p.name.equals(this.name);
 }
 }
-[/java]
+```
 Which statement is true?
 A. Compilation fails because the hashCode method is not overridden.
 B. A HashSet could contain multiple Person objects with the same name.
@@ -193,14 +184,13 @@ Explanation/Reference:
 <br/>
 
 
-<strong>Q57: String </strong>
-[java]
+```java
 NumberFormat nf = NumberFormat.getInstance();
 nf.setMaximumFractionDigits(4);
 nf.setMinimumFractionDigits(2);
 String a = nf.format(3.1415926);
 String b = nf.format(2);
-[/java]
+```
 Which two statements are true about the result if the default locale is Locale.US? (Choose two.)
 A. The value of b is 2.
 B. The value of a is 3.14.
@@ -213,13 +203,12 @@ Answer: CF
 Explanation/Reference:
 <br/>
 
-<strong>Q59: String</strong>
-[java]
+```java
 12. String csv = "Sue,5,true,3";
 13. Scanner scanner = new Scanner( csv );
 14. scanner.useDelimiter(",");
 15. int age = scanner.nextInt();
-[/java]
+```
 What is the result?
 A. Compilation fails.
 B. After line 15, the value of age is 5.
@@ -235,12 +224,11 @@ at java.util.Scanner.nextInt(Unknown Source)
 at Breaker.main(Breaker.java:8)
 <br/>
 
-<strong>Q60: String***********</strong>
-[java]
+```java
 11. String test = "a1b2c3";
 12. String[] tokens = test.split("\\d");
 13. for(String s: tokens) System.out.print(s + " ");
-[/java]
+```
 What is the result?
 A. a b c
 B. 1 2 3
