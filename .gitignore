@@ -4,6 +4,7 @@ target
 .classpath
 .project
 *.class
+.idea
 # Package Files #
 *.jar
 *.war
