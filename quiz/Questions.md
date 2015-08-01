@@ -1,4 +1,42 @@
 
+1. final
+final StringBuffer a = new StringBuffer("immutable");
+
+a = new StringBuffer(""); // wrong
+
+a.append("broken!");
+
+2. Accesss modifier
+```
+private same class
+default same class/same package
+protected same class/ same package / inherited class
+public same class/ same package / inherited class/ other package
+```
+
+3. OVERRIDE and OVERLOAD
+```
+OVERRIDE
+1) when derived class override base method, it must throw less exception or sub-exception.
+2) overrided method must have a more open access priviledge than base method.
+
+OVERLOAD
+1) arguments must be different, return type/access modifier/exception can be the same or different.
+But only return type/access modifier/exception differnet, this is not OVERLODA.
+```
+
+
+4. how does ClassLoader load class
+```
+There are several ClassLoader in JVM
+1) bootstrap load: jre/lib/rt.jar(like jdk)
+2) extclassloader: jar/lib/ext/*.jar
+3) appchassloader:
+
+```
+
+
+
 ### String
 Question:
 ```java
