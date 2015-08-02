@@ -1,5 +1,6 @@
 
 ###Collection Features:
+```
 Store Object
 Varied-size
 Cannot store primitive type data
@@ -7,8 +8,9 @@ Un-synchronized : basically all collection type are uns-ynchronized. Only these 
 collection), Vector, Stack.
 
 How to make a collection synchronized: Collections.synchronizedCollection(Collection<T> c)
+```
 ###Collection APIs:
-
+```
 Add:
 
 boolean add (Object obj);
@@ -99,15 +101,16 @@ public void method(Collection coll)
  MyRongqi2.hehe a = new MyRongqi2().getIns();
  
  Iterator it = new MyRongqi2().getIns();
-
+```
 
 
 ###Collection: List, Set
+```
     List：keep insert-order, duplicates allowed, and have index.
-	Set：unordered, no duplicates.
-	
+    Set：unordered, no duplicates.
+```	
 ###List APIs
-	
+```	
 Add:
 	void add(index,element);
 	void add(index,collection);
@@ -140,10 +143,10 @@ List:
     
     ArrayList: allow random access, so you can grab any element in constant time. 
     ArrayList: adding and removing are slower than LinkedList. 
+ ```   
     
     
-    
-
+```
 集合类的由来：
 	对象用于封装特有数据，对象多了需要存储，如果对象的个数不确定。
 	就使用集合容器进行存储。
@@ -192,9 +195,10 @@ Collection的常见方法：
 5，其他：
 	boolean retainAll(Collection coll);取交集。
 	Object[] toArray():将集合转成数组。
-
+```
 
 -------------------------------
+```
 Collection
 	|--List：有序(存入和取出的顺序一致),元素都有索引(角标)，元素可以重复。
 	|--Set：元素不能重复,无序。
@@ -252,9 +256,10 @@ LinkedList:
 	jdk1.6
 	pollFirst();//获取并移除，如果链表为空，返回null.
 	pollLast();
-
+```
 
 ---------------------------------------------
+```
 
 Set:元素不可以重复，是无序。
 	Set接口中的方法和Collection一致。
@@ -275,13 +280,13 @@ Set:元素不可以重复，是无序。
 	|--TreeSet:可以对Set集合中的元素进行排序。是不同步的。
 				判断元素唯一性的方式：就是根据比较方法的返回结果是否是0，是0，就是相同元素，不存。
 
-				TreeSet对元素进行排序的方式一：
-				让元素自身具备比较功能，元就需要实现Comparable接口。覆盖compareTo方法。
+	TreeSet对元素进行排序的方式一：
+	让元素自身具备比较功能，元就需要实现Comparable接口。覆盖compareTo方法。
 
-				如果不要按照对象中具备的自然顺序进行排序。如果对象中不具备自然顺序。怎么办？
-				可以使用TreeSet集合第二种排序方式二：
-				让集合自身具备比较功能，定义一个类实现Comparator接口，覆盖compare方法。
-				将该类对象作为参数传递给TreeSet集合的构造函数。
+	如果不要按照对象中具备的自然顺序进行排序。如果对象中不具备自然顺序。怎么办？
+	可以使用TreeSet集合第二种排序方式二：
+	让集合自身具备比较功能，定义一个类实现Comparator接口，覆盖compare方法。
+	将该类对象作为参数传递给TreeSet集合的构造函数。
 
 
 
@@ -297,9 +302,9 @@ if(this.hashCode()== obj.hashCode() && this.equals(obj))
 2，判断哈希值相同，其实判断的是对象的hashCode的方法。判断内容相同，用的是equals方法。
 
 注意：如果哈希值不同，是不需要判断equals。
-
+```
 ===========================================================
-
+```
 集合的一些技巧：
 
 需要唯一吗？
@@ -336,10 +341,10 @@ Set
 看到tree：就要想到二叉树，就要想要排序，就要想到两个接口Comparable，Comparator 。
 
 而且通常这些常用的集合容器都是不同步的。
-
+```
 
 ============================================
-
+```
 Map：一次添加一对元素。Collection 一次添加一个元素。
 	Map也称为双列集合，Collection集合称为单列集合。
 	其实map集合中存储的就是键值对。
@@ -371,13 +376,11 @@ Map常用的子类：
 		|--Properties：用来存储键值对型的配置文件的信息，可以和IO技术相结合。
 	|--HashMap : 内部结构是哈希表，不是同步的。允许null作为键，null作为值。
 	|--TreeMap : 内部结构是二叉树，不是同步的。可以对Map集合中的键进行排序。
+```
 
 
-
-
-
-
-
+Synchronization:
+```
 
 List list = new ArrayList();//非同步的。
 
@@ -422,7 +425,7 @@ class MyCollections{
 
 }
 }
-
+```
 
 
 ### HashCode
