@@ -31,9 +31,524 @@ But only return type/access modifier/exception differnet, this is not OVERLODA.
 There are several ClassLoader in JVM
 1) bootstrap load: jre/lib/rt.jar(like jdk)
 2) extclassloader: jar/lib/ext/*.jar
-3) appchassloader:
+3) appchassloader: load class path or classes from jar.
+
+Except bootstrap, other loaders are extended from ClassLoader class.
+```
+5. servlet lifecycle
+
+
+6. Why do we need Abstract class  
+
+7. Multi-tier design advantages:
+```
+1) loose couping
+2) multi team work independently
+3) Easy to maintain
+4) Reuseable
+5) Easy to new techniques on one tier
+6) Easy to scale
+7) Adaptive to client's new requirements
+```
+8. Why serialization
+```
+1) 对象经常要通过IO进行传送， 把对象的状态数据用某种格式写入到硬盘，Person->“zxx,male,28,30000”->Person，but there is no
+standard for this process.
+2) sun公司就提出一种统一的解决方案，它会把对象变成某个格式进行输入和输出，这种格式对程序员来说是透明（transparent）的，但是，我们的某个类要想能被sun的这种方案处理，必须实现Serializable接口。
+ObjectOutputStream.writeObject(obj);
+Object obj = ObjectInputStream.readObject();
+3) 假设两年前我保存了某个类的一个对象，这两年来，我修改该类，删除了某个属性和增加了另外一个属性，两年后，我又去读取那个保存的对象，或有什么结果？未知！sun的jdk就会蒙了。为此，一个解决办法就是在类中增加版本后，每一次类的属性修改，都应该把版本号升级一下，这样，在读取时，比较存储对象时的版本号与当前类的版本号，如果不一致，则直接报版本号不同的错!
+```
+
+9. clone()
+```
+the first line of code is : super.clone().
+// This means that it needs to copy base members and then derived members.
+```
+
+10 OO concepts
+```
+1) 1封装：
+封装 是保证软件部具有优良的模块性基础 保证软件部具有优良的模块性基础 保证软件部具有优良的模块性基础 ，封装  的目标就是要实现软件部“高内聚、低 耦合”， 耦合”， 防止 程序相互依赖性而带来的变动影响。 。 在面向对象的编程语言中， 对象是封装的最基本单 面向对象的封 装比传统语言的封更为清晰、有力 装比传统语言的封更为清晰、有力。面向对象的 封装就是把描述一个对象的属 性和行为的代码封装在一个“模块”中，也就是类属用变量定义方法 进性和行为的代码封装在一个“模块”中，也就是类属用变量定义方法  进可以直接访问同一个对象中的属性。 可以直接访问同一个对象中的属性。
+
+
+2) Abstract
+抽象：
+抽象就是找出一些 事物的相似和共性之处，然后将这抽象就是找出一些 事物的相似和共性之处，然后将这事物 归为一个类 ，这归为一个类 ，这归为一个类 ，这只考虑这些事物 只考虑这些事物 的相似和共性之处， 并且会忽略与当前主题和目标无关 的那些方面，将注意力集中在有的方面。 
+
+3)多态
+是指程序中定义的引用变量所指向的具体类型和通过该引用变量发出的方法调用在编程时
+并不确定，而是在程序运行期间才确定，即一个引用变量倒底会指向哪个类的实例对象，该引用变量 发出的方法调用到底是哪个类中实现的方法，必须在由程序运行期间才能决定。因为在程序运行时才 
+确定具体的类，这样，不用修改源程序代码，就可以让引用变量绑定到各种不同的类实现上，从 而导致该引用调用的具体方法随之改变，即不修改程序代码就可以改变程序运行时所绑定的具 
+体代码，让程序可以选择多个运行状态，这就是多态性。多态性增强了软件的灵活性和扩展性。 
+
+java 中实现多态的机制是什么？
+靠的是父类或接口定义的引用变量可以指向子类或具体实现类的实例对象，而程序调用的方法在 运行期才动态绑定，就是引用变量所指向的具体实例对象的方法，也就是内存里正在运行的那个对象 
+的方法，而不是引用变量的类型中定义的方法。
 
 ```
+
+11 abstract class 和 interface 有什么区别?
+```
+含有 abstract 修饰符的 class 即为抽象类，abstract  类不能创建的实例对象。含有 abstract 方法的类必须 定义为 abstract class，abstract 
+class 类中的方法不必是抽象的。abstract class 类中定义抽象方法必须在具体 (Concrete)子类中实现，所以，不能有抽象构造方法或抽象静态方法。如果的子类没有实现抽象父类中的所 
+有抽象方法，那么子类也必须定义为 abstract 类型。
+接口（interface）可以说成是抽象类的一种特例，接口中的所有方法都必须是抽象的。接口中的方法定 义默认为 public abstract 类型，接口中的成员变量类型默认为 public 
+static final。
+下面比较一下两者的语法区别：
+1.抽象类可以有构造方法，接口中不能有构造方法。
+2.抽象类中可以有普通成员变量，接口中没有普通成员变量
+3.抽象类中可以包含非抽象的普通方法，接口中的所有方法必须都是抽象的，不能有非抽象的普通方 法。
+4.  抽象类中的抽象方法的访问类型可以是 public，protected 和（默认类型,虽然
+eclipse 下不报错，但应该也不行），但接口中的抽象方法只能是 public 类型的，并且默认即为 public abstract 类型。
+5.  抽象类中可以包含静态方法，接口中不能包含静态方法
+6.  抽象类和接口中都可以包含静态成员变量，抽象类中的静态成员变量的访问类型可以任意，但接口 中定义的变量只能是 public static final 类型，并且默认即为 public 
+static final 类型。
+7.  一个类可以实现多个接口，但只能继承一个抽象类。
+下面接着再说说两者在应用上的区别：
+接口更多的是在系统架构设计方法发挥作用，主要用于定义模块之间的通信契约。而抽象类在代码实 现方面发挥作用，可以实现代码的重用，例如，模板方法设计模式是抽象类的一个典型应用，假设某个项 目的所有 
+Servlet 类都要用相同的方式进行权限判断、记录访问日志和处理异常，那么就可以定义一个抽象 的基类，让所有的 Servlet 都继承这个抽象基类，在抽象基类的 service 
+方法中完成权限判断、记录访问日 志和处理异常的代码，在各个子类中只是完成各自的业务逻辑代码，伪代码如下：
+
+父类方法中间的某段代码不确定，留给子类干，就用模板方法设计模式。
+备注：这道题的思路是先从总体解释抽象类和接口的基本概念，然后再比较两者的语法细节，最后再 说两者的应用区别。比较两者语法细节区别的条理是：先从一个类中的构造方法、普通成员变量和方法（包 
+括抽象方法），静态变量和方法，继承性等 6 个方面逐一去比较回答，接着从第三者继承的角度的回答，特 别是最后用了一个典型的例子来展现自己深厚的技术功底。
+
+```
+
+9、abstract 的 method 是否可同时是 static,是否可同时是
+native，是否可同时是 synchronized?
+
+
+abstract 的 method  不可以是 static 的，因为抽象的方法是要被子类实现的，而 static 与子类扯不上关系！
+native 方法表示该方法要用另外一种依赖平台的编程语言实现的，不存在着被子类实现的问题，所以， 它也不能是抽象的，不能与 abstract 混用。例如，FileOutputSteam 
+类要硬件打交道，底层的实现用的是操 作系统相关的 api  实现，例如，在 windows  用 c  语言实现的，所以，查看 jdk  的源代码，可以发现 FileOutputStream 的 
+open 方法的定义如下：
+private native void open(String name) throws FileNotFoundException;
+如果我们要用 java 调用别人写的 c 语言函数，我们是无法直接调用的，我们需要按照 java 的要求写一 个 c 语言的函数，又我们的这个 c 语言函数去调用别人的 c 语言函数。由于我们的 c 
+语言函数是按 java 的 要求来写的，我们这个 c 语言函数就可以与 java 对接上，java 那边的对接方式就是定义出与我们这个 c 函
+
+
+数相对应的方法，java 中对应的方法不需要写具体的代码，但需要在前面声明 native。
+关于 synchronized 与 abstract 合用的问题，我觉得也不行，因为在我几年的学习和开发中，从来没见到 过 这 种 情 况， 并 且我 觉 得 synchronized  应 该 
+是作 用 在一 个具 体 的 方 法上 才 有意 义 。 而且 ， 方 法 上 的 synchronized 同步所使用的同步锁对象是 this，而抽象方法上无法确定 this 是什么。
+
+2、final, finally, finalize 的区别。
+
+
+final 用于声明属性，方法和类，分别表示属性不可变，方法不可覆盖，类不可继承。 内部类要访问局部变量，局部变量必须定义成 final 类型，例如，一段代码……
+
+finally 是异常处理语句结构的一部分，表示总是执行。
+
+
+
+finalize 是 Object 类的一个方法，在垃圾收集器执行的时候会调用被回收对象的此方法， 可以覆盖此方法提供垃圾收集时的其他资源回收，例如关闭文件等。JVM 不保证此方 法总被调用
+
+
+5、运行时异常与一般异常有何异同？
+
+
+异常表示程序运行过程中可能出现的非正常状态，运行时异常表示虚拟机的通常操作中可能 遇到的异常，是一种常见运行错误。java 编译器要求方法必须声明抛出可能发生的非运行时 
+异常，但是并不要求必须声明抛出未被捕获的运行时异常。
+
+15、error 和 exception 有什么区别?
+
+
+error 表示恢复不是不可能但很困难的情况下的一种严重问题。比如说内存溢出。不可能指 望程序能处理这样的情况。 exception 表示一种设计或实现问题。也就是说，它表示如果程 
+序运行正常，从不会发生的情况。
+
+
+
+50、Java 中的异常处理机制的简单原理和应用。
+
+
+异常是指 java 程序运行时（非编译）所发生的非正常情况或错误，与现实生活中的事件很 相似，现实生活中的事件可以包含事件发生的时间、地点、人物、情节等信息，可以用一个 对象来表示，Java 
+使用面向对象的方式来处理异常，它把程序中发生的每个异常也都分别封 装到一个对象来表示的，该对象中包含有异常的信息。
+Java 对异常进行了分类，不同类型的异常分别用不同的 Java 类表示，所有异常的根类为 java.lang.Throwable，Throwable 下面又派生了两个子类：Error 和 
+Exception，Error 表示应 用程序本身无法克服和恢复的一种严重问题，程序只有死的份了，例如，说内存溢出和线程 死锁等系统问题。Exception 
+表示程序还能够克服和恢复的问题，其中又分为系统异常和普 通异常，系统异常是软件本身缺陷所导致的问题，也就是软件开发人员考虑不周所导致的问 
+题，软件使用者无法克服和恢复这种问题，但在这种问题下还可以让软件系统继续运行或者 让软件死掉 ， 例 如 ， 数 组 脚 本 越 界 （ ArrayIndexOutOfBoundsException 
+）， 空 指 针 异 常
+（NullPointerException）、类转换异常（ClassCastException）；普通异常是运行环境的变化或 
+异常所导致的问题，是用户能够克服的问题，例如，网络断线，硬盘空间不够，发生这样的 异常后，程序不应该死掉。
+java 为系统异常和普通异常提供了不同的解决方案，编译器强制普通异常必须 try..catch 处 理或用 throws 声明继续抛给上层调用方法处理，所以普通异常也称为 checked 
+异常，而系统 异常可以处理也可以不处理，所以，编译器不强制用 try..catch 处理或用 throws 声明，所以 系统异常也称为 unchecked 异常。
+
+
+提示答题者：就按照三个级别去思考：虚拟机必须宕机的错误，程序可以死掉也可以不死掉 的错误，程序不应该死掉的错误；
+
+
+33、请写出你最常见到的 5 个 runtime exception。
+
+
+这道题主要考你的代码量到底多大，如果你长期写代码的，应该经常都看到过一些系统方面的异常， 你不一定真要回答出 5 个具体的系统异常，但你要能够说出什么是系统异常，以及几个系统异常就可以了， 
+当然，这些异常完全用其英文名称来写是最好的，如果实在写不出，那就用中文吧，有总比没有强！
+所谓系统异常，就是…..，它们都是 RuntimeException 的子类，在 jdk doc 中查 RuntimeException 类， 就 可 以 看 到 其 所 有 的 子 类 列 表 ， 
+也 就 是 看 到 了 所 有 的 系 统 异 常 。 我 比 较 有 印 象 的 系 统 异 常 有 ： 
+NullPointerException、ArrayIndexOutOfBoundsException、ClassCastException。
+
+
+
+99、java 中有几种方法可以实现一个线程？用什么关键字修
+饰同步方法? stop()和 suspend()方法为何不推荐使用？
+
+
+
+java5 以前，有如下两种： 第一种：
+new Thread(){}.start();这表示调用 Thread 子类对象的 run 方法，new Thread(){}表示一个
+Thread 的匿名子类的实例对象，子类加上 run 方法后的代码如下：
+new Thread(){
+public void run(){
+}
+}.start();
+
+第二种：
+new Thread(new Runnable(){}).start();这表示调用 Thread 对象接受的 Runnable 对象的 run 方法，new Runnable(){}表示一个 
+Runnable 的匿名子类的实例对象,runnable 的子类加 上 run 方法后的代码如下：
+new Thread(new Runnable(){
+public void run(){
+}
+}
+).start();
+从 java5 开始，还有如下一些线程池创建多线程的方式：
+ExecutorService pool = Executors.newFixedThreadPool(3)
+for(int i=0;i<10;i++)
+{
+
+
+
+
+
+
+pool.execute(new Runable(){public void run(){}});
+}
+
+Executors.newCachedThreadPool().execute(new Runable(){public void run(){}}); 
+Executors.newSingleThreadExecutor().execute(new Runable(){public void run(){}});
+有两种实现方法，分别使用 new Thread()和 new Thread(runnable)形式，第一种直接调用 thread 的 run 方法，所以，我们往往使用 Thread 子类，即 new 
+SubThread()。第二种调 用 runnable 的 run 方法。
+
+
+有两种实现方法，分别是继承 Thread 类与实现 Runnable 接口 用 synchronized 关键字修饰同步方法
+反对使用 stop()，是因为它不安全。它会解除由线程获取的所有锁定，而且如果对象处 于一种不连贯状态，那么其他线程能在那种状态下检查和修改它们。结果很难检查出 
+真正的问题所在。suspend()方法容易发生死锁。调用 suspend()的时候，目标线程会停
+下来，但却仍然持有在这之前获得的锁定。此时，其他任何线程都不能访问锁定的资 源，除非被"挂起"的线程恢复运行。对任何线程来说，如果它们想恢复目标线程，同 
+时又试图使用任何一个锁定的资源，就会造成死锁。所以不应该使用 suspend()，而应 在自己的 Thread 类中置入一个标志，指出线程应该活动还是挂起。若标志指出线程应 该挂起，便用 
+wait()命其进入等待状态。若标志指出线程应当恢复，则用一个 notify() 重新启动线程。
+
+
+13、sleep() 和 wait() 有什么区别?
+
+
+（网上的答案：sleep 是线程类（Thread）的方法，导致此线程暂停执行指定时间，给 执行机会给其他线程，但是监控状态依然保持，到时后会自动恢复。调用 sleep 不会释放对 象锁。 wait 
+是 Object 类的方法，对此对象调用 wait 方法导致本线程放弃对象锁，进入等待 此对象的等待锁定池，只有针对此对象发出 notify 方法（或 notifyAll）后本线程才进入对象 
+锁定池准备获得对象锁进入运行状态。）
+
+
+sleep 就是正在执行的线程主动让出 cpu，cpu 去执行其他线程，在 sleep 指定的时间过 后，cpu 才会回到这个线程上继续往下执行，如果当前线程进入了同步锁，sleep 方法并不会 
+释放锁，即使当前线程使用 sleep 方法让出了 cpu，但其他被同步锁挡住了的线程也无法得 到执行。wait 是指在一个已经进入了同步锁的线程内，让自己暂时让出同步锁，以便其他正 
+在等待此锁的线程可以得到同步锁并运行，只有其他线程调用了 notify 方法（notify 并不释
+
+
+放锁，只是告诉调用过 wait 方法的线程可以去参与获得锁的竞争了，但不是马上得到锁，
+因为锁还在别人手里，别人还没释放。如果 notify 方法后面的代码还有很多，需要这些代码 执行完后才会释放锁，可以在 notfiy 方法后增加一个等待和一些代码，看看效果），调用 wait 
+方法的线程就会解除 wait 状态和程序可以再次得到锁后继续向下运行。对于 wait 的讲解一 定要配合例子代码来说明，才显得自己真明白。
+package com.huawei.interview;
+
+
+public class MultiThread {
+/**
+* @param args
+*/
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+new Thread(new Thread1()).start();
+try {
+Thread.sleep(10);
+} catch (InterruptedException e) {
+// TODO Auto-generated catch block e.printStackTrace();
+}
+new Thread(new Thread2()).start();
+}
+private static class Thread1 implements Runnable
+{
+@Override
+public void run() {
+// TODO Auto-generated method stub
+//由于这里的Thread1和下面的Thread2内部run方法要用同一对象作为监视器，我们这里不 
+能用this，因为在Thread2里面的this和这个Thread1的this不是同一个对象。我们用 MultiThread.class这个字节码对象，当前虚拟机里引用这个变量时，指向的都是同一个对 
+象。
+
+
+
+
+
+
+
+
+
+
+
+synchronized (MultiThread.class) {
+System.out.println("enter thread1...");
+
+
+System.out.println("thread1 is waiting");
+try {
+//释放锁有两种方式，第一种方式是程序自然离开监视器的范围，也就是离开了
+synchronized关键字管辖的代码范围，另一种方式就是在synchronized关键字管辖的代码
+内部调用监视器对象的wait方法。这里，使用wait方法释放锁。
+MultiThread.class.wait();
+} catch (InterruptedException e) {
+// TODO Auto-generated catch block e.printStackTrace();
+}
+System.out.println("thread1 is going on...");
+System.out.println("thread1 is being over!");
+}
+}
+}
+private static class Thread2 implements Runnable
+{
+@Override
+public void run() {
+// TODO Auto-generated method stub
+synchronized (MultiThread.class) { System.out.println("enter thread2...");
+System.out.println("thread2 notify other thread can
+release wait status..");
+//由于notify方法并不释放锁， 即使thread2调用下面的sleep方法休息了10毫秒，但
+thread1仍然不会执行，因为thread2没有释放锁，所以Thread1无法得不到锁。
+
+
+
+
+
+
+MultiThread.class.notify();
+
+
+System.out.println("thread2 is sleeping ten millisecond...");
+try {
+Thread.sleep(10);
+} catch (InterruptedException e) {
+// TODO Auto-generated catch block e.printStackTrace();
+}
+System.out.println("thread2 is going on...");
+System.out.println("thread2 is being over!");
+}
+}
+}
+}
+
+16、同步和异步有何异同，在什么情况下分别使用他们？举
+例说明。
+如果数据将在线程间共享。例如正在写的数据以后可能被另一个线程读到，或者正在读的数
+据可能已经被另一个线程写过了，那么这些数据就是共享数据，必须进行同步存取。 当应用程序在对象上调用了一个需要花费很长时间来执行的方法，并且不希望让程序等待方 
+法的返回时，就应该使用异步编程，在很多情况下采用异步途径往往更有效率。
+
+
+
+17. 下面两个方法同步吗？（自己发明）
+class Test
+{
+synchronized static void sayHello3()
+{
+
+
+}
+synchronized void getX(){}
+}
+56、多线程有几种实现方法?同步有几种实现方法?
+
+
+多线程有两种实现方法，分别是继承 Thread 类与实现 Runnable 接口 同步的实现方面有两种，分别是 synchronized,wait 与 notify 
+wait():使一个线程处于等待状态，并且释放所持有的对象的 lock。 sleep():使一个正在运行的线程处于睡眠状态，是一个静态方法，调用此方法要捕捉 InterruptedException 
+异常。 notify():唤醒一个处于等待状态的线程，注意的是在调用此方法的时候，并不能确切的唤 醒某一个等待状态的线程，而是由 JVM 确定唤醒哪个线程，而且不是按优先级。 
+Allnotity():唤醒所有处入等待状态的线程，注意并不是给所有唤醒线程一个对象的锁，
+而是让它们竞争
+
+30、启动一个线程是用 run()还是 start()? .
+
+
+启动一个线程是调用 start()方法，使线程就绪状态，以后可以被调度为运行状态，一个 线程必须关联一些具体的执行代码，run()方法是该线程所关联的执行代码。
+
+
+
+47、当一个线程进入一个对象的一个 synchronized 方法后， 其它线程是否可进入此对象的其它方法?
+分几种情况：
+1.其他方法前是否加了 synchronized 关键字，如果没加，则能。
+2.如果这个方法内部调用了 wait，则可以进入其他 synchronized 方法。
+3.如果其他个方法都加了 synchronized 关键字，并且内部没有调用 wait，则不能。
+4.如果其他方法是 static，它用的同步锁是当前类的字节码，与非静态的方法不能 同步，因为非静态的方法用的是 this。
+
+
+
+58、线程的基本概念、线程的基本状态以及状态之间的关系
+
+
+
+一个程序中可以有多条执行线索同时执行，一个线程就是程序中的一条执行线索，每个 线程上都关联有要执行的代码，即可以有多段程序代码同时运行，每个程序至少都有 一个线程，即 main 
+方法执行的那个线程。如果只是一个 cpu，它怎么能够同时执行多 段程序呢？这是从宏观上来看的，cpu 一会执行 a 线索，一会执行 b 线索，切换时间 很快，给人的感觉是 a,b 
+在同时执行，好比大家在同一个办公室上网，只有一条链接 到外部网线，其实，这条网线一会为 a 传数据，一会为 b 传数据，由于切换时间很短 暂，所以，大家感觉都在同时上网。
+
+状态：就绪，运行，synchronize 阻塞，wait 和 sleep 挂起，结束。wait 必须在 synchronized
+内部调用。
+调用线程的 start 方法后线程进入就绪状态，线程调度系统将就绪状态的线程转为运行 状态，遇到 synchronized 语句时，由运行状态转为阻塞，当 synchronized 获得锁后， 
+由阻塞转为运行，在这种情况可以调用 wait 方法转为挂起状态，当线程关联的代码执 行完后，线程变为结束状态。
+
+
+71、简述 synchronized 和 java.util.concurrent.locks.Lock 的
+异同 ？
+
+
+主要相同点：Lock 能完成 synchronized 所实现的所有功能
+主要不同点：Lock 有比 synchronized 更精确的线程语义和更好的性能。synchronized 会 自动释放锁，而 Lock 一定要求程序员手工释放，并且必须在 finally 
+从句中释放。Lock 还有更强大的功能，例如，它的 tryLock 方法可以非阻塞方式去拿锁。 举例说明（对下面的题用 lock 进行了改写）：
+package com.huawei.interview;
+
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+
+public class ThreadTest {
+/**
+* @param args
+*/
+private int j;
+private Lock lock = new ReentrantLock();
+public static void main(String[] args) {
+// TODO Auto-generated method stub ThreadTest tt = new ThreadTest(); for(int i=0;i<2;i++)
+{
+new Thread(tt.new Adder()).start();
+new Thread(tt.new Subtractor()).start();
+}
+}
+private class Subtractor implements Runnable
+{
+@Override
+public void run() {
+// TODO Auto-generated method stub
+while(true)
+{
+/*synchronized (ThreadTest.this) {
+System.out.println("j--=" + j--);
+//这里抛异常了，锁能释放吗？
+}*/
+
+lock.lock();
+try
+{
+System.out.println("j--=" + j--);
+}finally
+{
+lock.unlock();
+}
+}
+}
+}
+private class Adder implements Runnable
+{
+@Override
+public void run() {
+// TODO Auto-generated method stub
+while(true)
+{
+/*synchronized (ThreadTest.this) {
+System.out.println("j++=" + j++);
+}*/
+lock.lock();
+try
+{
+System.out.println("j++=" + j++);
+}finally
+{
+lock.unlock();
+}
+}
+}
+}
+}
+
+
+28、设计 4 个线程，其中两个线程每次对 j 增加 1，另外两
+个线程对 j 每次减少 1。写出程序。
+
+
+以下程序使用内部类实现线程，对 j 增减的时候没有考虑顺序问题。
+public class ThreadTest1
+{
+private int j;
+public static void main(String args[]){ ThreadTest1 tt=new ThreadTest1(); Inc inc=tt.new Inc();
+Dec dec=tt.new Dec();
+for(int i=0;i<2;i++){
+Thread t=new Thread(inc);
+t.start();
+t=new Thread(dec);
+t.start();
+}
+}
+private synchronized void inc()
+j++;
+System.out.println(Thread.currentThread().getName()+"-inc:"+j);
+}
+private synchronized void dec()
+j--;
+System.out.println(Thread.currentThread().getName()+"-dec:"+j);
+}
+class Inc implements Runnable{
+public void run(){
+for(int i=0;i<100;i++){
+inc();
+}
+}
+}
+
+class Dec implements Runnable{
+public void run(){
+for(int i=0;i<100;i++){
+dec();
+}
+}
+}
+}
+----------随手再写的一个-------------
+class
+{
+JManger j =new JManager();
+main()
+{
+new A().call();
+}
+void call
+{
+for(int i=0;i<2;i++)
+{
+new Thread(
+new Runnable(){ public void run(){while(true){j.accumulate()}}}
+).start();
+new Thread(new Runnable(){ public void run(){while(true){j.sub()}}}).start();
+}
+}
+}
+class JMa
+{
+private j = 0;
+
+
+public synchronized void subtract()
+{
+j-
+}
+public synchronized void accumulate()
+{
+
+j++;
+}
+}
+
+
+
+
 
 
 
