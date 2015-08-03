@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="LeetCode" />
         <module name="Ten_Algorithems" />
+        <module name="Ten_Algorithms" />
       </profile>
     </annotationProcessing>
   </component>

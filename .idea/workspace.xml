@@ -2,167 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c702d55-b018-4368-8711-edcf7f4e721a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/AddTwoNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/Anagrams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/BalancedBinaryTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/BestTimetoBuyandSellStock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/BestTimetoBuyandSellStockII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/BestTimetoBuyandSellStockIII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/BinaryAdd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/BinaryTreeInorderTraversal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/BinaryTreeLevelOrderTraversal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/BinaryTreeLevelOrderTraversalII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/BinaryTreeMaximumPathSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/BinaryTreePostorderTraversal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/BinaryTreePreorderTraversal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/template/BinaryTreePreorderTraversal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/BinaryTreeZigzagLevelOrderTraversal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/Candy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/ClimbStairs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/CloneGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/CombinationSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/CombinationSumII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/Combinations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/ConstructBinaryTreefromInorderandPostorderTraversal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/ConstructBinaryTreefromPreorderandInorderTraversal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/ContainerWithMostWater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/ConvertSortedArraytoBinarySearchTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/ConvertSortedListtoBinarySearchTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/Copylistwithrandompointer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/CountAndSay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/template/DPtemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/DecodeWays.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/DistinctSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/Divide2Integers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/EditDistance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/EvaluateReversePolishNotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/FindMaxConcatenate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/FindtheLargestKinlist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/FirstMissingPositive.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/FlattenBinaryTreetoLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/FourSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/GasStation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/GenerateParentheses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/GrayCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/ImptStrStr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/InsertInterval.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/InsertionSortList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/IntegerToRoman.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/InterleavingString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/IsNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/JumpGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/JumpGame2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/LRUCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/LRUCache2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/LargestRectangleinHistogram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/LengthofLastWord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/LetterCombinationsofaPhoneNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/LinkedListCycle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/LinkedListCycleII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/LongestCommonPrefix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/LongestConsecutiveSequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/LongestSubstringWithoutRepeatingCharacters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/LongestValidParentheses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/MaximalRectangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/MaximumDepthofBinaryTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/MaximumSubarray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/MedianofTwoSortedArrays.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/Merge2SortedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/MergeInterval.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/MergeKLists.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/MergeSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/MinimumDepthofBinaryTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/MinimumPathSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/MinimumWindowSubstring.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/MultiplyStrings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/NQueen2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/NQueens.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/NextPermutation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/PalindromeNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/PalindromePartitioning.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/PalindromePartitioningII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/PartitionList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/PascalTriangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/PascalsTriangleII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/PathSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/PathSumII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/template/Permutation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/Permutations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/Permutations2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/PlusOne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/PopulatingNextRightPointersinEachNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/PopulatingNextRightPointersinEachNodeII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/Pow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/RecoverBinarySearchTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/RegularExpressionMatching.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/RemoveDuplicatesFromSortedArrayII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/RemoveDuplicatesfromSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/RemoveDuplicatesfromSortedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/RemoveDuplicatesfromSortedList2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/RemoveElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/RemoveNthNodeFromEnd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/ReorderList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/RestoreIPAddresses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/ReverseInteger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/ReverseLinkedListII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/ReverseNodesinkGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/ReverseWordsinaString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/RomantoInteger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/RotateImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/RotateList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/SameTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/SearchA2DMatrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/SearchForARange.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/SearchInsertPosition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/SearchinRotatedSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/SearchinRotatedSortedArrayII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/SetMatrixZeroes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/SimplifyPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/SingleNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/Singlenumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/Singlenumber2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/SortColors.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/SortList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/SpiralMatrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/SpiralMatrixII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/Sqrt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/StringtoInteger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/Subsets.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/SubsetsII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/SubstringwithConcatenationofAllWords.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/SumRoottoLeafNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/SurroundedRegions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/SwapNodesinPairs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/SymmetricTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/ThreeSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/ThreeSumClosest.java.dump" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/ThreeSumClosest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/TrappingRainWater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/Triangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/TwoSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/UniqueBinarySearchTree2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/UniqueBinarySearchTrees.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/UniquePaths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_3/UniquePaths2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/ValidPalindrome.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/ValidParentheses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_2/ValidSudoku.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/ValidateBST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/WordBreak.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/newQuestion/WordBreakII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/WordLadder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_4/WordSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/ZigZagConversion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/frequency_5/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/IntToString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ten_Algorithms/src/test/java/CodingHire/StringAndArray/IntToStringTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/ReverseString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/StringToInteger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ten_Algorithms/src/test/java/CodingHire/StringAndArray/StringToIntegerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/SuperCalculator.java" />
+      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\Java_CodingHire\Java\Ten_Algorithms\Ten_Algorithems.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ten_Algorithms/Ten_Algorithms.iml" afterPath="$PROJECT_DIR$/Ten_Algorithms/Ten_Algorithms.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ten_Algorithms/pom.xml" afterPath="$PROJECT_DIR$/Ten_Algorithms/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java.iws" />
@@ -186,12 +36,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BestTimetoBuyandSellStock.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/BestTimetoBuyandSellStock.java">
+      <file leaf-file-name="HexToInt.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/HexToInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15423387" vertical-offset="0" max-vertical-offset="992">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.41570142" vertical-offset="0" max-vertical-offset="1394">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+              <folding>
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -218,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Ten_Algorithms/pom.xml" />
         <option value="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/methods.txt" />
         <option value="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/RepeatedTimesOfLetters.java" />
         <option value="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/CountChar.java" />
@@ -229,6 +81,15 @@
         <option value="$PROJECT_DIR$/LeetCode/src/main/java/template/Permutation.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/main/java/template/DP¦--ú¦s.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/main/java/template/DPtemplate.java" />
+        <option value="$PROJECT_DIR$/Ten_Algorithms/pom.xml" />
+        <option value="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/ConvertStringToInteger.java" />
+        <option value="$PROJECT_DIR$/Ten_Algorithms/src/test/java/CodingHire/StringAndArray/ConvertStringToIntegerTest.java" />
+        <option value="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/IntToString.java" />
+        <option value="$PROJECT_DIR$/Ten_Algorithms/src/test/java/CodingHire/StringAndArray/IntToStringTest.java" />
+        <option value="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/ReverseString.java" />
+        <option value="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/SuperCalculator.java" />
+        <option value="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/hexToInt.java" />
+        <option value="$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/HexToInt.java" />
       </list>
     </option>
   </component>
@@ -238,6 +99,16 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -271,7 +142,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -301,7 +171,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
+              <option name="myItemId" value="Ten_Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,7 +185,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
+              <option name="myItemId" value="Ten_Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -326,6 +196,18 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodingHire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StringAndArray" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -337,7 +219,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
+              <option name="myItemId" value="Ten_Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -345,11 +227,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodingHire" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,37 +249,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newQuestion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodingHire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
+              <option name="myItemId" value="Ten_Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -409,12 +265,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frequency_1" />
+              <option name="myItemId" value="CodingHire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodingHire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ten_Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodingHire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StringAndArray" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -426,21 +317,129 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="public" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Shubo\Desktop\GitHub\Java_CodingHire\Java\LeetCode\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="CountChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.HexToInt">
+    <configuration default="false" name="StringToIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="CodingHire.StringAndArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="CodingHire.StringAndArray.CountChar" />
+      <module name="Ten_Algorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CodingHire.StringAndArray" />
+      <option name="MAIN_CLASS_NAME" value="CodingHire.StringAndArray.StringToIntegerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="CodingHire.StringAndArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="CodingHire.StringAndArray.IntToString" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ten_Algorithms" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntToStringTest.testIntToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="CodingHire.StringAndArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Ten_Algorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CodingHire.StringAndArray" />
+      <option name="MAIN_CLASS_NAME" value="CodingHire.StringAndArray.IntToStringTest" />
+      <option name="METHOD_NAME" value="testIntToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="CodingHire.StringAndArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="CodingHire.StringAndArray.ReverseString" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ten_Algorithms" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HexToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="CodingHire.StringAndArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="CodingHire.StringAndArray.HexToInt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -469,6 +468,28 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
@@ -681,12 +702,20 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.CountChar" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StringToIntegerTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.IntToString" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IntToStringTest.testIntToString" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReverseString" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HexToInt" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.CountChar" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.HexToInt" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReverseString" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IntToStringTest.testIntToString" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IntToString" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StringToIntegerTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -702,24 +731,27 @@
       <updated>1436836350504</updated>
       <workItem from="1436836352742" duration="6296000" />
       <workItem from="1438400052887" duration="602000" />
+      <workItem from="1438445422495" duration="140000" />
+      <workItem from="1438445569906" duration="11353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6898000" />
+    <option name="totallyTimeSpent" value="18391000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20686275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39980355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -729,15 +761,14 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33280087" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17891374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.211838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20979765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21119843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -758,18 +789,51 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/BestTimetoBuyandSellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="612">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="578">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="323">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/BestTimetoBuyandSellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="612">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/RotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="629">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,38 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
           <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/methods.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28462708" vertical-offset="0" max-vertical-offset="657">
-          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/CountChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1901236" vertical-offset="1482" max-vertical-offset="1887">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/RotateArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,14 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -840,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,15 +871,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.90563166" vertical-offset="0" max-vertical-offset="748">
           <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/StringToInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6126126" vertical-offset="0" max-vertical-offset="777">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/src/main/java/frequency_1/BestTimetoBuyandSellStock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15423387" vertical-offset="0" max-vertical-offset="992">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.3063063" vertical-offset="0" max-vertical-offset="777">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/methods.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24066924" vertical-offset="0" max-vertical-offset="777">
+          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/IntToString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043758042" vertical-offset="0" max-vertical-offset="777">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/test/java/CodingHire/StringAndArray/IntToStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10939511" vertical-offset="0" max-vertical-offset="777">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/test/java/CodingHire/StringAndArray/StringToIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41570142" vertical-offset="0" max-vertical-offset="777">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/SuperCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9554974" vertical-offset="18" max-vertical-offset="918">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3938224" vertical-offset="0" max-vertical-offset="777">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/CountChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.38610038" vertical-offset="844" max-vertical-offset="1836">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15315315" vertical-offset="0" max-vertical-offset="777">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ten_Algorithms/src/main/java/CodingHire/StringAndArray/HexToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41570142" vertical-offset="0" max-vertical-offset="1394">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
