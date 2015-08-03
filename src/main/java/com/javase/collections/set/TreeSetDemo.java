@@ -25,9 +25,14 @@ public class TreeSetDemo {
         * Test duplicate hash code
          *  */
 
+<<<<<<< HEAD
       /*  testDuplicateHashCode();
 
         TreeSet<Person> p = new TreeSet<>();*/
+=======
+        //testDuplicateHashCode();
+
+>>>>>>> bc2c3e79e89d8b008a641530b19557270cb40e90
 
     }
 

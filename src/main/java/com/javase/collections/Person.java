@@ -63,21 +63,6 @@ public class Person implements Comparable {
         int  temp = this.age-p.age;
         return temp==0?this.name.compareTo(p.name):temp;
 
-//		int  temp = this.name.compareTo(p.name);
-//		return temp==0?this.age-p.age:temp;
-
-		/*
-		if(this.age>p.age)
-			return 1;
-		if(this.age<p.age)
-			return -1;
-
-		else{
-
-			return this.name.compareTo(p.name);
-		}
-		*/
-
     }
 
 }
