@@ -16,7 +16,7 @@ public class TreeSetDemo {
         testing comparator
         */
         //test1();
-        //test2();
+        test2();
         //testPerson1();
         //testPerson2();
 
@@ -25,7 +25,9 @@ public class TreeSetDemo {
         * Test duplicate hash code
          *  */
 
-        testDuplicateHashCode();
+      /*  testDuplicateHashCode();
+
+        TreeSet<Person> p = new TreeSet<>();*/
 
     }
 
