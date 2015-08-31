@@ -21,4 +21,8 @@ public class IntToString {
         }
         return result;
     }
+    
+    public static void main(String[] args) {
+		System.out.println(intToString(15));
+	}
 }
