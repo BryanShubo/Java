@@ -124,7 +124,7 @@ public class TreeSetDemo {
 
     public static void testDuplicateHashCode() {
 
-        Set<HashCodeTest> set = new TreeSet<>();
+        Set<HashCodeTest> set = new TreeSet<HashCodeTest>();
         set.add(new HashCodeTest("John", "Doe"));
         set.add(new HashCodeTest("Doe", "John"));
 

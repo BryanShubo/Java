@@ -17,7 +17,7 @@ public class Main {
         EmployeeReflection emp2 = new EmployeeReflection(1, "Allen", 13, "Accountant");
         System.out.println
                 ("Is emp1 equals to emp2: " + emp1.equals(emp2));
-        Set<EmployeeReflection> employees = new HashSet<>();
+        Set<EmployeeReflection> employees = new HashSet<EmployeeReflection>();
         employees.addAll(Arrays.asList(emp1,emp2));
 
         System.out.println("Size of set: " + employees.size());
@@ -29,7 +29,7 @@ public class Main {
         Employee emp2 = new Employee(1, "Allen", 13, "Accountant");
         System.out.println
                 ("Is emp1 equals to emp2: " + emp1.equals(emp2));
-        Set<Employee> employees = new HashSet<>();
+        Set<Employee> employees = new HashSet<Employee>();
         employees.addAll(Arrays.asList(emp1,emp2));
 
         System.out.println("Size of set: " + employees.size());

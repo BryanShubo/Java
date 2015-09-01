@@ -1,10 +1,11 @@
 target
-.idea
 .metadata
 .settings
 .classpath
 .project
+.idea
 *.class
+.idea
 # Package Files #
 *.jar
 *.war
