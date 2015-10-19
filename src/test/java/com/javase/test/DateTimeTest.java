@@ -1,3 +1,4 @@
+/*
 package com.javase.test;
 
 import java.util.Date;
@@ -5,9 +6,7 @@ import java.util.Date;
 import org.apache.commons.lang.StringUtils;
 import org.joda.time.DateTime;
 
-/**
- * Created by shubo.zhang on 9/8/2015.
- */
+
 public class DateTimeTest {
 
     public static void main(String[] args) {
@@ -42,3 +41,4 @@ public class DateTimeTest {
 
     }
 }
+*/
