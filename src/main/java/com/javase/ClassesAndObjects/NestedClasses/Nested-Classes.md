@@ -82,3 +82,99 @@ introduce a new, named type (because, for example, you need to invoke additional
 Anonymous class: Use it if you need to declare fields or additional methods.
 
 ```
+
+
+III. Local Class
+```
+A local class has access to the members of its enclosing class. In the previous example, 
+the PhoneNumber constructor accesses the member LocalClassExample.regularExpression.
+
+In addition, a local class has access to local variables. However, a local class can only 
+access local variables that are declared final. When a local class accesses a local variable
+ or parameter of the enclosing block, it captures that variable or parameter. For example, the 
+ PhoneNumber constructor can access the local variable numberLength because it is declared final; 
+ numberLength is a captured variable.
+
+However, starting in Java SE 8, a local class can access local variables and parameters of the 
+enclosing block that are final or effectively final. A variable or parameter whose value is never 
+changed after it is initialized is effectively final.
+
+
+Starting in Java SE 8, if you declare the local class in a method, it can access the method's parameters. 
+
+You cannot declare an interface inside a block; interfaces are inherently static. 
+
+You cannot declare static initializers or member interfaces in a local class.
+
+
+A local class can have static members provided that they are constant variables.
+```
+
+IV. Anonymous Classes
+```
+Anonymous classes are often used in graphical user interface (GUI) applications.
+
+Anonymous classes enable you to make your code more concise. They enable you to declare and instantiate 
+a class at the same time. They are like local classes except that they do not have a name. Use them 
+if you need to use a local class only once.
+
+
+Like local classes, anonymous classes can capture variables; they have the same access to local variables of the enclosing scope:
+
+An anonymous class has access to the members of its enclosing class.
+
+An anonymous class cannot access local variables in its enclosing scope that are not declared as final or effectively final.
+
+Like a nested class, a declaration of a type (such as a variable) in an anonymous class shadows any other 
+declarations in the enclosing scope that have the same name. See Shadowing for more information.
+
+Anonymous classes also have the same restrictions as local classes with respect to their members:
+
+You cannot declare static initializers or member interfaces in an anonymous class.
+
+An anonymous class can have static members provided that they are constant variables.
+
+Note that you can declare the following in anonymous classes:
+
+Fields
+
+Extra methods (even if they do not implement any methods of the supertype)
+
+Instance initializers
+
+Local classes
+
+However, you cannot declare constructors in an anonymous class.
+```
+
+
+
+V. When to Use Nested Classes, Local Classes, Anonymous Classes, and Lambda Expressions
+```
+   
+As mentioned in the section Nested Classes, nested classes enable you to logically group classes that are only used
+in one place, increase the use of encapsulation, and create more readable and maintainable code. Local classes, 
+anonymous classes, and lambda expressions also impart these advantages; however, they are intended to be used for 
+more specific situations:
+
+Local class: Use it if you need to create more than one instance of a class, access its constructor, or introduce a
+new, named type (because, for example, you need to invoke additional methods later).
+
+Anonymous class: Use it if you need to declare fields or additional methods.
+
+Lambda expression:
+
+Use it if you are encapsulating a single unit of behavior that you want to pass to other code. For example, 
+you would use a lambda expression if you want a certain action performed on each element of a collection, 
+when a process is completed, or when a process encounters an error.
+
+Use it if you need a simple instance of a functional interface and none of the preceding criteria apply 
+(for example, you do not need a constructor, a named type, fields, or additional methods).
+
+Nested class: Use it if your requirements are similar to those of a local class, you want to make the 
+type more widely available, and you don't require access to local variables or method parameters.
+
+Use a non-static nested class (or inner class) if you require access to an enclosing instance's 
+non-public fields and methods. Use a static nested class if you don't require this access.
+   
+```
