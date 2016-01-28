@@ -1,4 +1,5 @@
 Table Of Contents
+```
 1. Introduction
 2. New Features in Java language
 2.1. Lambdas and Functional Interfaces
@@ -23,16 +24,19 @@ Table Of Contents
 6. New Features in Java runtime (JVM)
 7. Conclusions
 8. Resources
- 
-1. Introduction
+```
+###1. Introduction
 With no doubts, Java 8 release is the greatest thing in the Java world since Java 5 (released quite a while ago, back in 2004). It brings tons of new features to the Java as a language, its compiler, libraries, tools and the JVM (Java virtual machine) itself. In this tutorial we are going to take a look on all these changes and demonstrate the different usage scenarios on real examples.
 The tutorial consists of several parts where each one touches the specific side of the platform:
+```
 language
 compiler
 libraries
 tools
 runtime (JVM)
-2. New Features in Java language
+```
+
+###2. New Features in Java language
 Java 8 is by any means a major release. One might say it took so long to finalize in order to implement the features every Java developer was looking for. In this section we are going to cover most of them.
 2.1. Lambdas and Functional Interfaces
 Lambdas (also known as closures) are the biggest and most awaited language change in the whole Java 8 release. They allow us to treat functionality as a method argument (passing functions around), or treat a code as data: the concepts every functional developer is very familiar with. Many languages on JVM platform (Groovy, Scala, …) have had lambdas since day one, but Java developers had no choice but hammer the lambdas with boilerplate anonymous classes.
